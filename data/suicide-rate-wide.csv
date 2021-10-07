@@ -1,4 +1,4 @@
-Continent,Country,Sex,2019,2018,2017,2016,2015,2014,2013,2012,2011,2010,2009
+Continent,Country,Sex,Y2019,Y2018,Y2017,Y2016,Y2015,Y2014,Y2013,Y2012,Y2011,Y2010,Y2009
 Americas,Antigua and Barbuda,Male,0,0,0,0,0,0,0,0,0.15,0.28,0
 Americas,Barbados,Female,0.16,0.16,0.16,0.16,0.16,0.16,0,0.25,0.22,0.3,0.23
 Americas,Barbados,Both sexes,0.31,0.31,0.32,0.33,0.31,0.32,0.1,0.21,0.64,1.22,1.13
