@@ -124,7 +124,10 @@
           "type": "quantitative",
           "axis": {"tickCount": 3, "grid": false},
           "title": "Average Suicide Rate"
-        }
+        },
+        "color": {
+          "value": "grey"
+          }
       }
     }
   ],
