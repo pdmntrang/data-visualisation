@@ -93,10 +93,10 @@
             "type": "text", 
             "align": "right",
             "baseline": "line-top",
-            "fontSize": 11,
+            "fontSize": 13,
             "fontStyle": "italic",
             "aria": false,
-            "dx": 190,
+            "dx": 200,
             "dy": 3},
           "encoding": {
             "text": {
@@ -129,5 +129,10 @@
     }
   ],
   "config": {
+    "font": "Maven Pro",
+    "axis": {
+      "labelFontSize": 13,
+      "titleFontSize": 15
+  }
   }
 }

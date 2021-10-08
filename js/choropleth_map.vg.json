@@ -94,5 +94,16 @@
     ]
   }
 }],
-  "config": {}
+  "config": {
+    "font": "Maven Pro",
+    "legend": {
+      "titleFontSize": 15,
+      "labelFontSize": 13,
+      "orient": "none",
+      "direction": "horizontal",
+      "legendX": 800,
+      "legendY": 470,
+      "titleOrient": "left"
+  }
+  }
 }

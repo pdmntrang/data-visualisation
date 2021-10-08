@@ -108,7 +108,7 @@
       "align": "right",
       "baseline": "middle",
       "dx": 60,
-      "fontSize": 12,
+      "fontSize": 13,
       "fontStyle": "italic"
     },
     "encoding": {
@@ -139,4 +139,23 @@
       ]
       }
   }
-  ]}
+  ],
+  "config": {
+    "font": "Maven Pro",
+    "axis": {
+      "labelFontSize": 13,
+      "titleFontSize": 15
+  },
+  "legend": {
+    "titleFontSize": 15,
+    "labelFontSize": 13,
+    "orient": "none",
+    "direction": "horizontal",
+    "legendX": 0,
+    "legendY": 350,
+    "titleAnchor": "start",
+    "titleOrient": "left",
+    "columns": 3,
+    "columnPadding": 20
+}
+  }}
