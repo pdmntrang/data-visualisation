@@ -1,0 +1,121 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": { "url": "https://raw.githubusercontent.com/pdmntrang/data-visualisation/main/data/age%20group.csv"},
+    "params": [
+      {
+        "name": "Continent_selection",
+        "bind": {
+          "input": "select",
+          "options": [
+            null,
+            "Africa",
+            "Americas",
+            "Eastern Mediterranean",
+            "Europe",
+            "South-East Asia",
+            "Western Pacific"
+          ],
+          "labels": [
+            "Show All",
+            "Africa",
+            "Americas",
+            "Eastern Mediterranean",
+            "Europe",
+            "South-East Asia",
+            "Western Pacific"
+          ],
+          "name": "Continent Selection: "
+        }
+      }],
+    "transform": [
+      {"calculate": "datum.Rate/100", "as": "Suicide Rate"},
+      {"filter": "datum.Rate > 0"},
+      {"filter": "datum.Sex != 'Both sexes'"},
+      {"calculate": "datum.Sex == 'Male' ? -datum.Rate : datum.Rate", "as": "new_rate"},
+      {"filter": "Continent_selection == null || datum.Continent == Continent_selection"}
+    ],
+    "spacing": 0,
+    "hconcat": [
+      {
+      "width": 250,
+      "height": 300,
+      "transform": [{
+        "filter": {"field": "Sex", "equal": "Male"}
+      }],
+      "title": "Male",
+      "mark": "bar",
+      "encoding": {
+        "y": {
+          "field": "Age Group", "axis": null, "sort": "descending"
+        },
+        "x": {
+          "aggregate": "average", "field": "Rate",
+          "title": "Suicide Rate",
+          "sort": "descending"
+        },
+        "color": {
+          "field": "Sex",
+          "scale": {"range": ["#f6bd60", "#1e6091"]},
+          "legend": null
+        },
+        "tooltip": [
+        {
+          "field": "Suicide Rate", 
+          "aggregate": "average", 
+          "type": "quantitative", 
+          "format": ".2%"}
+      ]
+      }
+    }, {
+      "width": 30,
+      "height": 300,
+      "view": {"stroke": null},
+      "mark": {
+        "type": "text",
+        "align": "center"
+      },
+      "encoding": {
+        "y": {"field": "Age Group", "type": "ordinal", "axis": null, "sort": "descending"},
+        "text": {"field": "Age Group"}
+      }
+    }, 
+    {
+      "width": 250,
+      "height": 300,
+      "transform": [{
+        "filter": {"field": "Sex", "equal": "Female"}
+      }],
+      "title": "Female",
+      "mark": "bar",
+      "encoding": {
+        "y": {
+          "field": "Age Group", "title": null,
+          "axis": null, "sort": "descending"
+        },
+        "x": {
+          "aggregate": "average", "field": "Rate",
+          "title": "Suicide Rate"
+        },
+        "color": {
+          "field": "gender",
+          "legend": null
+        },
+        "tooltip": [
+        {
+          "field": "Suicide Rate", 
+          "aggregate": "average", 
+          "type": "quantitative", 
+          "format": ".2%"}
+      ]
+      }
+    }],
+    "config": {
+      "view": {"stroke": null},
+      "axis": {
+          "grid": false,
+          "labelFontSize": 13,
+          "titleFontSize": 15},
+      "font": "Maven Pro"
+    }
+  }
+  

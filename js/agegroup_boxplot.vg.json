@@ -1,0 +1,78 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width":"container",
+    "height": 300,
+    "data": {"url": "https://raw.githubusercontent.com/pdmntrang/data-visualisation/main/data/age%20group.csv"},
+    "params": [
+      {
+        "name": "Continent_selection",
+        "bind": {
+          "input": "select",
+          "options": [
+            null,
+            "Africa",
+            "Americas",
+            "Eastern Mediterranean",
+            "Europe",
+            "South-East Asia",
+            "Western Pacific"
+          ],
+          "labels": [
+            "Show All",
+            "Africa",
+            "Americas",
+            "Eastern Mediterranean",
+            "Europe",
+            "South-East Asia",
+            "Western Pacific"
+          ],
+          "name": "Continent Selection: "
+        }
+      },
+      {
+      "name": "Gender_selection",
+      "value": "Both sexes",
+      "bind": {
+        "input": "select",
+        "options": [
+          "Both sexes",
+          "Male",
+          "Female"
+        ],
+        "labels": [
+          "Total",
+          "Male",
+          "Female"
+        ],
+        "name": "Gender selection: "
+      }
+    }
+    ],
+    "transform": [
+      {"filter": "datum.Rate > 0"},
+      {"filter": "Gender_selection == null || datum.Sex == Gender_selection"},
+      {"filter": "Continent_selection == null || datum.Continent == Continent_selection"},
+      {"calculate": "datum.Rate/100", "as": "Suicide Rate (per 100,000 population)"}
+    ],
+    "mark": {
+      "type": "boxplot",
+      "extent": "min-max"
+    },
+    "encoding": {
+      "x": {
+        "field": "Rate",
+        "type": "quantitative",
+        "scale": {"zero": false}
+      },
+      "y": {
+        "field": "Age Group", 
+        "type": "nominal"},
+        "size": {"value": 20},
+      "color": {"value" : "#fec89a"},
+      "tooltip": [
+        
+      ]
+    },
+    "config": {}
+  }
+  
