@@ -1,9 +1,5 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": {
-    "text": "Suicide Rate over 10 years",
-    "fontSize": 20
-  },
   "data": {
     "url": "https://raw.githubusercontent.com/pdmntrang/data-visualisation/main/data/suicide-rate.csv"
   },

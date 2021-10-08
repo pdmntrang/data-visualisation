@@ -2,10 +2,6 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json", 
   "width": "container",
   "height": 300,
-  "title": {
-  "text": "Suicide Rate in 2019 vs 2009",
-  "fontSize": 20
-},
   "params": [{
       "name": "Continent_selection",
       "bind": {

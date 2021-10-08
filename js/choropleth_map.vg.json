@@ -1,9 +1,5 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": {
-    "text": "Global distribution of suicide",
-    "fontSize": 20
-  },
   "width": "container",
   "height": 600,
   "projection": {"type": "equirectangular"},
