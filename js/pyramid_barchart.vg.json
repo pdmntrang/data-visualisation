@@ -37,7 +37,7 @@
     "spacing": 0,
     "hconcat": [
       {
-      "width": 250,
+      "width": 450,
       "height": 300,
       "transform": [{
         "filter": {"field": "Sex", "equal": "Male"}
@@ -46,16 +46,18 @@
       "mark": "bar",
       "encoding": {
         "y": {
-          "field": "Age Group", "axis": null, "sort": "descending"
+          "field": "Age Group", 
+          "axis": null, 
+          "sort": "descending"
         },
         "x": {
           "aggregate": "average", "field": "Rate",
-          "title": "Suicide Rate",
+          "title": "",
           "sort": "descending"
         },
         "color": {
           "field": "Sex",
-          "scale": {"range": ["#f6bd60", "#1e6091"]},
+          "scale": {"range": ["#d4a373", "#ccd5ae"]},
           "legend": null
         },
         "tooltip": [
@@ -67,7 +69,7 @@
       ]
       }
     }, {
-      "width": 30,
+      "width": 50,
       "height": 300,
       "view": {"stroke": null},
       "mark": {
@@ -80,7 +82,7 @@
       }
     }, 
     {
-      "width": 250,
+      "width": 450,
       "height": 300,
       "transform": [{
         "filter": {"field": "Sex", "equal": "Female"}
@@ -94,7 +96,7 @@
         },
         "x": {
           "aggregate": "average", "field": "Rate",
-          "title": "Suicide Rate"
+          "title": ""
         },
         "color": {
           "field": "gender",
@@ -103,7 +105,8 @@
         "tooltip": [
         {
           "field": "Suicide Rate", 
-          "aggregate": "average", 
+          "aggregate": "average",
+          "title": "Average Suicide Rate (per 100,000 population)", 
           "type": "quantitative", 
           "format": ".2%"}
       ]

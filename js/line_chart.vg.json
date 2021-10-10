@@ -5,7 +5,8 @@
     "height": 300,
     "encoding": {
       "x": {
-        "field": "Year"}},
+        "field": "Year",
+        "axis": {"labelAngle": 0}}},
     "params": [
     {
       "name": "Gender_selection",
@@ -57,10 +58,14 @@
             "field": "Rate", 
             "type": "quantitative", 
             "aggregate": "average",
-            "title": "Average Suicide Rate"}
+            "title": "Average Suicide Rate (per 100,000 population)",
+            "a": 2}
         },
         "layer": [
-          {"mark": "line"},
+          {"mark": 
+            {
+            "type": "line",
+            "size": 5}},
           {"transform": [
             {"filter": 
               {"param": "hover", 
@@ -72,10 +77,12 @@
         "transform": [
           {"pivot": "Continent", "value": "Suicide Rate (per 100,000 population)", "groupby": ["Year", "Gender"], "op": "average"}
           ],
-        "mark": "rule",
+        "mark": {
+          "type": "rule",
+          "size": 5},
         "encoding": {
           "opacity": {
-            "condition": {"value": 0.3, "param": "hover", "empty": false},
+            "condition": {"value": 0.1, "param": "hover", "empty": false},
             "value": 0
           },
           "tooltip": [
