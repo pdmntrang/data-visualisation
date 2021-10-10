@@ -124,7 +124,7 @@
         "hconcat": [
             {
             "width": 450,
-            "height": 200,
+            "height": 300,
             "transform": [{"filter": "datum.Sex == 'Male'"}],
             "mark": {
                 "type": "boxplot",
@@ -148,7 +148,7 @@
                 },
             {
                 "width": 50,
-                "height": 200,
+                "height": 300,
                 "view": {"stroke": null},
                 "mark": {
                     "type": "text",
@@ -160,7 +160,7 @@
                 }}, 
             {
                 "width": 450,
-                "height": 200,
+                "height": 300,
                 "transform": [{"filter": "datum.Sex == 'Female'"}],
                 "mark": {
                     "type": "boxplot",
