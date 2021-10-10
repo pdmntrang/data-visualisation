@@ -1,0 +1,122 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {"url": "https://raw.githubusercontent.com/pdmntrang/data-visualisation/main/data/suicide-rate.csv"},
+    "width": 400,
+    "height": 300,
+    "encoding": {
+      "x": {
+        "field": "Year"}},
+    "params": [
+    {
+      "name": "Gender_selection",
+      "value": "Both sexes",
+      "bind": {
+        "input": "select",
+        "options": [
+          "Both sexes",
+          "Male",
+          "Female"
+        ],
+        "labels": [
+          "Total",
+          "Male",
+          "Female"
+        ],
+        "name": "Gender selection: "
+      }
+    }],
+    "transform": [
+      {"filter": "Gender_selection == null || datum.Sex == Gender_selection"},
+      {"calculate": "datum.Rate/100", "as": "Suicide Rate (per 100,000 population)"}
+    ],
+    "layer": [
+      {
+        "encoding": {
+          "color": {
+            "field": "Continent",
+            "type": "nominal",
+            "scale": {
+              "domain": [
+                "Africa",
+                "Americas",
+                "Eastern Mediterranean",
+                "Europe",
+                "South-East Asia",
+                "Western Pacific"
+              ],
+              "range": [
+                "#bbdefb",
+                "#f4a261",
+                "#f47068",
+                "#cdb4db",
+                "#e6ccb2",
+                "#5390d9"
+              ]
+            }},
+          "y": {
+            "field": "Rate", 
+            "type": "quantitative", 
+            "aggregate": "average",
+            "title": "Average Suicide Rate"}
+        },
+        "layer": [
+          {"mark": "line"},
+          {"transform": [
+            {"filter": 
+              {"param": "hover", 
+                "empty": false}}],
+              "mark": "point"}
+        ]
+      },
+      {
+        "transform": [
+          {"pivot": "Continent", "value": "Suicide Rate (per 100,000 population)", "groupby": ["Year", "Gender"], "op": "average"}
+          ],
+        "mark": "rule",
+        "encoding": {
+          "opacity": {
+            "condition": {"value": 0.3, "param": "hover", "empty": false},
+            "value": 0
+          },
+          "tooltip": [
+            {"field": "Africa", "type": "quantitative", "format": ".2%"},
+            {"field": "Americas", "type": "quantitative", "format": ".2%"},
+            {"field": "Eastern Mediterranean", "type": "quantitative", "format": ".2%"},
+            {"field": "Europe", "type": "quantitative", "format": ".2%"},
+            {"field": "South-East Asia", "type": "quantitative", "format": ".2%"},
+            {"field": "Western Pacific", "type": "quantitative", "format": ".2%"}
+          ]
+        },
+        "params": [{
+          "name": "hover",
+          "select": {
+            "type": "point",
+            "fields": ["Year"],
+            "nearest": true,
+            "on": "mouseover",
+            "clear": "mouseout"
+          }
+        }]
+      }
+    ],
+  "config": {
+    "font": "Maven Pro",
+    "axis": {
+      "labelFontSize": 13,
+      "titleFontSize": 15
+  },
+  "legend": {
+    "titleFontSize": 15,
+    "labelFontSize": 13,
+    "orient": "none",
+    "direction": "horizontal",
+    "legendX": 0,
+    "legendY": 370,
+    "titleAnchor": "start",
+    "titleOrient": "left",
+    "columns": 3,
+    "columnPadding": 20
+}
+  }
+  }
+  
