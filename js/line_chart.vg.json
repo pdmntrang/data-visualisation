@@ -1,5 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "background": "#f5f5f5",
     "data": {"url": "https://raw.githubusercontent.com/pdmntrang/data-visualisation/main/data/suicide-rate.csv"},
     "width": "container",
     "height": 300,
@@ -58,8 +59,7 @@
             "field": "Rate", 
             "type": "quantitative", 
             "aggregate": "average",
-            "title": "Average Suicide Rate (per 100,000 population)",
-            "a": 2}
+            "title": "Average Suicide Rate (per 100,000 population)"}
         },
         "layer": [
           {"mark": 

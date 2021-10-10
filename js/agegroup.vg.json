@@ -1,5 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "background": "#f5f5f5",
     "data": { "url": "https://raw.githubusercontent.com/pdmntrang/data-visualisation/main/data/age%20group.csv"},
     "params": [
       {
