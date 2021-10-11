@@ -48,7 +48,7 @@
         "field": "Y2009",
         "type": "quantitative",
         "title": "Suicide Rate in 2009",
-        "axis": {"tickCount": 3, "titleX": -15},
+        "axis": {"tickCount": 3, "titleX": -30},
         "scale": {"type": "log"}
       },
       "color": {
