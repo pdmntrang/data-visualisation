@@ -73,11 +73,7 @@
           ]
         },
         "legend": null
-      },
-        "tooltip": [
-            {"field": "Country", "type": "nominal"},
-            {"field": "Suicide Rate in 2019", "type": "quantitative", "format": ".2%"}
-          ]
+      }
   }
   },
   
