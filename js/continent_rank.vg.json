@@ -1,0 +1,56 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "background": "#f5f5f5",
+    "width": "container",
+    "height": 200,
+    "data": {"url": "https://raw.githubusercontent.com/pdmntrang/data-visualisation/main/data/suicide-rate.csv"},
+    "transform": [
+      {"filter": "datum.Rate > 0"},
+      {"filter": "datum.Sex == 'Both sexes'"}
+      
+    ],
+    "mark": {
+      "type": "boxplot",
+      "extent": "min-max"},
+    "encoding": {
+      "x": {
+        "field": "Rate",
+        "type": "quantitative",
+        "title": "Suicide rate (per 100,000 population)"
+      },
+      "y": {
+        "field": "Continent",
+        "type": "nominal"
+      },
+      "color": {
+          "field": "Continent",
+          "type": "nominal",
+          "scale": {
+          "domain": [
+            "Africa",
+            "Americas",
+            "Eastern Mediterranean",
+            "Europe",
+            "South-East Asia",
+            "Western Pacific"
+            ],
+          "range": [
+            "#9c6644",
+            "#ffc300",
+            "#f28482",
+            "#cdb4db",
+            "#e29578",
+            "#5390d9"
+        ]
+        },
+        "legend": null}
+    },
+    "config": {
+      "view": {"stroke": null},
+      "axis": {
+          "labelFontSize": 14,
+          "titleFontSize": 15},
+      "font": "Maven Pro"
+    }
+  }
+  

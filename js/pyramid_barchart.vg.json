@@ -1,5 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "background": "#f5f5f5",
     "data": { "url": "https://raw.githubusercontent.com/pdmntrang/data-visualisation/main/data/age%20group.csv"},
     "params": [
       {
@@ -35,83 +36,95 @@
       {"filter": "Continent_selection == null || datum.Continent == Continent_selection"}
     ],
     "spacing": 0,
-    "hconcat": [
-      {
-      "width": 450,
-      "height": 300,
-      "transform": [{
-        "filter": {"field": "Sex", "equal": "Male"}
-      }],
-      "title": "Male",
-      "mark": "bar",
-      "encoding": {
-        "y": {
-          "field": "Age Group", 
-          "axis": null, 
-          "sort": "descending"
+        "hconcat": [
+          {
+          "width": 420,
+          "height": 300,
+          "transform": [{
+            "filter": {"field": "Sex", "equal": "Male"}
+          }],
+          "title": {
+            "text": "Male",
+            "fontSize": 18
         },
-        "x": {
-          "aggregate": "average", "field": "Rate",
-          "title": "",
-          "sort": "descending"
-        },
-        "color": {
-          "field": "Sex",
-          "scale": {"range": ["#d4a373", "#ccd5ae"]},
-          "legend": null
-        },
-        "tooltip": [
+          "mark": "bar",
+          "encoding": {
+            "y": {
+              "field": "Age Group", 
+              "axis": null, 
+              "sort": "descending"
+            },
+            "x": {
+              "aggregate": "average", "field": "Rate",
+              "title": "Average suicide rate (per 100,000 population)",
+              "sort": "descending",
+              "scale": {"domain": [0, 140]}
+            },
+            "color": {
+              "field": "Sex",
+              "scale": {"range": ["#d4a373", "#ccd5ae"]},
+              "legend": null
+            },
+            "tooltip": [
+            {
+              "field": "Rate", 
+              "aggregate": "average", 
+              "title": "Average suicide rate (per 100,000 population)",
+              "type": "quantitative", 
+              "format": ".2f"}
+          ]
+          }
+        }, 
         {
-          "field": "Suicide Rate", 
-          "aggregate": "average", 
-          "type": "quantitative", 
-          "format": ".2%"}
-      ]
-      }
-    }, {
-      "width": 50,
-      "height": 300,
-      "view": {"stroke": null},
-      "mark": {
-        "type": "text",
-        "align": "center"
-      },
-      "encoding": {
-        "y": {"field": "Age Group", "type": "ordinal", "axis": null, "sort": "descending"},
-        "text": {"field": "Age Group"}
-      }
-    }, 
-    {
-      "width": 450,
-      "height": 300,
-      "transform": [{
-        "filter": {"field": "Sex", "equal": "Female"}
-      }],
-      "title": "Female",
-      "mark": "bar",
-      "encoding": {
-        "y": {
-          "field": "Age Group", "title": null,
-          "axis": null, "sort": "descending"
-        },
-        "x": {
-          "aggregate": "average", "field": "Rate",
-          "title": ""
-        },
-        "color": {
-          "field": "gender",
-          "legend": null
-        },
-        "tooltip": [
+          "width": 50,
+          "height": 300,
+          "view": {"stroke": null},
+          "mark": {
+            "type": "text",
+            "align": "center",
+            "fontSize": 14
+          },
+          "encoding": {
+            "y": {"field": "Age Group", "type": "ordinal", "axis": null, "sort": "descending"},
+            "text": {"field": "Age Group"},
+            "opacity": {"value": 0.01}
+          }
+        }, 
         {
-          "field": "Suicide Rate", 
-          "aggregate": "average",
-          "title": "Average Suicide Rate (per 100,000 population)", 
-          "type": "quantitative", 
-          "format": ".2%"}
-      ]
-      }
-    }],
+          "width": 420,
+          "height": 300,
+          "transform": [{
+            "filter": {"field": "Sex", "equal": "Female"}
+          }],
+          "title": {
+            "text": "Female",
+            "fontSize": 18
+        },
+          "mark": "bar",
+          "encoding": {
+            "y": {
+              "field": "Age Group", "title": null,
+              "axis": null, "sort": "descending"
+            },
+            "x": {
+              "aggregate": "average", "field": "Rate",
+              "title": "Average suicide rate (per 100,000 population)",
+              "scale": {"domain": [0,140]}
+            },
+            "color": {
+              "field": "gender",
+              "legend": null
+            },
+            "tooltip": [
+            {
+              "field": "Rate", 
+              "aggregate": "average",
+              "title": "Average suicide rate (per 100,000 population)", 
+              "type": "quantitative", 
+              "format": ".2f"}
+          ]
+          }
+        }],
     "config": {
       "view": {"stroke": null},
       "axis": {

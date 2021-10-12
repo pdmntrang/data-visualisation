@@ -1,0 +1,141 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "background": "#f5f5f5",
+    "data": {"url": "https://raw.githubusercontent.com/pdmntrang/data-visualisation/main/data/suicide-rate.csv"},
+    "transform": [
+      {"filter": "datum.Rate > 0"},
+      {"filter": "datum.Sex == 'Both sexes'"}
+      ],
+    "vconcat": [
+      {
+        "width": 500,
+        "transform": [
+          {"filter": "datum.Continent == 'Africa'"},
+          {
+          "window": [{"op": "rank", "as": "ranking"}],
+          "sort": [{"field": "Rate", "order": "descending"}],
+          "groupby": ["Year"]
+        },
+          {"filter": "datum.ranking <=5"}
+        ],
+        "mark": {
+          "type": "boxplot",
+          "extent": "min-max"},
+        "encoding": {
+        "x": {
+          "field": "Rate",
+          "type": "quantitative",
+          "sort": "descending",
+          "scale": {"domain": [0,110]}
+        },
+        "y": {
+          "field": "Country", 
+          "type": "nominal"
+        }
+        }},
+      {
+        "width": 500,
+        "transform": [
+          {"filter": "datum.Continent == 'Americas'"},
+          {
+          "window": [{"op": "rank", "as": "ranking"}],
+          "sort": [{"field": "Rate", "order": "descending"}],
+          "groupby": ["Year"]
+        },
+          {"filter": "datum.ranking <= 1"}
+        ],
+        "mark": {
+          "type": "boxplot",
+          "extent": "min-max"},
+        "encoding": {
+        "x": {
+          "field": "Rate",
+          "type": "quantitative",
+          "sort": "descending",
+          "scale": {"domain": [0,110]}
+        },
+        "y": {
+          "field": "Country", 
+          "type": "nominal"
+        }
+        }},
+        {
+        "width": 500,
+        "transform": [
+          {"filter": "datum.Continent == 'Eastern Mediterranean'"},
+          {
+          "window": [{"op": "rank", "as": "ranking"}],
+          "sort": [{"field": "Rate", "order": "descending"}],
+          "groupby": ["Year"]
+        },
+          {"filter": "datum.ranking <= 5"}
+        ],
+        "mark": {
+          "type": "boxplot",
+          "extent": "min-max"},
+        "encoding": {
+        "x": {
+          "field": "Rate",
+          "type": "quantitative",
+          "sort": "descending",
+          "scale": {"domain": [0,110]}
+        },
+        "y": {
+          "field": "Country", 
+          "type": "nominal"
+        }
+        }},
+        {
+        "width": 500,
+        "transform": [
+          {"filter": "datum.Continent == 'Europe'"},
+          {
+          "window": [{"op": "rank", "as": "ranking"}],
+          "sort": [{"field": "Rate", "order": "descending"}],
+          "groupby": ["Year"]
+        },
+          {"filter": "datum.ranking <= 5"}
+        ],
+        "mark": {
+          "type": "boxplot",
+          "extent": "min-max"},
+        "encoding": {
+        "x": {
+          "field": "Rate",
+          "type": "quantitative",
+          "sort": "descending",
+          "scale": {"domain": [0,110]}
+        },
+        "y": {
+          "field": "Country", 
+          "type": "nominal"
+        }
+        }},
+        {
+        "width": 500,
+        "transform": [
+          {"filter": "datum.Continent == 'South-East Asia'"},
+          {
+          "window": [{"op": "rank", "as": "ranking"}],
+          "sort": [{"field": "Rate", "order": "descending"}],
+          "groupby": ["Year"]
+        },
+          {"filter": "datum.ranking <= 5"}
+        ],
+        "mark": {
+          "type": "boxplot",
+          "extent": "min-max"},
+        "encoding": {
+        "x": {
+          "field": "Rate",
+          "type": "quantitative",
+          "sort": "descending",
+          "scale": {"domain": [0,110]}
+        },
+        "y": {
+          "field": "Country", 
+          "type": "nominal"
+        }
+        }}
+    ]
+  }
