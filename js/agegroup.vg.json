@@ -29,12 +29,11 @@
         }
       }],
     "transform": [
-      {"calculate": "datum.Rate/100", "as": "Suicide Rate"},
       {"filter": "datum.Rate > 0"},
       {"filter": "datum.Sex != 'Both sexes'"},
       {"calculate": "datum.Sex == 'Male' ? -datum.Rate : datum.Rate", "as": "new_rate"},
       {"filter": "Continent_selection == null || datum.Continent == Continent_selection"},
-      {"calculate": "datum.Rate", "as": "Suicide Rate (per 100,000 population)"}
+      {"calculate": "datum.Rate", "as": "Suicide rate (per 100,000 population)"}
     ],
     "spacing": 40,
     "vconcat": [
@@ -47,7 +46,10 @@
           "transform": [{
             "filter": {"field": "Sex", "equal": "Male"}
           }],
-          "title": "Male",
+          "title": {
+            "text": "Male",
+            "fontSize": 18
+        },
           "mark": "bar",
           "encoding": {
             "y": {
@@ -58,7 +60,8 @@
             "x": {
               "aggregate": "average", "field": "Rate",
               "title": "",
-              "sort": "descending"
+              "sort": "descending",
+              "scale": {"domain": [0, 150]}
             },
             "color": {
               "field": "Sex",
@@ -67,15 +70,16 @@
             },
             "tooltip": [
             {
-              "field": "Suicide Rate", 
+              "field": "Rate", 
               "aggregate": "average", 
+              "title": "Average suicide rate (per 100,000 population)",
               "type": "quantitative", 
-              "format": ".2%"}
+              "format": ".2f"}
           ]
           }
         }, 
         {
-          "width": 50,
+          "width": 60,
           "height": 300,
           "view": {"stroke": null},
           "mark": {
@@ -84,7 +88,8 @@
           },
           "encoding": {
             "y": {"field": "Age Group", "type": "ordinal", "axis": null, "sort": "descending"},
-            "text": {"field": "Age Group"}
+            "text": {"field": "Age Group"},
+            "opacity": {"value": 0.01}
           }
         }, 
         {
@@ -93,7 +98,10 @@
           "transform": [{
             "filter": {"field": "Sex", "equal": "Female"}
           }],
-          "title": "Female",
+          "title": {
+            "text": "Female",
+            "fontSize": 18
+        },
           "mark": "bar",
           "encoding": {
             "y": {
@@ -102,7 +110,8 @@
             },
             "x": {
               "aggregate": "average", "field": "Rate",
-              "title": ""
+              "title": "",
+              "scale": {"domain": [0,150]}
             },
             "color": {
               "field": "gender",
@@ -110,11 +119,11 @@
             },
             "tooltip": [
             {
-              "field": "Suicide Rate", 
+              "field": "Rate", 
               "aggregate": "average",
-              "title": "Average Suicide Rate (per 100,000 population)", 
+              "title": "Average suicide rate (per 100,000 population)", 
               "type": "quantitative", 
-              "format": ".2%"}
+              "format": ".2f"}
           ]
           }
         }]
@@ -132,7 +141,7 @@
             },
             "encoding": {
                 "x": {
-                "field": "Suicide Rate (per 100,000 population)",
+                "field": "Suicide rate (per 100,000 population)",
                 "type": "quantitative",
                 "sort": "descending",
                 "scale": {"domain": [200, 0]}
@@ -147,7 +156,7 @@
             }
                 },
             {
-                "width": 50,
+                "width": 60,
                 "height": 300,
                 "view": {"stroke": null},
                 "mark": {
@@ -156,7 +165,8 @@
                 },
                 "encoding": {
                     "y": {"field": "Age Group", "type": "ordinal", "axis": null, "sort": "descending"},
-                    "text": {"field": "Age Group"}
+                    "text": {"field": "Age Group"},
+                    "opacity": {"value": 0.01}
                 }}, 
             {
                 "width": 450,
@@ -168,7 +178,7 @@
                 },
                 "encoding": {
                     "x": {
-                    "field": "Suicide Rate (per 100,000 population)",
+                    "field": "Suicide rate (per 100,000 population)",
                     "type": "quantitative",
                     "sort": "descending",
                     "scale": {"domain": [0, 200]}

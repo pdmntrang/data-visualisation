@@ -27,12 +27,17 @@
     },
     
     "transform": [
-      {"filter": "datum.Y2009 > 0"}, {"calculate": "datum.Y2009/100", "as": "Suicide Rate in 2009 (per 100,000 population)"},
-      {"filter": "datum.Y2019 > 0"}, {"calculate": "datum.Y2019/100", "as": "Suicide Rate in 2019 (per 100,000 population)"},
+      {"filter": "datum.Y2009 > 0"}, 
+      {"filter": "datum.Y2019 > 0"}, 
       {"filter": "Gender_selection == null || datum.Sex == Gender_selection"}
   ],
   "layer": [
     {
+    "params": [{
+    "name": "grid",
+    "select": "interval",
+    "bind": "scales"
+  }],
     "mark": {
       "type": "circle",
       "size": 70},
@@ -40,16 +45,13 @@
       "x": {
         "field": "Y2019",
         "type": "quantitative",
-        "title": "Suicide Rate in 2019",
-        "axis": {"tickCount": 3},
-        "scale": {"type": "log"}
+        "title": "Suicide rate in 2019 (per 100,000 population)"
       },
       "y": {
         "field": "Y2009",
         "type": "quantitative",
-        "title": "Suicide Rate in 2009",
-        "axis": {"tickCount": 3, "titleX": -30},
-        "scale": {"type": "log"}
+        "title": "Suicide rate in 2009 (per 100,000 population)",
+        "axis": {"titleX": -30}
       },
       "color": {
         "field": "Continent",
@@ -73,46 +75,41 @@
           ]
         },
         "legend": null
-      }
+      },
+      "tooltip": [
+        {"field": "Country", "type": "nominal"},
+        {"field": "Y2009", "type": "quantitative", "title": "2009 Suicide rate (per 100,000 population", "format": ".2f"},
+        {"field": "Y2019", "type": "quantitative", "title": "2019 Suicide rate (per 100,000 population", "format": ".2f"}
+      ]
   }
   },
-  
   {
     "mark": {
       "type": "text",
-      "align": "right",
+      "align": "left",
       "baseline": "middle",
-      "dx": 60,
+      "dx": 10,
       "fontSize": 13,
       "fontStyle": "italic"
     },
     "encoding": {
       "x": {
       "field": "Y2019",
-      "type": "quantitative",
-      "axis": {"tickCount": 4},
-      "scale": {"type": "log"}
+      "type": "quantitative"
      },
      "y": {
       "field": "Y2009",
-      "type": "quantitative",
-      "axis": {"tickCount": 4},
-      "scale": {"type": "log"}
+      "type": "quantitative"
       },
       "text": {"field": "Country", "type": "nominal"},
       "color": {"value": "black"},
       "opacity": {
         "condition": {
-          "test": "datum.Country == 'Brunei Darussalam' || datum.Country == 'Philippines' || datum.Country == 'Australia' || datum.Country == 'South Africa' || datum.Country == 'Barbados' || datum.Country == 'France' ||  datum.Country == 'Thailand'",
+          "test": "datum.Country == 'Guyana' || datum.Country == 'Philippines' || datum.Country == 'Australia' || datum.Country == 'South Africa' || datum.Country == 'Japan' || datum.Country == 'France' ||  datum.Country == 'Eswatini'",
           "value": 1
         },
         "value": 0
-      },
-      "tooltip": [
-        {"field": "Country", "type": "nominal"},
-        {"field": "Suicide Rate in 2019 (per 100,000 population)", "type": "quantitative", "format": ".2%"},
-        {"field": "Suicide Rate in 2009 (per 100,000 population)", "type": "quantitative", "format": ".2%"}
-      ]
+      }
       }
   }
   ],

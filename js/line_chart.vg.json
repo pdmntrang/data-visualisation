@@ -28,8 +28,7 @@
       }
     }],
     "transform": [
-      {"filter": "Gender_selection == null || datum.Sex == Gender_selection"},
-      {"calculate": "datum.Rate/100", "as": "Suicide Rate (per 100,000 population)"}
+      {"filter": "Gender_selection == null || datum.Sex == Gender_selection"}
     ],
     "layer": [
       {
@@ -59,7 +58,7 @@
             "field": "Rate", 
             "type": "quantitative", 
             "aggregate": "average",
-            "title": "Average Suicide Rate (per 100,000 population)"}
+            "title": "Average suicide rate (per 100,000 population)"}
         },
         "layer": [
           {"mark": 
@@ -75,7 +74,7 @@
       },
       {
         "transform": [
-          {"pivot": "Continent", "value": "Suicide Rate (per 100,000 population)", "groupby": ["Year", "Gender"], "op": "average"}
+          {"pivot": "Continent", "value": "Rate", "groupby": ["Year", "Gender"], "op": "average"}
           ],
         "mark": {
           "type": "rule",
@@ -86,12 +85,12 @@
             "value": 0
           },
           "tooltip": [
-            {"field": "Africa", "type": "quantitative", "format": ".2%"},
-            {"field": "Americas", "type": "quantitative", "format": ".2%"},
-            {"field": "Eastern Mediterranean", "type": "quantitative", "format": ".2%"},
-            {"field": "Europe", "type": "quantitative", "format": ".2%"},
-            {"field": "South-East Asia", "type": "quantitative", "format": ".2%"},
-            {"field": "Western Pacific", "type": "quantitative", "format": ".2%"}
+            {"field": "Africa", "type": "quantitative", "title": "Africa suicide rate (per 100,000 population)", "format": ".2f"},
+            {"field": "Americas", "type": "quantitative", "title": "Americas suicide rate (per 100,000 population)", "format": ".2f"},
+            {"field": "Eastern Mediterranean", "type": "quantitative", "title": "Eastern Mediterranean suicide rate (per 100,000 population)", "format": ".2f"},
+            {"field": "Europe", "type": "quantitative", "title": "Europe suicide rate (per 100,000 population)", "format": ".2f"},
+            {"field": "South-East Asia", "type": "quantitative", "title": "South-East Asia suicide rate (per 100,000 population)", "format": ".2f"},
+            {"field": "Western Pacific", "type": "quantitative", "title": "Western Pacific suicide rate (per 100,000 population)", "format": ".2f"}
           ]
         },
         "params": [{
