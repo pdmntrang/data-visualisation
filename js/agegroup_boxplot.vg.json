@@ -4,7 +4,7 @@
   "data": {"url": "https://raw.githubusercontent.com/pdmntrang/data-visualisation/main/data/age%20group.csv"},
   "transform": [
     {"filter": "datum.Rate > 0"},
-    {"calculate": "datum.Rate", "as": "Suicide Rate (per 100,000 population)"}
+    {"calculate": "datum.Rate", "as": "Suicide rate (per 100,000 population)"}
     
   ],
   "spacing": 0,
@@ -13,13 +13,17 @@
       "width": 420,
       "height": 300,
       "transform": [{"filter": "datum.Sex == 'Male'"}],
+      "title": {
+        "text": "Male",
+        "fontSize": 18
+    },
       "mark": {
         "type": "boxplot",
         "extent": "min-max"
       },
       "encoding": {
         "x": {
-          "field": "Suicide Rate (per 100,000 population)",
+          "field": "Suicide rate (per 100,000 population)",
           "type": "quantitative",
           "sort": "descending",
           "scale": {"domain": [200, 0]}
@@ -39,7 +43,8 @@
           "view": {"stroke": null},
           "mark": {
             "type": "text",
-            "align": "center"
+            "align": "center",
+            "fontSize": 14
           },
           "encoding": {
             "y": {"field": "Age Group", "type": "ordinal", "axis": null, "sort": "descending"},
@@ -51,13 +56,17 @@
       "width": 420,
       "height": 300,
       "transform": [{"filter": "datum.Sex == 'Female'"}],
+      "title": {
+        "text": "Female",
+        "fontSize": 18
+    },
       "mark": {
         "type": "boxplot",
         "extent": "min-max"
       },
       "encoding": {
         "x": {
-          "field": "Suicide Rate (per 100,000 population)",
+          "field": "Suicide rate (per 100,000 population)",
           "type": "quantitative",
           "sort": "descending",
           "scale": {"domain": [0, 200]}
@@ -76,7 +85,7 @@
     "view": {"stroke": null},
     "axis": {
         "grid": false,
-        "labelFontSize": 13,
+        "labelFontSize": 14,
         "titleFontSize": 15},
     "font": "Maven Pro"
   }
