@@ -1,0 +1,230 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "background": "#f5f5f5",
+    "params": [
+    {
+      "name": "Gender_selection",
+      "value": "Both sexes",
+      "bind": {
+        "input": "select",
+        "options": [
+          "Both sexes",
+          "Male",
+          "Female"
+        ],
+        "labels": [
+          "Total",
+          "Male",
+          "Female"
+        ],
+        "name": "Gender selection: "
+      }
+    }],
+    "hconcat": [
+      {
+        "width": 400,
+        "height": 300,
+        "data": {"url": "https://raw.githubusercontent.com/pdmntrang/data-visualisation/main/data/suicide-rate.csv"},
+         "transform": [
+            {"filter": "Gender_selection == null || datum.Sex == Gender_selection"}
+            ],
+        "encoding": {
+            "x": {
+                "field": "Year",
+                "axis": {"labelAngle": 0}}},
+                "layer": [
+            {
+            "encoding": {
+            "y": {
+                "field": "Rate", 
+                "type": "quantitative", 
+                "aggregate": "average",
+                "title": "Average suicide rate (per 100,000 population)"},
+            "color": {
+                "field": "Continent",
+                "type": "nominal",
+                "scale": {
+                "domain": [
+                    "Africa",
+                    "Americas",
+                    "Eastern Mediterranean",
+                    "Europe",
+                    "South-East Asia",
+                    "Western Pacific"
+                ],
+                "range": [
+                    "#9c6644",
+                    "#ffc300",
+                    "#f28482",
+                    "#cdb4db",
+                    "#e29578",
+                    "#5390d9"
+                ]
+                }}
+            },
+            "layer": [
+            {"mark": 
+                {
+                "type": "line",
+                "size": 5}},
+            {"transform": [
+                {"filter": 
+                {"param": "hover", 
+                    "empty": false}}],
+                "mark": "point"}
+            ]
+        },
+        {
+            "transform": [
+            {"pivot": "Continent", "value": "Rate", "groupby": ["Year"], "op": "average"}
+            ],
+            "mark": {
+            "type": "rule",
+            "size": 5},
+            "encoding": {
+            "opacity": {
+                "condition": {"value": 0.1, "param": "hover", "empty": false},
+                "value": 0
+            },
+            "tooltip": [
+                {"field": "Africa", "type": "quantitative", "title": "Africa suicide rate (per 100,000 population)", "format": ".2f"},
+                {"field": "Americas", "type": "quantitative", "title": "Americas suicide rate (per 100,000 population)", "format": ".2f"},
+                {"field": "Eastern Mediterranean", "type": "quantitative", "title": "Eastern Mediterranean suicide rate (per 100,000 population)", "format": ".2f"},
+                {"field": "Europe", "type": "quantitative", "title": "Europe suicide rate (per 100,000 population)", "format": ".2f"},
+                {"field": "South-East Asia", "type": "quantitative", "title": "South-East Asia suicide rate (per 100,000 population)", "format": ".2f"},
+                {"field": "Western Pacific", "type": "quantitative", "title": "Western Pacific suicide rate (per 100,000 population)", "format": ".2f"}
+            ]
+            },
+            "params": [{
+            "name": "hover",
+            "select": {
+                "type": "point",
+                "fields": ["Year"],
+                "nearest": true,
+                "on": "mouseover",
+                "clear": "mouseout"
+            }
+            }]
+        }
+        ]
+        },
+        {
+        "width": 400,
+        "height": 300,
+        "data": {
+        "url": "https://raw.githubusercontent.com/pdmntrang/data-visualisation/main/data/suicide-rate-wide.csv"
+        },
+        
+        "transform": [
+            {"filter": "datum.Y2009 > 0"}, 
+            {"filter": "datum.Y2019 > 0"}, 
+            {"filter": "Gender_selection == null || datum.Sex == Gender_selection"}
+        ],
+        "layer": [
+            {
+            "params": [{
+            "name": "grid",
+            "select": "interval",
+            "bind": "scales"
+        }],
+            "mark": {
+            "type": "circle",
+            "size": 100},
+            "encoding": {
+            "x": {
+                "field": "Y2019",
+                "type": "quantitative",
+                "title": "Suicide rate in 2019 (per 100,000 population)"
+            },
+            "y": {
+                "field": "Y2009",
+                "type": "quantitative",
+                "title": "Suicide rate in 2009 (per 100,000 population)",
+                "axis": {"titleX": -30}
+            },
+            "color": {
+                "field": "Continent",
+                "type": "nominal",
+                "scale": {
+                "domain": [
+                    "Africa",
+                    "Americas",
+                    "Eastern Mediterranean",
+                    "Europe",
+                    "South-East Asia",
+                    "Western Pacific"
+                ],
+                "range": [
+                    "#9c6644",
+                    "#ffc300",
+                    "#f28482",
+                    "#cdb4db",
+                    "#e29578",
+                    "#5390d9"
+                ]
+                }
+            },
+            "opacity": {"value": 1},
+            "tooltip": [
+                {"field": "Country", "type": "nominal"},
+                {"field": "Y2009", "type": "quantitative", "title": "2009 Suicide rate (per 100,000 population", "format": ".2f"},
+                {"field": "Y2019", "type": "quantitative", "title": "2019 Suicide rate (per 100,000 population", "format": ".2f"}
+            ]
+        }
+        },
+        {
+            "mark": {
+            "type": "text",
+            "align": "left",
+            "baseline": "middle",
+            "dx": 10,
+            "fontSize": 13,
+            "fontStyle": "italic"
+            },
+            "encoding": {
+            "x": {
+            "field": "Y2019",
+            "type": "quantitative"
+            },
+            "y": {
+            "field": "Y2009",
+            "type": "quantitative"
+            },
+            "text": {"field": "Country", "type": "nominal"},
+            "color": {
+                "field": "Continent",
+                "type": "nominal"
+            },
+            "opacity": {
+                "condition": {
+                "test": "datum.Country == 'Guyana' || datum.Country == 'Philippines' || datum.Country == 'Australia' || datum.Country == 'South Africa' || datum.Country == 'Somalia' || datum.Country == 'France' ||  datum.Country == 'Eswatini'",
+                "value": 1
+                },
+                "value": 0
+            }
+            }
+        }
+        ]
+        }
+        ],
+  "config": {
+    "font": "Maven Pro",
+    "axis": {
+      "labelFontSize": 13,
+      "titleFontSize": 15
+  },
+    "legend": {
+        "titleFontSize": 15,
+        "labelFontSize": 13,
+        "orient": "none",
+        "direction": "horizontal",
+        "legendX": 300,
+        "legendY": 370,
+        "titleAnchor": "start",
+        "titleOrient": "left",
+        "columns": 3,
+        "columnPadding": 10
+    }
+  }
+  }
+  

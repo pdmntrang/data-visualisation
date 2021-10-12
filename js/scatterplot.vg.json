@@ -40,7 +40,7 @@
   }],
     "mark": {
       "type": "circle",
-      "size": 70},
+      "size": 100},
     "encoding": {
       "x": {
         "field": "Y2019",
@@ -66,16 +66,16 @@
             "Western Pacific"
           ],
           "range": [
-            "#bbdefb",
-            "#f4a261",
-            "#f47068",
+            "#9c6644",
+            "#ffc300",
+            "#f28482",
             "#cdb4db",
-            "#e6ccb2",
+            "#e29578",
             "#5390d9"
           ]
-        },
-        "legend": null
+        }
       },
+      "opacity": {"value": 1},
       "tooltip": [
         {"field": "Country", "type": "nominal"},
         {"field": "Y2009", "type": "quantitative", "title": "2009 Suicide rate (per 100,000 population", "format": ".2f"},
@@ -102,10 +102,13 @@
       "type": "quantitative"
       },
       "text": {"field": "Country", "type": "nominal"},
-      "color": {"value": "black"},
+      "color": {
+        "field": "Continent",
+        "type": "nominal"
+      },
       "opacity": {
         "condition": {
-          "test": "datum.Country == 'Guyana' || datum.Country == 'Philippines' || datum.Country == 'Australia' || datum.Country == 'South Africa' || datum.Country == 'Japan' || datum.Country == 'France' ||  datum.Country == 'Eswatini'",
+          "test": "datum.Country == 'Guyana' || datum.Country == 'Philippines' || datum.Country == 'Australia' || datum.Country == 'South Africa' || datum.Country == 'Somalia' || datum.Country == 'France' ||  datum.Country == 'Eswatini'",
           "value": 1
         },
         "value": 0
@@ -129,6 +132,6 @@
     "titleAnchor": "start",
     "titleOrient": "left",
     "columns": 3,
-    "columnPadding": 20
+    "columnPadding": 10
 }
   }}

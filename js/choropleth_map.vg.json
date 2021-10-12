@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "background": "#f5f5f5",
   "width": 1200,
-  "height": 600,
+  "height": 500,
   "projection": {"type": "equirectangular"},
   "params": [
     {
@@ -72,7 +72,7 @@
       {"filter": "Gender_selection == null || datum.Sex == Gender_selection"},
       {"filter": "datum.Year == Year_selection"}
     ],
-  "mark": {"type": "geoshape"},
+  "mark": {"type": "geoshape","stroke": "black", "strokeWidth": 0.3},
   "encoding": {
     "shape": {
       "field": "geo",
@@ -84,10 +84,12 @@
       "legend": {
         "format": ".0f",
         "title": "Suicide rate (per 100,000 population)"},
-      "scale": {
+        "scale": {
         "type": "threshold",
-        "domain": [6,10,17,110],
-        "scheme": "orangered"
+        "domain": [2, 4, 6, 8, 10, 12, 14, 16, 18],
+        "scheme": "redblue",
+        "reverse": true
+        
       }
     },
     "tooltip": [
@@ -103,8 +105,8 @@
       "labelFontSize": 13,
       "orient": "none",
       "direction": "horizontal",
-      "legendX": 700,
-      "legendY": 470,
+      "legendX": 650,
+      "legendY": 400,
       "titleOrient": "left",
       "titleLimit": 300
   }

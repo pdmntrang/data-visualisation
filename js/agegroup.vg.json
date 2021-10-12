@@ -59,9 +59,9 @@
             },
             "x": {
               "aggregate": "average", "field": "Rate",
-              "title": "",
+              "title": "Average suicide rate (per 100,000 population)",
               "sort": "descending",
-              "scale": {"domain": [0, 150]}
+              "scale": {"domain": [0, 200]}
             },
             "color": {
               "field": "Sex",
@@ -110,8 +110,8 @@
             },
             "x": {
               "aggregate": "average", "field": "Rate",
-              "title": "",
-              "scale": {"domain": [0,150]}
+              "title": "Average suicide rate (per 100,000 population)",
+              "scale": {"domain": [0,200]}
             },
             "color": {
               "field": "gender",
