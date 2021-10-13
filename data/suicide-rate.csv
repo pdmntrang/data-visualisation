@@ -1,33 +1,33 @@
 ﻿Continent,Country,Year,Sex,Rate
-Americas,Antigua and Barbuda,2019,Male,0.00
-Americas,Antigua and Barbuda,2018,Male,0.00
-Americas,Grenada,2018,Male,0.00
-Americas,Antigua and Barbuda,2017,Both sexes,0.00
-Americas,Antigua and Barbuda,2017,Female,0.00
-Americas,Antigua and Barbuda,2017,Male,0.00
-Americas,Saint Vincent and the Grenadines,2017,Both sexes,0.00
-Americas,Saint Vincent and the Grenadines,2017,Female,0.00
-Americas,Saint Vincent and the Grenadines,2017,Male,0.00
-Americas,Antigua and Barbuda,2016,Male,0.00
-Americas,Antigua and Barbuda,2015,Male,0.00
-Americas,Antigua and Barbuda,2014,Male,0.00
-Americas,Grenada,2014,Male,0.00
-Americas,Antigua and Barbuda,2013,Both sexes,0.00
-Americas,Antigua and Barbuda,2013,Female,0.00
-Americas,Antigua and Barbuda,2013,Male,0.00
-Americas,Barbados,2013,Female,0.00
-Americas,Antigua and Barbuda,2012,Both sexes,0.00
-Americas,Antigua and Barbuda,2012,Female,0.00
-Americas,Antigua and Barbuda,2012,Male,0.00
-Americas,Grenada,2011,Female,0.00
-Americas,Antigua and Barbuda,2010,Female,0.00
-Americas,Grenada,2010,Female,0.00
-Americas,Antigua and Barbuda,2009,Both sexes,0.00
-Americas,Antigua and Barbuda,2009,Female,0.00
-Americas,Antigua and Barbuda,2009,Male,0.00
-Americas,Grenada,2009,Female,0.00
-Western Pacific,Brunei Darussalam,2011,Female,0.00
-Americas,Barbados,2013,Both sexes,0.10
+Americas,Antigua and Barbuda,2019,Male,0
+Americas,Antigua and Barbuda,2018,Male,0
+Americas,Grenada,2018,Male,0
+Americas,Antigua and Barbuda,2017,Both sexes,0
+Americas,Antigua and Barbuda,2017,Female,0
+Americas,Antigua and Barbuda,2017,Male,0
+Americas,Saint Vincent and the Grenadines,2017,Both sexes,0
+Americas,Saint Vincent and the Grenadines,2017,Female,0
+Americas,Saint Vincent and the Grenadines,2017,Male,0
+Americas,Antigua and Barbuda,2016,Male,0
+Americas,Antigua and Barbuda,2015,Male,0
+Americas,Antigua and Barbuda,2014,Male,0
+Americas,Grenada,2014,Male,0
+Americas,Antigua and Barbuda,2013,Both sexes,0
+Americas,Antigua and Barbuda,2013,Female,0
+Americas,Antigua and Barbuda,2013,Male,0
+Americas,Barbados,2013,Female,0
+Americas,Antigua and Barbuda,2012,Both sexes,0
+Americas,Antigua and Barbuda,2012,Female,0
+Americas,Antigua and Barbuda,2012,Male,0
+Americas,Grenada,2011,Female,0
+Americas,Antigua and Barbuda,2010,Female,0
+Americas,Grenada,2010,Female,0
+Americas,Antigua and Barbuda,2009,Both sexes,0
+Americas,Antigua and Barbuda,2009,Female,0
+Americas,Antigua and Barbuda,2009,Male,0
+Americas,Grenada,2009,Female,0
+Western Pacific,Brunei Darussalam,2011,Female,0
+Americas,Barbados,2013,Both sexes,0.1
 Americas,Antigua and Barbuda,2010,Both sexes,0.13
 Americas,Antigua and Barbuda,2011,Male,0.15
 Americas,Barbados,2019,Female,0.16
@@ -47,7 +47,7 @@ Americas,Barbados,2012,Female,0.25
 Europe,Serbia,2017,Male,0.26
 Americas,Grenada,2015,Female,0.27
 Americas,Antigua and Barbuda,2010,Male,0.28
-Americas,Barbados,2010,Female,0.30
+Americas,Barbados,2010,Female,0.3
 Americas,Barbados,2019,Both sexes,0.31
 Americas,Barbados,2018,Both sexes,0.31
 Americas,Barbados,2015,Both sexes,0.31
@@ -64,10 +64,10 @@ Americas,Antigua and Barbuda,2014,Both sexes,0.44
 Americas,Grenada,2014,Both sexes,0.45
 Americas,Barbados,2019,Male,0.49
 Americas,Antigua and Barbuda,2016,Both sexes,0.49
-Americas,Barbados,2018,Male,0.50
-Americas,Barbados,2015,Male,0.50
-Americas,Grenada,2013,Female,0.50
-Americas,Saint Vincent and the Grenadines,2010,Female,0.50
+Americas,Barbados,2018,Male,0.5
+Americas,Barbados,2015,Male,0.5
+Americas,Grenada,2013,Female,0.5
+Americas,Saint Vincent and the Grenadines,2010,Female,0.5
 Americas,Barbados,2017,Male,0.51
 Americas,Grenada,2012,Female,0.51
 Americas,Barbados,2014,Male,0.52
@@ -78,8 +78,8 @@ Americas,Saint Vincent and the Grenadines,2014,Female,0.54
 Americas,Grenada,2017,Female,0.56
 Western Pacific,Brunei Darussalam,2010,Female,0.56
 Americas,Saint Vincent and the Grenadines,2016,Male,0.57
-Americas,Antigua and Barbuda,2019,Female,0.60
-Europe,Greece,2010,Female,0.60
+Americas,Antigua and Barbuda,2019,Female,0.6
+Europe,Greece,2010,Female,0.6
 Americas,Antigua and Barbuda,2018,Female,0.61
 Americas,Saint Vincent and the Grenadines,2009,Female,0.61
 Americas,Grenada,2015,Both sexes,0.62
@@ -96,8 +96,8 @@ Americas,Saint Vincent and the Grenadines,2018,Female,0.68
 Eastern Mediterranean,Syria,2009,Female,0.68
 Western Pacific,Brunei Darussalam,2016,Female,0.68
 Americas,Venezuela,2019,Female,0.69
-Eastern Mediterranean,Syria,2011,Female,0.70
-Europe,Armenia,2018,Female,0.70
+Eastern Mediterranean,Syria,2011,Female,0.7
+Europe,Armenia,2018,Female,0.7
 Americas,Venezuela,2018,Female,0.71
 Americas,Grenada,2018,Female,0.71
 Eastern Mediterranean,Kuwait,2017,Female,0.71
@@ -122,9 +122,9 @@ Western Pacific,Brunei Darussalam,2019,Female,0.78
 Americas,Venezuela,2015,Female,0.79
 Americas,Antigua and Barbuda,2015,Female,0.79
 Eastern Mediterranean,Kuwait,2014,Female,0.79
-Americas,Venezuela,2016,Female,0.80
-Eastern Mediterranean,Syria,2013,Female,0.80
-Eastern Mediterranean,Kuwait,2013,Female,0.80
+Americas,Venezuela,2016,Female,0.8
+Eastern Mediterranean,Syria,2013,Female,0.8
+Eastern Mediterranean,Kuwait,2013,Female,0.8
 Eastern Mediterranean,Syria,2014,Female,0.81
 Americas,Antigua and Barbuda,2014,Female,0.83
 Americas,Grenada,2014,Female,0.83
@@ -144,9 +144,9 @@ South-East Asia,Maldives,2014,Female,0.87
 Americas,Grenada,2016,Male,0.88
 Americas,Grenada,2015,Male,0.88
 South-East Asia,Maldives,2013,Female,0.89
-Eastern Mediterranean,Jordan,2017,Female,0.90
-Eastern Mediterranean,Jordan,2015,Female,0.90
-Europe,Armenia,2017,Female,0.90
+Eastern Mediterranean,Jordan,2017,Female,0.9
+Eastern Mediterranean,Jordan,2015,Female,0.9
+Europe,Armenia,2017,Female,0.9
 Americas,Grenada,2016,Both sexes,0.91
 Americas,Jamaica,2013,Female,0.91
 Americas,Jamaica,2011,Female,0.91
@@ -175,13 +175,13 @@ Americas,Honduras,2018,Female,0.99
 Americas,Jamaica,2018,Female,0.99
 Americas,Jamaica,2017,Female,0.99
 Western Pacific,Brunei Darussalam,2018,Female,0.99
-Americas,Jamaica,2019,Female,1.00
-Americas,Jamaica,2016,Female,1.00
-Americas,Bahamas,2014,Female,1.00
-Americas,Saint Vincent and the Grenadines,2013,Female,1.00
-Americas,Honduras,2012,Female,1.00
-Americas,Honduras,2011,Female,1.00
-Eastern Mediterranean,Jordan,2011,Female,1.00
+Americas,Jamaica,2019,Female,1
+Americas,Jamaica,2016,Female,1
+Americas,Bahamas,2014,Female,1
+Americas,Saint Vincent and the Grenadines,2013,Female,1
+Americas,Honduras,2012,Female,1
+Americas,Honduras,2011,Female,1
+Eastern Mediterranean,Jordan,2011,Female,1
 Americas,Saint Vincent and the Grenadines,2019,Both sexes,1.01
 Americas,Honduras,2016,Female,1.01
 Americas,Jamaica,2015,Female,1.01
@@ -209,7 +209,7 @@ Eastern Mediterranean,Jordan,2009,Female,1.08
 Eastern Mediterranean,Kuwait,2009,Female,1.08
 Europe,Cyprus,2016,Female,1.09
 South-East Asia,Myanmar,2019,Female,1.09
-Americas,Panama,2010,Female,1.10
+Americas,Panama,2010,Female,1.1
 Americas,Bahamas,2015,Female,1.11
 Americas,Panama,2014,Female,1.11
 South-East Asia,Myanmar,2018,Female,1.11
@@ -238,10 +238,10 @@ Europe,Turkey,2019,Female,1.19
 Europe,Turkey,2018,Female,1.19
 Europe,Turkey,2012,Female,1.19
 South-East Asia,Indonesia,2017,Female,1.19
-Eastern Mediterranean,Oman,2017,Female,1.20
-Europe,Turkey,2013,Female,1.20
-Europe,Cyprus,2009,Female,1.20
-Western Pacific,Brunei Darussalam,2012,Female,1.20
+Eastern Mediterranean,Oman,2017,Female,1.2
+Europe,Turkey,2013,Female,1.2
+Europe,Cyprus,2009,Female,1.2
+Western Pacific,Brunei Darussalam,2012,Female,1.2
 Europe,Turkey,2011,Female,1.21
 Africa,Sao Tome and Principe,2011,Female,1.22
 Americas,Barbados,2010,Both sexes,1.22
@@ -295,8 +295,8 @@ Europe,Greece,2012,Female,1.38
 South-East Asia,Indonesia,2012,Female,1.38
 Americas,Peru,2018,Female,1.39
 Europe,Malta,2011,Female,1.39
-Africa,Seychelles,2015,Female,1.40
-Americas,Colombia,2014,Female,1.40
+Africa,Seychelles,2015,Female,1.4
+Americas,Colombia,2014,Female,1.4
 Americas,Peru,2016,Female,1.41
 Europe,Armenia,2009,Female,1.41
 Africa,Seychelles,2013,Female,1.42
@@ -325,9 +325,9 @@ Americas,Colombia,2010,Female,1.49
 Americas,Panama,2009,Female,1.49
 Europe,Azerbaijan,2018,Female,1.49
 South-East Asia,Indonesia,2010,Female,1.49
-Africa,Seychelles,2009,Female,1.50
-Americas,Saint Lucia,2017,Female,1.50
-Americas,Colombia,2012,Female,1.50
+Africa,Seychelles,2009,Female,1.5
+Americas,Saint Lucia,2017,Female,1.5
+Americas,Colombia,2012,Female,1.5
 Western Pacific,Philippines,2009,Female,1.52
 Americas,Saint Lucia,2009,Female,1.53
 Eastern Mediterranean,Oman,2009,Female,1.53
@@ -347,9 +347,9 @@ Europe,Azerbaijan,2015,Female,1.56
 Americas,Grenada,2011,Both sexes,1.57
 Western Pacific,Brunei Darussalam,2009,Both sexes,1.58
 Europe,Azerbaijan,2014,Female,1.59
-Americas,Colombia,2016,Female,1.60
-Americas,Saint Lucia,2015,Female,1.60
-Eastern Mediterranean,Oman,2010,Female,1.60
+Americas,Colombia,2016,Female,1.6
+Americas,Saint Lucia,2015,Female,1.6
+Eastern Mediterranean,Oman,2010,Female,1.6
 Americas,Belize,2015,Female,1.61
 Americas,Saint Lucia,2013,Female,1.63
 Americas,Saint Lucia,2010,Female,1.63
@@ -376,10 +376,10 @@ Americas,Costa Rica,2013,Female,1.68
 Eastern Mediterranean,Qatar,2018,Female,1.68
 Americas,Colombia,2018,Female,1.69
 Eastern Mediterranean,Qatar,2019,Female,1.69
-Americas,Saint Lucia,2012,Female,1.70
-Eastern Mediterranean,Lebanon,2016,Female,1.70
-Western Pacific,Brunei Darussalam,2014,Both sexes,1.70
-Western Pacific,Brunei Darussalam,2010,Male,1.70
+Americas,Saint Lucia,2012,Female,1.7
+Eastern Mediterranean,Lebanon,2016,Female,1.7
+Western Pacific,Brunei Darussalam,2014,Both sexes,1.7
+Western Pacific,Brunei Darussalam,2010,Male,1.7
 Americas,Colombia,2019,Female,1.71
 Americas,Belize,2014,Female,1.71
 Americas,Grenada,2010,Male,1.72
@@ -404,12 +404,12 @@ Eastern Mediterranean,Qatar,2016,Female,1.79
 Eastern Mediterranean,Lebanon,2013,Female,1.79
 Eastern Mediterranean,Syria,2009,Both sexes,1.79
 South-East Asia,Myanmar,2009,Female,1.79
-Americas,Costa Rica,2014,Female,1.80
-Americas,Mexico,2009,Female,1.80
-Eastern Mediterranean,Qatar,2013,Female,1.80
-Eastern Mediterranean,Syria,2011,Both sexes,1.80
-Europe,Azerbaijan,2011,Female,1.80
-Western Pacific,Brunei Darussalam,2014,Male,1.80
+Americas,Costa Rica,2014,Female,1.8
+Americas,Mexico,2009,Female,1.8
+Eastern Mediterranean,Qatar,2013,Female,1.8
+Eastern Mediterranean,Syria,2011,Both sexes,1.8
+Europe,Azerbaijan,2011,Female,1.8
+Western Pacific,Brunei Darussalam,2014,Male,1.8
 Eastern Mediterranean,Lebanon,2012,Female,1.81
 Eastern Mediterranean,Syria,2010,Both sexes,1.81
 South-East Asia,Bangladesh,2015,Female,1.81
@@ -450,9 +450,9 @@ Americas,Dominican Rep.,2011,Female,1.89
 Americas,Costa Rica,2010,Female,1.89
 Eastern Mediterranean,Jordan,2013,Both sexes,1.89
 Eastern Mediterranean,Syria,2012,Both sexes,1.89
-Africa,Algeria,2019,Female,1.90
-Africa,Algeria,2017,Female,1.90
-Eastern Mediterranean,Lebanon,2009,Female,1.90
+Africa,Algeria,2019,Female,1.9
+Africa,Algeria,2017,Female,1.9
+Eastern Mediterranean,Lebanon,2009,Female,1.9
 Africa,Algeria,2018,Female,1.91
 Americas,Nicaragua,2019,Female,1.91
 Americas,Belize,2012,Female,1.91
@@ -487,9 +487,9 @@ South-East Asia,Bangladesh,2013,Female,1.98
 Eastern Mediterranean,Tunisia,2012,Female,1.99
 Western Pacific,Guinea,2015,Female,1.99
 Western Pacific,Guinea,2014,Female,1.99
-Americas,Mexico,2011,Female,2.00
-Eastern Mediterranean,Saudi Arabia,2018,Female,2.00
-Western Pacific,Brunei Darussalam,2009,Male,2.00
+Americas,Mexico,2011,Female,2
+Eastern Mediterranean,Saudi Arabia,2018,Female,2
+Western Pacific,Brunei Darussalam,2009,Male,2
 Africa,Algeria,2015,Female,2.01
 Americas,Jamaica,2013,Both sexes,2.01
 Americas,Belize,2009,Female,2.01
@@ -514,13 +514,13 @@ Americas,Dominican Rep.,2013,Female,2.09
 Americas,Jamaica,2012,Both sexes,2.09
 Eastern Mediterranean,Saudi Arabia,2017,Female,2.09
 Eastern Mediterranean,Jordan,2009,Both sexes,2.09
-Africa,Algeria,2012,Female,2.10
-Americas,Venezuela,2019,Both sexes,2.10
-Americas,Costa Rica,2018,Female,2.10
-Americas,El Salvador,2010,Female,2.10
-Eastern Mediterranean,Syria,2018,Both sexes,2.10
-Eastern Mediterranean,Tunisia,2010,Female,2.10
-Europe,Italy,2010,Female,2.10
+Africa,Algeria,2012,Female,2.1
+Americas,Venezuela,2019,Both sexes,2.1
+Americas,Costa Rica,2018,Female,2.1
+Americas,El Salvador,2010,Female,2.1
+Eastern Mediterranean,Syria,2018,Both sexes,2.1
+Eastern Mediterranean,Tunisia,2010,Female,2.1
+Europe,Italy,2010,Female,2.1
 Africa,Sao Tome and Principe,2011,Both sexes,2.11
 Eastern Mediterranean,Syria,2019,Both sexes,2.11
 Eastern Mediterranean,Saudi Arabia,2010,Female,2.11
@@ -561,11 +561,11 @@ Africa,Algeria,2010,Female,2.19
 Americas,Jamaica,2017,Both sexes,2.19
 Eastern Mediterranean,Saudi Arabia,2016,Female,2.19
 South-East Asia,Bangladesh,2012,Female,2.19
-Africa,Sao Tome and Principe,2019,Both sexes,2.20
-Americas,El Salvador,2016,Female,2.20
-Americas,Saint Vincent and the Grenadines,2014,Male,2.20
-Eastern Mediterranean,Qatar,2009,Female,2.20
-Europe,Israel,2018,Female,2.20
+Africa,Sao Tome and Principe,2019,Both sexes,2.2
+Americas,El Salvador,2016,Female,2.2
+Americas,Saint Vincent and the Grenadines,2014,Male,2.2
+Eastern Mediterranean,Qatar,2009,Female,2.2
+Europe,Israel,2018,Female,2.2
 Africa,Ghana,2015,Female,2.21
 Americas,Venezuela,2018,Both sexes,2.21
 Americas,Jamaica,2018,Both sexes,2.21
@@ -614,11 +614,11 @@ Europe,Israel,2014,Female,2.29
 Europe,Romania,2014,Female,2.29
 Europe,Georgia,2013,Female,2.29
 Europe,Israel,2011,Female,2.29
-Americas,El Salvador,2013,Female,2.30
-Eastern Mediterranean,Egypt,2016,Female,2.30
-Europe,Israel,2017,Female,2.30
-Europe,Turkey,2014,Both sexes,2.30
-South-East Asia,Thailand,2019,Female,2.30
+Americas,El Salvador,2013,Female,2.3
+Eastern Mediterranean,Egypt,2016,Female,2.3
+Europe,Israel,2017,Female,2.3
+Europe,Turkey,2014,Both sexes,2.3
+South-East Asia,Thailand,2019,Female,2.3
 Eastern Mediterranean,Bahrain,2016,Female,2.31
 Eastern Mediterranean,Kuwait,2012,Both sexes,2.31
 Europe,Iceland,2017,Female,2.31
@@ -651,14 +651,14 @@ Western Pacific,Brunei Darussalam,2016,Both sexes,2.38
 Americas,Brazil,2014,Female,2.39
 Americas,Jamaica,2009,Both sexes,2.39
 Western Pacific,Malaysia,2019,Female,2.39
-Africa,Ghana,2014,Female,2.40
-Americas,Dominican Rep.,2015,Female,2.40
-Americas,Brazil,2010,Female,2.40
-Eastern Mediterranean,Iraq,2019,Female,2.40
-Eastern Mediterranean,Kuwait,2015,Both sexes,2.40
-Europe,Italy,2013,Female,2.40
-South-East Asia,Timor-Leste,2018,Female,2.40
-Western Pacific,Malaysia,2017,Female,2.40
+Africa,Ghana,2014,Female,2.4
+Americas,Dominican Rep.,2015,Female,2.4
+Americas,Brazil,2010,Female,2.4
+Eastern Mediterranean,Iraq,2019,Female,2.4
+Eastern Mediterranean,Kuwait,2015,Both sexes,2.4
+Europe,Italy,2013,Female,2.4
+South-East Asia,Timor-Leste,2018,Female,2.4
+Western Pacific,Malaysia,2017,Female,2.4
 Eastern Mediterranean,Egypt,2015,Female,2.41
 Eastern Mediterranean,Saudi Arabia,2014,Female,2.41
 Eastern Mediterranean,Egypt,2009,Female,2.41
@@ -703,9 +703,9 @@ South-East Asia,Thailand,2015,Female,2.48
 Western Pacific,Solomon Islands,2016,Female,2.48
 Americas,Brazil,2016,Female,2.49
 Americas,Brazil,2013,Female,2.49
-Eastern Mediterranean,Kuwait,2017,Both sexes,2.50
-Eastern Mediterranean,Bahrain,2013,Female,2.50
-Europe,Slovakia,2012,Female,2.50
+Eastern Mediterranean,Kuwait,2017,Both sexes,2.5
+Eastern Mediterranean,Bahrain,2013,Female,2.5
+Europe,Slovakia,2012,Female,2.5
 Americas,Nicaragua,2012,Female,2.51
 Americas,Brazil,2012,Female,2.52
 South-East Asia,Timor-Leste,2010,Female,2.52
@@ -749,14 +749,14 @@ Europe,Slovakia,2017,Female,2.59
 Europe,Slovakia,2016,Female,2.59
 Europe,Spain,2012,Female,2.59
 South-East Asia,Timor-Leste,2011,Female,2.59
-Africa,Algeria,2019,Both sexes,2.60
-Americas,Honduras,2018,Both sexes,2.60
-Eastern Mediterranean,United Arab Emirates,2018,Female,2.60
-Eastern Mediterranean,United Arab Emirates,2016,Female,2.60
-Europe,Slovakia,2015,Female,2.60
-Europe,Georgia,2014,Female,2.60
-Europe,Slovakia,2013,Female,2.60
-Western Pacific,Solomon Islands,2012,Female,2.60
+Africa,Algeria,2019,Both sexes,2.6
+Americas,Honduras,2018,Both sexes,2.6
+Eastern Mediterranean,United Arab Emirates,2018,Female,2.6
+Eastern Mediterranean,United Arab Emirates,2016,Female,2.6
+Europe,Slovakia,2015,Female,2.6
+Europe,Georgia,2014,Female,2.6
+Europe,Slovakia,2013,Female,2.6
+Western Pacific,Solomon Islands,2012,Female,2.6
 Africa,Algeria,2016,Both sexes,2.61
 Americas,Venezuela,2013,Both sexes,2.61
 Europe,Israel,2009,Female,2.61
@@ -788,7 +788,7 @@ Europe,Slovakia,2011,Female,2.68
 Americas,Saint Vincent and the Grenadines,2009,Both sexes,2.69
 South-East Asia,Indonesia,2013,Both sexes,2.69
 Western Pacific,Philippines,2014,Both sexes,2.69
-Europe,Georgia,2009,Female,2.70
+Europe,Georgia,2009,Female,2.7
 Africa,Ghana,2012,Female,2.71
 Americas,Honduras,2017,Both sexes,2.71
 Americas,Paraguay,2013,Female,2.71
@@ -821,12 +821,12 @@ Eastern Mediterranean,Jordan,2014,Male,2.78
 Europe,Malta,2015,Female,2.78
 Western Pacific,Philippines,2009,Both sexes,2.78
 Eastern Mediterranean,Jordan,2015,Male,2.79
-Americas,Guatemala,2016,Female,2.80
-Eastern Mediterranean,Jordan,2016,Male,2.80
-Europe,Bulgaria,2017,Female,2.80
-Europe,Romania,2013,Female,2.80
-South-East Asia,Maldives,2013,Both sexes,2.80
-South-East Asia,Timor-Leste,2009,Female,2.80
+Americas,Guatemala,2016,Female,2.8
+Eastern Mediterranean,Jordan,2016,Male,2.8
+Europe,Bulgaria,2017,Female,2.8
+Europe,Romania,2013,Female,2.8
+South-East Asia,Maldives,2013,Both sexes,2.8
+South-East Asia,Timor-Leste,2009,Female,2.8
 Europe,Albania,2015,Female,2.81
 Africa,Ghana,2011,Female,2.82
 Eastern Mediterranean,Jordan,2013,Male,2.82
@@ -866,10 +866,10 @@ Americas,Brazil,2018,Female,2.89
 Europe,Armenia,2010,Female,2.89
 Europe,Tajikistan,2009,Female,2.89
 Western Pacific,Philippines,2010,Both sexes,2.89
-Eastern Mediterranean,Libya,2019,Female,2.90
-Eastern Mediterranean,Iraq,2015,Female,2.90
-Eastern Mediterranean,Syria,2009,Male,2.90
-Europe,Armenia,2014,Female,2.90
+Eastern Mediterranean,Libya,2019,Female,2.9
+Eastern Mediterranean,Iraq,2015,Female,2.9
+Eastern Mediterranean,Syria,2009,Male,2.9
+Europe,Armenia,2014,Female,2.9
 Eastern Mediterranean,Bahrain,2011,Female,2.91
 Europe,Turkmenistan,2019,Female,2.91
 Europe,Albania,2014,Female,2.91
@@ -919,9 +919,9 @@ Eastern Mediterranean,Lebanon,2017,Both sexes,2.99
 Eastern Mediterranean,Lebanon,2012,Both sexes,2.99
 Europe,Spain,2017,Female,2.99
 South-East Asia,Nepal,2010,Female,2.99
-Africa,Algeria,2010,Both sexes,3.00
-Eastern Mediterranean,Jordan,2010,Male,3.00
-Europe,Armenia,2011,Female,3.00
+Africa,Algeria,2010,Both sexes,3
+Eastern Mediterranean,Jordan,2010,Male,3
+Europe,Armenia,2011,Female,3
 Americas,Guatemala,2012,Female,3.01
 Eastern Mediterranean,Tunisia,2017,Both sexes,3.01
 Eastern Mediterranean,Lebanon,2013,Both sexes,3.01
@@ -958,9 +958,9 @@ Western Pacific,Tonga,2018,Female,3.08
 Africa,Sao Tome and Principe,2011,Male,3.09
 Eastern Mediterranean,Tunisia,2018,Both sexes,3.09
 Western Pacific,Cambodia,2018,Female,3.09
-Eastern Mediterranean,Tunisia,2014,Both sexes,3.10
-Europe,United Kingdom,2009,Female,3.10
-South-East Asia,Myanmar,2017,Both sexes,3.10
+Eastern Mediterranean,Tunisia,2014,Both sexes,3.1
+Europe,United Kingdom,2009,Female,3.1
+South-East Asia,Myanmar,2017,Both sexes,3.1
 Africa,Ghana,2009,Female,3.11
 Americas,Guatemala,2011,Female,3.11
 Americas,Argentina,2010,Female,3.11
@@ -1013,8 +1013,8 @@ Europe,Tajikistan,2013,Female,3.19
 Europe,Armenia,2012,Female,3.19
 South-East Asia,Bhutan,2013,Female,3.19
 Western Pacific,Cambodia,2016,Female,3.19
-Eastern Mediterranean,Bahrain,2009,Female,3.20
-Western Pacific,Brunei Darussalam,2011,Male,3.20
+Eastern Mediterranean,Bahrain,2009,Female,3.2
+Western Pacific,Brunei Darussalam,2011,Male,3.2
 Americas,Panama,2017,Both sexes,3.21
 Americas,Argentina,2009,Female,3.21
 Eastern Mediterranean,Libya,2011,Female,3.21
@@ -1059,14 +1059,14 @@ Europe,Moldova,2019,Female,3.29
 South-East Asia,Maldives,2009,Both sexes,3.29
 Western Pacific,Guinea,2011,Both sexes,3.29
 Western Pacific,Guinea,2010,Both sexes,3.29
-Africa,Algeria,2019,Male,3.30
-Africa,Malawi,2019,Female,3.30
-Africa,S. Sudan,2014,Female,3.30
-Africa,S. Sudan,2013,Female,3.30
-Americas,Argentina,2011,Female,3.30
-Eastern Mediterranean,Sudan,2015,Female,3.30
-Europe,Moldova,2017,Female,3.30
-South-East Asia,Bhutan,2009,Female,3.30
+Africa,Algeria,2019,Male,3.3
+Africa,Malawi,2019,Female,3.3
+Africa,S. Sudan,2014,Female,3.3
+Africa,S. Sudan,2013,Female,3.3
+Americas,Argentina,2011,Female,3.3
+Eastern Mediterranean,Sudan,2015,Female,3.3
+Europe,Moldova,2017,Female,3.3
+South-East Asia,Bhutan,2009,Female,3.3
 Africa,S. Sudan,2017,Female,3.31
 Americas,Argentina,2019,Female,3.31
 Americas,Saint Vincent and the Grenadines,2015,Both sexes,3.31
@@ -1107,13 +1107,13 @@ Americas,Bahamas,2009,Both sexes,3.39
 Eastern Mediterranean,Egypt,2017,Both sexes,3.39
 Europe,Turkey,2017,Male,3.39
 Europe,Bosnia and Herz.,2011,Female,3.39
-Americas,Bahamas,2018,Both sexes,3.40
-Americas,Jamaica,2015,Male,3.40
-Americas,Chile,2013,Female,3.40
-Americas,Venezuela,2009,Both sexes,3.40
-Eastern Mediterranean,Kuwait,2010,Male,3.40
-Europe,Tajikistan,2015,Female,3.40
-Europe,Bosnia and Herz.,2012,Female,3.40
+Americas,Bahamas,2018,Both sexes,3.4
+Americas,Jamaica,2015,Male,3.4
+Americas,Chile,2013,Female,3.4
+Americas,Venezuela,2009,Both sexes,3.4
+Eastern Mediterranean,Kuwait,2010,Male,3.4
+Europe,Tajikistan,2015,Female,3.4
+Europe,Bosnia and Herz.,2012,Female,3.4
 Americas,Venezuela,2012,Both sexes,3.41
 Eastern Mediterranean,Egypt,2019,Both sexes,3.41
 Europe,Bosnia and Herz.,2019,Female,3.41
@@ -1176,9 +1176,9 @@ Europe,Iceland,2018,Female,3.48
 Europe,Bosnia and Herz.,2009,Female,3.48
 Africa,S. Sudan,2009,Female,3.49
 Americas,Bahamas,2016,Both sexes,3.49
-Eastern Mediterranean,Kuwait,2015,Male,3.50
-Europe,Poland,2012,Female,3.50
-Western Pacific,Guinea,2017,Both sexes,3.50
+Eastern Mediterranean,Kuwait,2015,Male,3.5
+Europe,Poland,2012,Female,3.5
+Western Pacific,Guinea,2017,Both sexes,3.5
 Americas,Jamaica,2018,Male,3.51
 Eastern Mediterranean,Syria,2019,Male,3.51
 Eastern Mediterranean,Sudan,2009,Female,3.51
@@ -1216,10 +1216,10 @@ Americas,Argentina,2018,Female,3.59
 Europe,Turkey,2019,Male,3.59
 Europe,Bulgaria,2012,Female,3.59
 Western Pacific,Laos,2017,Female,3.59
-Americas,Ecuador,2019,Female,3.60
-Americas,Venezuela,2010,Both sexes,3.60
-South-East Asia,Bangladesh,2016,Both sexes,3.60
-Western Pacific,Cambodia,2010,Female,3.60
+Americas,Ecuador,2019,Female,3.6
+Americas,Venezuela,2010,Both sexes,3.6
+South-East Asia,Bangladesh,2016,Both sexes,3.6
+Western Pacific,Cambodia,2010,Female,3.6
 Europe,Tajikistan,2016,Female,3.61
 Americas,Colombia,2013,Both sexes,3.62
 Eastern Mediterranean,Iran,2012,Female,3.62
@@ -1257,9 +1257,9 @@ Eastern Mediterranean,Egypt,2011,Both sexes,3.69
 Europe,Ireland,2016,Female,3.69
 Europe,Poland,2014,Female,3.69
 Western Pacific,Laos,2015,Female,3.69
-Africa,Uganda,2019,Female,3.70
-Europe,Ireland,2015,Female,3.70
-Europe,Cyprus,2011,Both sexes,3.70
+Africa,Uganda,2019,Female,3.7
+Europe,Ireland,2015,Female,3.7
+Europe,Cyprus,2011,Both sexes,3.7
 Africa,Tanzania,2018,Female,3.71
 Americas,Argentina,2014,Female,3.71
 Americas,Jamaica,2011,Male,3.71
@@ -1302,8 +1302,8 @@ Africa,Malawi,2017,Female,3.79
 Americas,Cuba,2016,Female,3.79
 Eastern Mediterranean,Iran,2009,Female,3.79
 Europe,Greece,2017,Both sexes,3.79
-Americas,Ecuador,2018,Female,3.80
-South-East Asia,Bangladesh,2013,Both sexes,3.80
+Americas,Ecuador,2018,Female,3.8
+South-East Asia,Bangladesh,2013,Both sexes,3.8
 Africa,Gabon,2019,Female,3.81
 Africa,Algeria,2010,Male,3.81
 Americas,Colombia,2012,Both sexes,3.81
@@ -1343,8 +1343,8 @@ Western Pacific,Philippines,2019,Male,3.88
 Africa,Tanzania,2015,Female,3.89
 Europe,Serbia,2019,Female,3.89
 Europe,Czechia,2015,Female,3.89
-Africa,Mauritius,2014,Female,3.90
-Americas,Honduras,2013,Both sexes,3.90
+Africa,Mauritius,2014,Female,3.9
+Americas,Honduras,2013,Both sexes,3.9
 Europe,Germany,2019,Female,3.91
 Europe,Azerbaijan,2017,Both sexes,3.91
 Western Pacific,Laos,2013,Female,3.91
@@ -1387,11 +1387,11 @@ Europe,Czechia,2011,Female,3.99
 Europe,Cyprus,2009,Both sexes,3.99
 South-East Asia,Indonesia,2019,Male,3.99
 South-East Asia,Indonesia,2017,Male,3.99
-Africa,Tanzania,2016,Female,4.00
-Africa,Mauritania,2012,Female,4.00
-Americas,Jamaica,2009,Male,4.00
-South-East Asia,Indonesia,2014,Male,4.00
-South-East Asia,Bangladesh,2012,Both sexes,4.00
+Africa,Tanzania,2016,Female,4
+Africa,Mauritania,2012,Female,4
+Americas,Jamaica,2009,Male,4
+South-East Asia,Indonesia,2014,Male,4
+South-East Asia,Bangladesh,2012,Both sexes,4
 Africa,Gabon,2018,Female,4.01
 Africa,Uganda,2016,Female,4.01
 Americas,Venezuela,2014,Male,4.01
@@ -1416,9 +1416,9 @@ Americas,Trinidad and Tobago,2017,Female,4.08
 Americas,Venezuela,2015,Male,4.08
 Western Pacific,Philippines,2017,Male,4.08
 South-East Asia,Indonesia,2013,Male,4.09
-Africa,Nigeria,2014,Female,4.10
-Americas,Peru,2019,Male,4.10
-Europe,Azerbaijan,2014,Both sexes,4.10
+Africa,Nigeria,2014,Female,4.1
+Americas,Peru,2019,Male,4.1
+Europe,Azerbaijan,2014,Both sexes,4.1
 Americas,Peru,2018,Male,4.11
 Americas,Peru,2017,Male,4.11
 Americas,Colombia,2016,Both sexes,4.11
@@ -1447,10 +1447,10 @@ Americas,Bolivia,2019,Female,4.19
 Americas,Ecuador,2017,Female,4.19
 Europe,Kyrgyzstan,2015,Female,4.19
 Europe,Azerbaijan,2013,Both sexes,4.19
-Africa,Gabon,2012,Female,4.20
-Americas,Cuba,2014,Female,4.20
-Europe,Portugal,2010,Female,4.20
-Western Pacific,Vietnam,2011,Female,4.20
+Africa,Gabon,2012,Female,4.2
+Americas,Cuba,2014,Female,4.2
+Europe,Portugal,2010,Female,4.2
+Western Pacific,Vietnam,2011,Female,4.2
 Africa,Tanzania,2013,Female,4.21
 Americas,Trinidad and Tobago,2016,Female,4.21
 Americas,Cuba,2013,Female,4.21
@@ -1494,8 +1494,8 @@ Europe,Poland,2009,Female,4.29
 South-East Asia,Indonesia,2011,Male,4.29
 Western Pacific,Philippines,2014,Male,4.29
 Western Pacific,Vietnam,2009,Female,4.29
-Africa,Mauritius,2017,Female,4.30
-South-East Asia,Timor-Leste,2011,Both sexes,4.30
+Africa,Mauritius,2017,Female,4.3
+South-East Asia,Timor-Leste,2011,Both sexes,4.3
 Africa,Namibia,2018,Female,4.31
 Africa,Uganda,2012,Female,4.31
 Europe,Azerbaijan,2012,Both sexes,4.31
@@ -1525,12 +1525,12 @@ South-East Asia,Indonesia,2010,Male,4.38
 Americas,Honduras,2019,Male,4.39
 Americas,Honduras,2011,Male,4.39
 Western Pacific,Philippines,2013,Male,4.39
-Africa,Gabon,2016,Female,4.40
-Africa,Nigeria,2012,Female,4.40
-Europe,Denmark,2016,Female,4.40
-Europe,Ireland,2012,Female,4.40
-Europe,Estonia,2011,Female,4.40
-South-East Asia,Timor-Leste,2017,Both sexes,4.40
+Africa,Gabon,2016,Female,4.4
+Africa,Nigeria,2012,Female,4.4
+Europe,Denmark,2016,Female,4.4
+Europe,Ireland,2012,Female,4.4
+Europe,Estonia,2011,Female,4.4
+South-East Asia,Timor-Leste,2017,Both sexes,4.4
 South-East Asia,Maldives,2012,Male,4.41
 South-East Asia,Timor-Leste,2009,Both sexes,4.41
 Americas,Honduras,2018,Male,4.42
@@ -1563,10 +1563,10 @@ Eastern Mediterranean,Libya,2019,Both sexes,4.49
 Europe,Estonia,2019,Female,4.49
 Europe,Ukraine,2017,Female,4.49
 Europe,Germany,2014,Female,4.49
-Africa,Namibia,2012,Female,4.50
-Americas,Colombia,2017,Both sexes,4.50
-Europe,Denmark,2018,Female,4.50
-Europe,Latvia,2013,Female,4.50
+Africa,Namibia,2012,Female,4.5
+Americas,Colombia,2017,Both sexes,4.5
+Europe,Denmark,2018,Female,4.5
+Europe,Latvia,2013,Female,4.5
 Americas,Bolivia,2017,Female,4.51
 Europe,Moldova,2013,Female,4.51
 Europe,Germany,2010,Female,4.51
@@ -1596,10 +1596,10 @@ Europe,Denmark,2014,Female,4.57
 Europe,Germany,2012,Female,4.57
 Western Pacific,Tonga,2018,Both sexes,4.57
 Americas,Nicaragua,2016,Both sexes,4.59
-Americas,Bolivia,2012,Female,4.60
-Americas,Honduras,2009,Male,4.60
-Eastern Mediterranean,Tunisia,2019,Male,4.60
-Europe,Germany,2013,Female,4.60
+Americas,Bolivia,2012,Female,4.6
+Americas,Honduras,2009,Male,4.6
+Eastern Mediterranean,Tunisia,2019,Male,4.6
+Europe,Germany,2013,Female,4.6
 Eastern Mediterranean,Qatar,2018,Both sexes,4.61
 Eastern Mediterranean,Qatar,2017,Both sexes,4.61
 Europe,Luxembourg,2016,Female,4.61
@@ -1634,10 +1634,10 @@ Europe,Armenia,2017,Male,4.68
 Europe,Moldova,2015,Female,4.68
 Western Pacific,Guinea,2009,Male,4.68
 Americas,Saint Vincent and the Grenadines,2009,Male,4.69
-Americas,Paraguay,2012,Both sexes,4.70
-Eastern Mediterranean,Morocco,2019,Female,4.70
-Eastern Mediterranean,Oman,2015,Both sexes,4.70
-Europe,Armenia,2015,Both sexes,4.70
+Americas,Paraguay,2012,Both sexes,4.7
+Eastern Mediterranean,Morocco,2019,Female,4.7
+Eastern Mediterranean,Oman,2015,Both sexes,4.7
+Europe,Armenia,2015,Both sexes,4.7
 Americas,Bolivia,2010,Female,4.71
 South-East Asia,Maldives,2010,Male,4.71
 Eastern Mediterranean,Tunisia,2010,Male,4.72
@@ -1672,12 +1672,12 @@ Eastern Mediterranean,Oman,2013,Both sexes,4.79
 Eastern Mediterranean,Tunisia,2009,Male,4.79
 Europe,Estonia,2016,Female,4.79
 Europe,Croatia,2013,Female,4.79
-Americas,Panama,2019,Male,4.80
-Americas,Peru,2013,Male,4.80
-Eastern Mediterranean,Sudan,2017,Both sexes,4.80
-Eastern Mediterranean,Egypt,2010,Male,4.80
-Europe,Austria,2012,Female,4.80
-Western Pacific,China,2019,Female,4.80
+Americas,Panama,2019,Male,4.8
+Americas,Peru,2013,Male,4.8
+Eastern Mediterranean,Sudan,2017,Both sexes,4.8
+Eastern Mediterranean,Egypt,2010,Male,4.8
+Europe,Austria,2012,Female,4.8
+Western Pacific,China,2019,Female,4.8
 Americas,Ecuador,2013,Female,4.81
 Americas,Mexico,2009,Both sexes,4.81
 Eastern Mediterranean,Sudan,2018,Both sexes,4.81
@@ -1716,11 +1716,11 @@ Western Pacific,Guinea,2010,Male,4.88
 Eastern Mediterranean,Sudan,2015,Both sexes,4.89
 Europe,Denmark,2012,Female,4.89
 Europe,Latvia,2011,Female,4.89
-Americas,Panama,2018,Male,4.90
-Europe,Cyprus,2012,Both sexes,4.90
-Europe,Ireland,2010,Female,4.90
-Europe,Tajikistan,2009,Both sexes,4.90
-Western Pacific,Malaysia,2013,Both sexes,4.90
+Americas,Panama,2018,Male,4.9
+Europe,Cyprus,2012,Both sexes,4.9
+Europe,Ireland,2010,Female,4.9
+Europe,Tajikistan,2009,Both sexes,4.9
+Western Pacific,Malaysia,2013,Both sexes,4.9
 Africa,Congo,2017,Female,4.91
 Eastern Mediterranean,Pakistan,2015,Female,4.91
 Europe,Estonia,2012,Female,4.91
@@ -1759,12 +1759,12 @@ Western Pacific,China,2017,Female,4.98
 Western Pacific,Singapore,2015,Female,4.98
 Africa,Congo,2016,Female,4.99
 Eastern Mediterranean,Sudan,2014,Both sexes,4.99
-Americas,Brazil,2010,Both sexes,5.00
-Eastern Mediterranean,Egypt,2016,Male,5.00
-Eastern Mediterranean,Yemen,2015,Female,5.00
-Europe,Croatia,2016,Female,5.00
-Europe,France,2016,Female,5.00
-Western Pacific,Singapore,2018,Female,5.00
+Americas,Brazil,2010,Both sexes,5
+Eastern Mediterranean,Egypt,2016,Male,5
+Eastern Mediterranean,Yemen,2015,Female,5
+Europe,Croatia,2016,Female,5
+Europe,France,2016,Female,5
+Western Pacific,Singapore,2018,Female,5
 Africa,Kenya,2016,Female,5.01
 Eastern Mediterranean,United Arab Emirates,2018,Both sexes,5.01
 Africa,Congo,2019,Female,5.02
@@ -1816,13 +1816,13 @@ Eastern Mediterranean,Sudan,2012,Both sexes,5.09
 Europe,Uzbekistan,2012,Female,5.09
 South-East Asia,Myanmar,2019,Male,5.09
 Western Pacific,Philippines,2011,Male,5.09
-Africa,Angola,2016,Female,5.10
-Eastern Mediterranean,Pakistan,2011,Female,5.10
-Europe,Cyprus,2013,Both sexes,5.10
-Europe,Malta,2012,Both sexes,5.10
-Europe,Spain,2011,Both sexes,5.10
-Europe,Slovenia,2010,Female,5.10
-Western Pacific,Malaysia,2014,Both sexes,5.10
+Africa,Angola,2016,Female,5.1
+Eastern Mediterranean,Pakistan,2011,Female,5.1
+Europe,Cyprus,2013,Both sexes,5.1
+Europe,Malta,2012,Both sexes,5.1
+Europe,Spain,2011,Both sexes,5.1
+Europe,Slovenia,2010,Female,5.1
+Western Pacific,Malaysia,2014,Both sexes,5.1
 Americas,Dominican Rep.,2019,Both sexes,5.11
 Eastern Mediterranean,Sudan,2013,Both sexes,5.11
 Europe,Slovenia,2016,Female,5.11
@@ -1874,10 +1874,10 @@ Americas,Brazil,2009,Both sexes,5.19
 Eastern Mediterranean,Yemen,2014,Female,5.19
 Europe,Tajikistan,2015,Both sexes,5.19
 South-East Asia,Bhutan,2014,Both sexes,5.19
-Africa,Tanzania,2010,Female,5.20
-Europe,Estonia,2014,Female,5.20
-Europe,Moldova,2012,Female,5.20
-South-East Asia,Bhutan,2013,Both sexes,5.20
+Africa,Tanzania,2010,Female,5.2
+Europe,Estonia,2014,Female,5.2
+Europe,Moldova,2012,Female,5.2
+South-East Asia,Bhutan,2013,Both sexes,5.2
 Africa,Kenya,2018,Female,5.21
 Africa,Uganda,2011,Female,5.21
 South-East Asia,Bhutan,2011,Both sexes,5.21
@@ -1928,12 +1928,12 @@ Europe,Tajikistan,2017,Both sexes,5.29
 Europe,Uzbekistan,2017,Female,5.29
 Europe,Hungary,2017,Female,5.29
 Western Pacific,Australia,2013,Female,5.29
-Africa,Rwanda,2016,Female,5.30
-Eastern Mediterranean,Qatar,2013,Both sexes,5.30
-Europe,Cyprus,2019,Male,5.30
-Europe,Iceland,2010,Female,5.30
-Western Pacific,Tonga,2015,Both sexes,5.30
-Western Pacific,Malaysia,2010,Both sexes,5.30
+Africa,Rwanda,2016,Female,5.3
+Eastern Mediterranean,Qatar,2013,Both sexes,5.3
+Europe,Cyprus,2019,Male,5.3
+Europe,Iceland,2010,Female,5.3
+Western Pacific,Tonga,2015,Both sexes,5.3
+Western Pacific,Malaysia,2010,Both sexes,5.3
 Africa,Kenya,2019,Female,5.31
 Africa,Senegal,2018,Female,5.31
 Africa,Cabo Verde,2017,Female,5.31
@@ -1985,10 +1985,10 @@ Europe,Tajikistan,2016,Both sexes,5.38
 Europe,Finland,2015,Female,5.38
 South-East Asia,Bhutan,2009,Both sexes,5.38
 Americas,Peru,2010,Male,5.39
-Africa,Mauritania,2014,Both sexes,5.40
-Americas,Brazil,2014,Both sexes,5.40
-Americas,Saint Vincent and the Grenadines,2011,Both sexes,5.40
-Eastern Mediterranean,Iraq,2015,Both sexes,5.40
+Africa,Mauritania,2014,Both sexes,5.4
+Americas,Brazil,2014,Both sexes,5.4
+Americas,Saint Vincent and the Grenadines,2011,Both sexes,5.4
+Eastern Mediterranean,Iraq,2015,Both sexes,5.4
 Americas,Brazil,2013,Both sexes,5.41
 Western Pacific,New Zealand,2019,Female,5.41
 Africa,Madagascar,2019,Female,5.42
@@ -2035,10 +2035,10 @@ Americas,Dominican Rep.,2018,Both sexes,5.49
 Eastern Mediterranean,Iran,2018,Both sexes,5.49
 Eastern Mediterranean,Iraq,2014,Both sexes,5.49
 Western Pacific,Cambodia,2019,Both sexes,5.49
-Africa,Liberia,2019,Female,5.50
-Americas,Dominican Rep.,2011,Both sexes,5.50
-Eastern Mediterranean,Afghanistan,2017,Female,5.50
-Europe,Latvia,2016,Female,5.50
+Africa,Liberia,2019,Female,5.5
+Americas,Dominican Rep.,2011,Both sexes,5.5
+Eastern Mediterranean,Afghanistan,2017,Female,5.5
+Europe,Latvia,2016,Female,5.5
 Africa,Cabo Verde,2016,Female,5.51
 Americas,Ecuador,2009,Female,5.51
 Europe,Hungary,2019,Female,5.51
@@ -2087,12 +2087,12 @@ Europe,Serbia,2015,Female,5.59
 Europe,Netherlands,2012,Female,5.59
 Western Pacific,Cambodia,2018,Both sexes,5.59
 Western Pacific,Singapore,2011,Female,5.59
-Africa,Cabo Verde,2015,Female,5.60
-Africa,Gabon,2010,Female,5.60
-Americas,Brazil,2015,Both sexes,5.60
-Americas,Mexico,2015,Both sexes,5.60
-Eastern Mediterranean,United Arab Emirates,2014,Both sexes,5.60
-Europe,Netherlands,2013,Female,5.60
+Africa,Cabo Verde,2015,Female,5.6
+Africa,Gabon,2010,Female,5.6
+Americas,Brazil,2015,Both sexes,5.6
+Americas,Mexico,2015,Both sexes,5.6
+Eastern Mediterranean,United Arab Emirates,2014,Both sexes,5.6
+Europe,Netherlands,2013,Female,5.6
 Africa,Angola,2010,Female,5.61
 Western Pacific,New Zealand,2018,Female,5.61
 Europe,Belarus,2018,Female,5.62
@@ -2127,13 +2127,13 @@ Europe,Cyprus,2017,Male,5.68
 South-East Asia,Bangladesh,2017,Male,5.68
 Western Pacific,Singapore,2010,Female,5.68
 Africa,Madagascar,2013,Female,5.69
-Africa,Mali,2019,Female,5.70
-Africa,Madagascar,2014,Female,5.70
-Africa,Uganda,2009,Female,5.70
-Eastern Mediterranean,Libya,2018,Both sexes,5.70
-Eastern Mediterranean,Iraq,2013,Both sexes,5.70
-Europe,Albania,2016,Male,5.70
-Europe,Albania,2015,Male,5.70
+Africa,Mali,2019,Female,5.7
+Africa,Madagascar,2014,Female,5.7
+Africa,Uganda,2009,Female,5.7
+Eastern Mediterranean,Libya,2018,Both sexes,5.7
+Eastern Mediterranean,Iraq,2013,Both sexes,5.7
+Europe,Albania,2016,Male,5.7
+Europe,Albania,2015,Male,5.7
 Americas,Saint Vincent and the Grenadines,2015,Male,5.71
 Eastern Mediterranean,Iran,2009,Both sexes,5.71
 Europe,France,2014,Female,5.71
@@ -2173,12 +2173,12 @@ Africa,Cabo Verde,2011,Female,5.79
 Americas,Costa Rica,2017,Both sexes,5.79
 Eastern Mediterranean,Morocco,2013,Female,5.79
 Europe,Austria,2011,Female,5.79
-Africa,Tanzania,2009,Female,5.80
-Americas,Dominican Rep.,2012,Both sexes,5.80
-Americas,Bahamas,2009,Male,5.80
-Eastern Mediterranean,Iran,2017,Both sexes,5.80
-Europe,Greece,2011,Male,5.80
-Western Pacific,Cambodia,2014,Both sexes,5.80
+Africa,Tanzania,2009,Female,5.8
+Americas,Dominican Rep.,2012,Both sexes,5.8
+Americas,Bahamas,2009,Male,5.8
+Eastern Mediterranean,Iran,2017,Both sexes,5.8
+Europe,Greece,2011,Male,5.8
+Western Pacific,Cambodia,2014,Both sexes,5.8
 Africa,Côte d'Ivoire,2015,Female,5.81
 Eastern Mediterranean,Qatar,2016,Male,5.81
 Africa,Comoros,2019,Female,5.82
@@ -2217,10 +2217,10 @@ Africa,Cabo Verde,2012,Female,5.89
 Africa,Congo,2009,Female,5.89
 Americas,Mexico,2017,Both sexes,5.89
 Americas,Venezuela,2009,Male,5.89
-Africa,Senegal,2010,Female,5.90
-Eastern Mediterranean,Saudi Arabia,2016,Both sexes,5.90
-Europe,Greece,2019,Male,5.90
-Europe,Malta,2013,Both sexes,5.90
+Africa,Senegal,2010,Female,5.9
+Eastern Mediterranean,Saudi Arabia,2016,Both sexes,5.9
+Europe,Greece,2019,Male,5.9
+Europe,Malta,2013,Both sexes,5.9
 Eastern Mediterranean,Afghanistan,2018,Both sexes,5.91
 Eastern Mediterranean,United Arab Emirates,2013,Both sexes,5.91
 Europe,Macedonia,2011,Both sexes,5.91
@@ -2265,11 +2265,11 @@ Africa,Malawi,2011,Female,5.99
 Americas,Venezuela,2012,Male,5.99
 Eastern Mediterranean,Afghanistan,2015,Both sexes,5.99
 Europe,Israel,2012,Both sexes,5.99
-Eastern Mediterranean,Afghanistan,2013,Female,6.00
-Europe,Netherlands,2015,Female,6.00
-Europe,Croatia,2014,Female,6.00
-Europe,Serbia,2013,Female,6.00
-Western Pacific,New Zealand,2016,Female,6.00
+Eastern Mediterranean,Afghanistan,2013,Female,6
+Europe,Netherlands,2015,Female,6
+Europe,Croatia,2014,Female,6
+Europe,Serbia,2013,Female,6
+Western Pacific,New Zealand,2016,Female,6
 Americas,Guatemala,2017,Both sexes,6.01
 Eastern Mediterranean,Afghanistan,2016,Both sexes,6.01
 Europe,Netherlands,2017,Female,6.01
@@ -2304,14 +2304,14 @@ Europe,Turkmenistan,2018,Both sexes,6.09
 Europe,Hungary,2016,Female,6.09
 South-East Asia,Timor-Leste,2009,Male,6.09
 Western Pacific,Fiji,2016,Female,6.09
-Africa,Comoros,2015,Female,6.10
-Africa,Côte d'Ivoire,2014,Female,6.10
-Americas,Paraguay,2018,Both sexes,6.10
-Eastern Mediterranean,Iran,2013,Both sexes,6.10
-Eastern Mediterranean,Oman,2010,Both sexes,6.10
-Europe,Switzerland,2013,Female,6.10
-South-East Asia,Sri Lanka,2019,Female,6.10
-South-East Asia,Timor-Leste,2013,Male,6.10
+Africa,Comoros,2015,Female,6.1
+Africa,Côte d'Ivoire,2014,Female,6.1
+Americas,Paraguay,2018,Both sexes,6.1
+Eastern Mediterranean,Iran,2013,Both sexes,6.1
+Eastern Mediterranean,Oman,2010,Both sexes,6.1
+Europe,Switzerland,2013,Female,6.1
+South-East Asia,Sri Lanka,2019,Female,6.1
+South-East Asia,Timor-Leste,2013,Male,6.1
 Americas,El Salvador,2019,Both sexes,6.11
 Eastern Mediterranean,Libya,2019,Male,6.11
 Eastern Mediterranean,Afghanistan,2014,Male,6.11
@@ -2361,10 +2361,10 @@ Eastern Mediterranean,Afghanistan,2019,Male,6.19
 Eastern Mediterranean,Afghanistan,2018,Male,6.19
 Europe,Luxembourg,2015,Female,6.19
 Western Pacific,Fiji,2013,Female,6.19
-Eastern Mediterranean,Saudi Arabia,2011,Both sexes,6.20
-Europe,Greece,2012,Male,6.20
-Western Pacific,Laos,2017,Both sexes,6.20
-Western Pacific,Laos,2015,Both sexes,6.20
+Eastern Mediterranean,Saudi Arabia,2011,Both sexes,6.2
+Europe,Greece,2012,Male,6.2
+Western Pacific,Laos,2017,Both sexes,6.2
+Western Pacific,Laos,2015,Both sexes,6.2
 Americas,Guatemala,2016,Both sexes,6.21
 Europe,Spain,2014,Both sexes,6.21
 Africa,Liberia,2016,Female,6.22
@@ -2405,11 +2405,11 @@ Eastern Mediterranean,Afghanistan,2013,Male,6.29
 Eastern Mediterranean,United Arab Emirates,2011,Both sexes,6.29
 Europe,Norway,2019,Female,6.29
 South-East Asia,North Korea,2018,Female,6.29
-Americas,Venezuela,2010,Male,6.30
-Eastern Mediterranean,Saudi Arabia,2014,Both sexes,6.30
-South-East Asia,Myanmar,2009,Male,6.30
-Western Pacific,New Zealand,2017,Female,6.30
-Western Pacific,Fiji,2011,Female,6.30
+Americas,Venezuela,2010,Male,6.3
+Eastern Mediterranean,Saudi Arabia,2014,Both sexes,6.3
+South-East Asia,Myanmar,2009,Male,6.3
+Western Pacific,New Zealand,2017,Female,6.3
+Western Pacific,Fiji,2011,Female,6.3
 Americas,Guatemala,2018,Both sexes,6.31
 Eastern Mediterranean,Saudi Arabia,2013,Both sexes,6.31
 Eastern Mediterranean,Bahrain,2015,Both sexes,6.32
@@ -2442,13 +2442,13 @@ Eastern Mediterranean,Qatar,2010,Both sexes,6.39
 Europe,Greece,2013,Male,6.39
 Europe,Armenia,2012,Both sexes,6.39
 Western Pacific,Cambodia,2009,Both sexes,6.39
-Africa,Congo,2018,Female,6.40
-Africa,Namibia,2010,Female,6.40
-Americas,Guatemala,2015,Both sexes,6.40
-Americas,El Salvador,2010,Both sexes,6.40
-Europe,Slovenia,2009,Female,6.40
-South-East Asia,Sri Lanka,2017,Female,6.40
-Western Pacific,Laos,2012,Both sexes,6.40
+Africa,Congo,2018,Female,6.4
+Africa,Namibia,2010,Female,6.4
+Americas,Guatemala,2015,Both sexes,6.4
+Americas,El Salvador,2010,Both sexes,6.4
+Europe,Slovenia,2009,Female,6.4
+South-East Asia,Sri Lanka,2017,Female,6.4
+Western Pacific,Laos,2012,Both sexes,6.4
 Africa,Eswatini,2019,Female,6.41
 Africa,S. Sudan,2017,Both sexes,6.41
 Africa,S. Sudan,2015,Both sexes,6.41
@@ -2498,12 +2498,12 @@ Africa,Togo,2018,Female,6.49
 Africa,Niger,2016,Female,6.49
 Americas,Uruguay,2011,Female,6.49
 Europe,Serbia,2011,Female,6.49
-Africa,Burkina Faso,2019,Female,6.50
-Americas,Colombia,2015,Male,6.50
-Europe,Bulgaria,2019,Both sexes,6.50
-South-East Asia,Timor-Leste,2017,Male,6.50
-South-East Asia,Timor-Leste,2016,Male,6.50
-Western Pacific,New Zealand,2012,Female,6.50
+Africa,Burkina Faso,2019,Female,6.5
+Americas,Colombia,2015,Male,6.5
+Europe,Bulgaria,2019,Both sexes,6.5
+South-East Asia,Timor-Leste,2017,Male,6.5
+South-East Asia,Timor-Leste,2016,Male,6.5
+Western Pacific,New Zealand,2012,Female,6.5
 Americas,Brazil,2018,Both sexes,6.51
 Eastern Mediterranean,Oman,2017,Male,6.51
 Europe,Azerbaijan,2016,Male,6.51
@@ -2538,7 +2538,7 @@ Eastern Mediterranean,Afghanistan,2009,Female,6.59
 Europe,Norway,2017,Female,6.59
 Europe,Turkmenistan,2016,Both sexes,6.59
 South-East Asia,Thailand,2013,Both sexes,6.59
-Europe,Bulgaria,2018,Both sexes,6.60
+Europe,Bulgaria,2018,Both sexes,6.6
 Africa,Burkina Faso,2018,Female,6.61
 Africa,S. Sudan,2011,Both sexes,6.61
 Europe,Azerbaijan,2019,Male,6.61
@@ -2573,13 +2573,13 @@ Africa,Gambia,2015,Female,6.69
 Africa,Niger,2012,Female,6.69
 Americas,Paraguay,2011,Male,6.69
 South-East Asia,Timor-Leste,2019,Male,6.69
-Africa,Togo,2017,Female,6.70
-Africa,Niger,2014,Female,6.70
-Africa,Niger,2013,Female,6.70
-Americas,Costa Rica,2011,Both sexes,6.70
-Eastern Mediterranean,Sudan,2014,Male,6.70
-Eastern Mediterranean,Oman,2014,Male,6.70
-Western Pacific,Singapore,2012,Female,6.70
+Africa,Togo,2017,Female,6.7
+Africa,Niger,2014,Female,6.7
+Africa,Niger,2013,Female,6.7
+Americas,Costa Rica,2011,Both sexes,6.7
+Eastern Mediterranean,Sudan,2014,Male,6.7
+Eastern Mediterranean,Oman,2014,Male,6.7
+Western Pacific,Singapore,2012,Female,6.7
 Africa,S. Sudan,2012,Both sexes,6.71
 Africa,Côte d'Ivoire,2012,Female,6.71
 Africa,S. Sudan,2009,Both sexes,6.71
@@ -2611,10 +2611,10 @@ Europe,Cyprus,2009,Male,6.78
 Western Pacific,New Zealand,2010,Female,6.78
 Africa,Guinea-Bissau,2018,Female,6.79
 Americas,Costa Rica,2018,Both sexes,6.79
-Eastern Mediterranean,Yemen,2015,Both sexes,6.80
-Eastern Mediterranean,Oman,2015,Male,6.80
-Western Pacific,New Zealand,2013,Female,6.80
-Western Pacific,Laos,2010,Both sexes,6.80
+Eastern Mediterranean,Yemen,2015,Both sexes,6.8
+Eastern Mediterranean,Oman,2015,Male,6.8
+Western Pacific,New Zealand,2013,Female,6.8
+Western Pacific,Laos,2010,Both sexes,6.8
 Africa,Congo,2017,Female,6.81
 Africa,Benin,2010,Female,6.81
 Europe,Belarus,2013,Female,6.81
@@ -2655,8 +2655,8 @@ Americas,Belize,2014,Both sexes,6.89
 Americas,Saint Lucia,2011,Both sexes,6.89
 Americas,Venezuela,2011,Male,6.89
 Western Pacific,China,2017,Both sexes,6.89
-Americas,Bolivia,2012,Both sexes,6.90
-Europe,Italy,2018,Male,6.90
+Americas,Bolivia,2012,Both sexes,6.9
+Europe,Italy,2018,Male,6.9
 Africa,Liberia,2009,Female,6.91
 South-East Asia,Bhutan,2015,Male,6.91
 Western Pacific,Japan,2019,Female,6.91
@@ -2691,10 +2691,10 @@ Americas,Bolivia,2009,Both sexes,6.99
 Europe,Azerbaijan,2013,Male,6.99
 Western Pacific,China,2016,Both sexes,6.99
 Western Pacific,Laos,2009,Both sexes,6.99
-Africa,Gambia,2012,Female,7.00
-Americas,Bolivia,2010,Both sexes,7.00
-Europe,Hungary,2013,Female,7.00
-Europe,Tajikistan,2010,Male,7.00
+Africa,Gambia,2012,Female,7
+Americas,Bolivia,2010,Both sexes,7
+Europe,Hungary,2013,Female,7
+Europe,Tajikistan,2010,Male,7
 Americas,Uruguay,2014,Female,7.01
 Americas,Guatemala,2012,Both sexes,7.01
 Europe,Cyprus,2014,Male,7.01
@@ -2736,8 +2736,8 @@ South-East Asia,Sri Lanka,2012,Female,7.08
 Western Pacific,China,2015,Both sexes,7.08
 Eastern Mediterranean,Yemen,2018,Both sexes,7.09
 South-East Asia,Bangladesh,2010,Male,7.09
-Africa,Burundi,2015,Female,7.10
-Africa,Zambia,2015,Female,7.10
+Africa,Burundi,2015,Female,7.1
+Africa,Zambia,2015,Female,7.1
 Eastern Mediterranean,Yemen,2013,Both sexes,7.11
 Europe,Turkmenistan,2014,Both sexes,7.11
 Europe,Finland,2011,Female,7.11
@@ -2774,16 +2774,16 @@ Africa,Mauritania,2013,Male,7.18
 Eastern Mediterranean,United Arab Emirates,2012,Male,7.18
 Europe,France,2010,Female,7.18
 Western Pacific,Tonga,2012,Male,7.18
-Africa,Mauritania,2017,Male,7.20
-Africa,Mauritania,2010,Male,7.20
-Americas,Bolivia,2015,Both sexes,7.20
-Americas,Panama,2014,Male,7.20
-Eastern Mediterranean,Bahrain,2019,Both sexes,7.20
-Eastern Mediterranean,Somalia,2016,Female,7.20
-Eastern Mediterranean,Yemen,2011,Both sexes,7.20
-Europe,Cyprus,2016,Male,7.20
-Europe,Georgia,2011,Both sexes,7.20
-Europe,Sweden,2011,Female,7.20
+Africa,Mauritania,2017,Male,7.2
+Africa,Mauritania,2010,Male,7.2
+Americas,Bolivia,2015,Both sexes,7.2
+Americas,Panama,2014,Male,7.2
+Eastern Mediterranean,Bahrain,2019,Both sexes,7.2
+Eastern Mediterranean,Somalia,2016,Female,7.2
+Eastern Mediterranean,Yemen,2011,Both sexes,7.2
+Europe,Cyprus,2016,Male,7.2
+Europe,Georgia,2011,Both sexes,7.2
+Europe,Sweden,2011,Female,7.2
 Eastern Mediterranean,Somalia,2017,Female,7.21
 Eastern Mediterranean,Yemen,2012,Both sexes,7.21
 Europe,Serbia,2009,Female,7.21
@@ -2825,10 +2825,10 @@ Americas,Costa Rica,2016,Both sexes,7.29
 Eastern Mediterranean,Morocco,2019,Both sexes,7.29
 South-East Asia,Thailand,2010,Both sexes,7.29
 Western Pacific,Tonga,2015,Male,7.29
-Africa,Seychelles,2013,Both sexes,7.30
-Eastern Mediterranean,Morocco,2018,Both sexes,7.30
-Western Pacific,Singapore,2016,Both sexes,7.30
-Western Pacific,Vietnam,2010,Both sexes,7.30
+Africa,Seychelles,2013,Both sexes,7.3
+Eastern Mediterranean,Morocco,2018,Both sexes,7.3
+Western Pacific,Singapore,2016,Both sexes,7.3
+Western Pacific,Vietnam,2010,Both sexes,7.3
 Africa,Nigeria,2015,Both sexes,7.31
 Eastern Mediterranean,Djibouti,2012,Female,7.31
 Eastern Mediterranean,Djibouti,2010,Female,7.31
@@ -2871,8 +2871,8 @@ Western Pacific,Vietnam,2018,Both sexes,7.37
 Europe,Portugal,2016,Both sexes,7.38
 Africa,Mauritania,2019,Male,7.39
 Western Pacific,Vietnam,2011,Both sexes,7.39
-Eastern Mediterranean,Iraq,2018,Male,7.40
-South-East Asia,Bangladesh,2009,Male,7.40
+Eastern Mediterranean,Iraq,2018,Male,7.4
+South-East Asia,Bangladesh,2009,Male,7.4
 Africa,Burundi,2014,Female,7.41
 Eastern Mediterranean,Morocco,2016,Both sexes,7.41
 Africa,Liberia,2018,Both sexes,7.42
@@ -2904,11 +2904,11 @@ Americas,Nicaragua,2012,Male,7.49
 Eastern Mediterranean,Somalia,2009,Female,7.49
 South-East Asia,Thailand,2017,Both sexes,7.49
 South-East Asia,North Korea,2010,Female,7.49
-Africa,Guinea-Bissau,2012,Female,7.50
-Europe,Portugal,2018,Both sexes,7.50
-Europe,Cyprus,2010,Male,7.50
-South-East Asia,North Korea,2011,Female,7.50
-Western Pacific,Vietnam,2017,Both sexes,7.50
+Africa,Guinea-Bissau,2012,Female,7.5
+Europe,Portugal,2018,Both sexes,7.5
+Europe,Cyprus,2010,Male,7.5
+South-East Asia,North Korea,2011,Female,7.5
+Western Pacific,Vietnam,2017,Both sexes,7.5
 Africa,Mauritius,2015,Both sexes,7.51
 Africa,Seychelles,2014,Both sexes,7.52
 Europe,Hungary,2012,Female,7.52
@@ -2934,9 +2934,9 @@ Africa,Burkina Faso,2010,Female,7.59
 Americas,Panama,2010,Male,7.59
 Europe,Iceland,2009,Female,7.59
 South-East Asia,Thailand,2016,Both sexes,7.59
-Africa,Ethiopia,2010,Female,7.60
-Eastern Mediterranean,Djibouti,2016,Female,7.60
-Eastern Mediterranean,Djibouti,2014,Female,7.60
+Africa,Ethiopia,2010,Female,7.6
+Eastern Mediterranean,Djibouti,2016,Female,7.6
+Eastern Mediterranean,Djibouti,2014,Female,7.6
 Eastern Mediterranean,Iran,2009,Male,7.61
 Western Pacific,Vietnam,2015,Both sexes,7.61
 Africa,Liberia,2016,Both sexes,7.62
@@ -2977,7 +2977,7 @@ Europe,Malta,2017,Male,7.68
 Europe,Finland,2013,Female,7.68
 Western Pacific,Malaysia,2014,Male,7.68
 Americas,Saint Lucia,2013,Both sexes,7.69
-Eastern Mediterranean,Iraq,2010,Male,7.70
+Eastern Mediterranean,Iraq,2010,Male,7.7
 Africa,Liberia,2015,Both sexes,7.71
 Africa,Burkina Faso,2009,Female,7.71
 Americas,Belize,2017,Both sexes,7.71
@@ -3012,8 +3012,8 @@ Eastern Mediterranean,Iran,2010,Male,7.79
 Europe,Russia,2018,Female,7.79
 Europe,Israel,2017,Male,7.79
 Europe,Armenia,2009,Male,7.79
-Americas,Nicaragua,2016,Male,7.80
-Western Pacific,Samoa,2019,Female,7.80
+Americas,Nicaragua,2016,Male,7.8
+Western Pacific,Samoa,2019,Female,7.8
 Africa,Sierra Leone,2016,Female,7.81
 Africa,Guinea-Bissau,2011,Female,7.81
 Europe,United Kingdom,2015,Both sexes,7.81
@@ -3046,12 +3046,12 @@ Americas,Saint Lucia,2015,Both sexes,7.89
 Western Pacific,Samoa,2018,Female,7.89
 Western Pacific,Samoa,2012,Female,7.89
 Western Pacific,Malaysia,2011,Male,7.89
-Africa,Chad,2009,Female,7.90
-Eastern Mediterranean,Morocco,2014,Both sexes,7.90
-Europe,Israel,2013,Male,7.90
-Europe,Bulgaria,2011,Both sexes,7.90
-South-East Asia,Thailand,2018,Both sexes,7.90
-Western Pacific,Malaysia,2015,Male,7.90
+Africa,Chad,2009,Female,7.9
+Eastern Mediterranean,Morocco,2014,Both sexes,7.9
+Europe,Israel,2013,Male,7.9
+Europe,Bulgaria,2011,Both sexes,7.9
+South-East Asia,Thailand,2018,Both sexes,7.9
+Western Pacific,Malaysia,2015,Male,7.9
 Africa,Sierra Leone,2017,Female,7.91
 Europe,Israel,2014,Male,7.91
 Africa,Togo,2014,Female,7.92
@@ -3078,9 +3078,9 @@ Africa,Sierra Leone,2013,Female,7.99
 Eastern Mediterranean,Saudi Arabia,2018,Male,7.99
 Eastern Mediterranean,Iraq,2016,Male,7.99
 Europe,Spain,2011,Male,7.99
-Africa,Guinea,2018,Female,8.00
-Africa,Guinea-Bissau,2009,Female,8.00
-Western Pacific,Samoa,2016,Female,8.00
+Africa,Guinea,2018,Female,8
+Africa,Guinea-Bissau,2009,Female,8
+Western Pacific,Samoa,2016,Female,8
 Africa,Nigeria,2013,Both sexes,8.01
 Americas,Paraguay,2014,Male,8.01
 Europe,Russia,2017,Female,8.01
@@ -3113,11 +3113,11 @@ Eastern Mediterranean,Iran,2018,Male,8.08
 Europe,Montenegro,2018,Female,8.08
 Europe,Spain,2010,Male,8.08
 Europe,Iceland,2014,Female,8.09
-Africa,Togo,2013,Female,8.10
-Americas,Argentina,2015,Both sexes,8.10
-Eastern Mediterranean,Iraq,2015,Male,8.10
-Europe,Montenegro,2016,Female,8.10
-Europe,Sweden,2013,Female,8.10
+Africa,Togo,2013,Female,8.1
+Americas,Argentina,2015,Both sexes,8.1
+Eastern Mediterranean,Iraq,2015,Male,8.1
+Europe,Montenegro,2016,Female,8.1
+Europe,Sweden,2013,Female,8.1
 Africa,Sierra Leone,2018,Female,8.11
 Americas,Mexico,2009,Male,8.11
 Europe,Bosnia and Herz.,2012,Both sexes,8.11
@@ -3143,9 +3143,9 @@ Europe,Denmark,2018,Both sexes,8.18
 Europe,Montenegro,2010,Female,8.18
 Africa,Mauritius,2018,Both sexes,8.19
 South-East Asia,North Korea,2018,Both sexes,8.19
-Europe,Bosnia and Herz.,2014,Both sexes,8.20
-South-East Asia,North Korea,2019,Both sexes,8.20
-Western Pacific,Malaysia,2016,Male,8.20
+Europe,Bosnia and Herz.,2014,Both sexes,8.2
+South-East Asia,North Korea,2019,Both sexes,8.2
+Western Pacific,Malaysia,2016,Male,8.2
 Americas,Saint Lucia,2012,Both sexes,8.21
 Americas,Brazil,2011,Male,8.21
 Africa,Guinea,2010,Female,8.22
@@ -3180,9 +3180,9 @@ Europe,Malta,2018,Male,8.28
 Europe,Denmark,2017,Both sexes,8.28
 Africa,Mali,2016,Both sexes,8.29
 Africa,Equatorial Guinea,2013,Female,8.29
-Africa,Sierra Leone,2012,Female,8.30
-Europe,Bosnia and Herz.,2010,Both sexes,8.30
-Europe,Uzbekistan,2010,Both sexes,8.30
+Africa,Sierra Leone,2012,Female,8.3
+Europe,Bosnia and Herz.,2010,Both sexes,8.3
+Europe,Uzbekistan,2010,Both sexes,8.3
 Africa,Guinea,2017,Female,8.31
 Africa,Guinea,2014,Female,8.31
 Europe,Portugal,2015,Both sexes,8.31
@@ -3214,10 +3214,10 @@ Western Pacific,Cambodia,2019,Male,8.38
 Africa,Guinea,2011,Female,8.39
 Americas,Chile,2017,Both sexes,8.39
 Americas,Paraguay,2015,Male,8.39
-Africa,Zambia,2009,Female,8.40
-Europe,Netherlands,2011,Both sexes,8.40
-Western Pacific,Japan,2015,Female,8.40
-Western Pacific,China,2009,Female,8.40
+Africa,Zambia,2009,Female,8.4
+Europe,Netherlands,2011,Both sexes,8.4
+Western Pacific,Japan,2015,Female,8.4
+Western Pacific,China,2009,Female,8.4
 Europe,Belgium,2019,Female,8.41
 Europe,Spain,2016,Male,8.41
 Europe,Montenegro,2014,Female,8.41
@@ -3249,9 +3249,9 @@ Africa,Eritrea,2018,Female,8.49
 Eastern Mediterranean,Saudi Arabia,2015,Male,8.49
 Europe,Montenegro,2012,Female,8.49
 Western Pacific,Singapore,2013,Both sexes,8.49
-Africa,Liberia,2013,Both sexes,8.50
-Africa,Zambia,2013,Female,8.50
-Americas,Trinidad and Tobago,2018,Both sexes,8.50
+Africa,Liberia,2013,Both sexes,8.5
+Africa,Zambia,2013,Female,8.5
+Americas,Trinidad and Tobago,2018,Both sexes,8.5
 Africa,Comoros,2013,Both sexes,8.51
 Africa,Togo,2011,Female,8.51
 Europe,Belgium,2018,Female,8.51
@@ -3277,8 +3277,8 @@ Americas,Brazil,2013,Male,8.58
 Europe,Georgia,2014,Both sexes,8.58
 Eastern Mediterranean,Iran,2017,Male,8.59
 Europe,Belarus,2011,Female,8.59
-Africa,Mauritius,2009,Both sexes,8.60
-Western Pacific,Malaysia,2017,Male,8.60
+Africa,Mauritius,2009,Both sexes,8.6
+Western Pacific,Malaysia,2017,Male,8.6
 Africa,Togo,2009,Female,8.61
 Africa,Equatorial Guinea,2017,Female,8.62
 Africa,Comoros,2012,Both sexes,8.62
@@ -3308,11 +3308,11 @@ Africa,Mali,2010,Both sexes,8.69
 Americas,Mexico,2019,Male,8.69
 Americas,Argentina,2017,Both sexes,8.69
 Eastern Mediterranean,Yemen,2015,Male,8.69
-Africa,Mozambique,2016,Female,8.70
-Africa,Cameroon,2012,Female,8.70
-Africa,Zambia,2012,Female,8.70
-Eastern Mediterranean,Bahrain,2012,Male,8.70
-Europe,Russia,2016,Female,8.70
+Africa,Mozambique,2016,Female,8.7
+Africa,Cameroon,2012,Female,8.7
+Africa,Zambia,2012,Female,8.7
+Eastern Mediterranean,Bahrain,2012,Male,8.7
+Europe,Russia,2016,Female,8.7
 Americas,Haiti,2016,Female,8.71
 Europe,Ireland,2015,Both sexes,8.71
 Africa,Comoros,2016,Both sexes,8.72
@@ -3339,8 +3339,8 @@ Western Pacific,Cambodia,2015,Male,8.78
 Africa,Nigeria,2010,Both sexes,8.79
 Europe,Georgia,2015,Both sexes,8.79
 Western Pacific,China,2018,Male,8.79
-Africa,Comoros,2015,Both sexes,8.80
-Europe,Belgium,2014,Female,8.80
+Africa,Comoros,2015,Both sexes,8.8
+Europe,Belgium,2014,Female,8.8
 Africa,Cameroon,2014,Female,8.81
 Eastern Mediterranean,Saudi Arabia,2011,Male,8.81
 Africa,Mozambique,2018,Female,8.82
@@ -3372,11 +3372,11 @@ Europe,Netherlands,2012,Both sexes,8.88
 Europe,Israel,2011,Male,8.88
 Africa,Eritrea,2015,Female,8.89
 Africa,Equatorial Guinea,2014,Female,8.89
-Americas,Brazil,2015,Male,8.90
-Americas,Ecuador,2014,Both sexes,8.90
-Europe,Ireland,2019,Both sexes,8.90
-Europe,Luxembourg,2009,Both sexes,8.90
-Western Pacific,China,2017,Male,8.90
+Americas,Brazil,2015,Male,8.9
+Americas,Ecuador,2014,Both sexes,8.9
+Europe,Ireland,2019,Both sexes,8.9
+Europe,Luxembourg,2009,Both sexes,8.9
+Western Pacific,China,2017,Male,8.9
 Americas,Paraguay,2018,Male,8.91
 Americas,Mexico,2013,Male,8.91
 Eastern Mediterranean,Bahrain,2016,Male,8.91
@@ -3416,11 +3416,11 @@ Europe,Germany,2012,Both sexes,8.98
 Western Pacific,China,2016,Male,8.98
 Americas,Argentina,2018,Both sexes,8.99
 Eastern Mediterranean,Yemen,2016,Male,8.99
-Africa,Liberia,2018,Male,9.00
-Americas,Paraguay,2019,Male,9.00
-Eastern Mediterranean,Saudi Arabia,2014,Male,9.00
-Europe,Germany,2015,Both sexes,9.00
-Europe,Lithuania,2012,Female,9.00
+Africa,Liberia,2018,Male,9
+Americas,Paraguay,2019,Male,9
+Eastern Mediterranean,Saudi Arabia,2014,Male,9
+Europe,Germany,2015,Both sexes,9
+Europe,Lithuania,2012,Female,9
 Africa,Comoros,2010,Both sexes,9.01
 Western Pacific,Vanuatu,2019,Female,9.01
 Western Pacific,Vanuatu,2015,Female,9.01
@@ -3475,8 +3475,8 @@ Europe,Malta,2013,Male,9.18
 Europe,Germany,2014,Both sexes,9.19
 South-East Asia,North Korea,2010,Both sexes,9.19
 Western Pacific,Vanuatu,2011,Female,9.19
-Americas,Trinidad and Tobago,2011,Both sexes,9.20
-Europe,Uzbekistan,2015,Both sexes,9.20
+Americas,Trinidad and Tobago,2011,Both sexes,9.2
+Europe,Uzbekistan,2015,Both sexes,9.2
 Americas,Dominican Rep.,2011,Male,9.21
 Europe,Uzbekistan,2016,Both sexes,9.21
 Africa,Zambia,2010,Female,9.22
@@ -3507,10 +3507,10 @@ Europe,Netherlands,2019,Both sexes,9.27
 Western Pacific,China,2014,Male,9.27
 Eastern Mediterranean,Yemen,2010,Male,9.28
 Europe,Netherlands,2014,Both sexes,9.28
-Africa,Central African Rep.,2019,Female,9.30
-Europe,Poland,2019,Both sexes,9.30
-Europe,Belgium,2009,Female,9.30
-Western Pacific,Cambodia,2012,Male,9.30
+Africa,Central African Rep.,2019,Female,9.3
+Europe,Poland,2019,Both sexes,9.3
+Europe,Belgium,2009,Female,9.3
+Western Pacific,Cambodia,2012,Male,9.3
 Europe,Slovakia,2019,Both sexes,9.31
 Europe,Netherlands,2015,Both sexes,9.31
 Africa,Mozambique,2014,Female,9.32
@@ -3530,10 +3530,10 @@ Africa,Cameroon,2010,Female,9.37
 Americas,Mexico,2016,Male,9.37
 Americas,Haiti,2013,Female,9.37
 Europe,Ireland,2016,Both sexes,9.37
-Africa,Liberia,2019,Male,9.40
-Americas,Bolivia,2009,Male,9.40
-Europe,Russia,2012,Female,9.40
-Western Pacific,Laos,2010,Male,9.40
+Africa,Liberia,2019,Male,9.4
+Americas,Bolivia,2009,Male,9.4
+Europe,Russia,2012,Female,9.4
+Western Pacific,Laos,2010,Male,9.4
 Americas,Dominican Rep.,2009,Male,9.41
 Europe,Turkmenistan,2019,Male,9.41
 Europe,Israel,2009,Male,9.41
@@ -3560,9 +3560,9 @@ Europe,Czechia,2019,Both sexes,9.48
 Americas,Nicaragua,2011,Male,9.49
 Eastern Mediterranean,Morocco,2011,Both sexes,9.49
 Western Pacific,Vanuatu,2010,Female,9.49
-Africa,Central African Rep.,2018,Female,9.50
-Americas,Mexico,2014,Male,9.50
-Europe,Germany,2010,Both sexes,9.50
+Africa,Central African Rep.,2018,Female,9.5
+Americas,Mexico,2014,Male,9.5
+Europe,Germany,2010,Both sexes,9.5
 Americas,Bolivia,2011,Male,9.51
 Western Pacific,Fiji,2019,Both sexes,9.51
 Africa,Rwanda,2018,Both sexes,9.52
@@ -3578,12 +3578,12 @@ Europe,Kyrgyzstan,2016,Both sexes,9.58
 Africa,Mauritius,2017,Both sexes,9.59
 Africa,Equatorial Guinea,2009,Female,9.59
 Western Pacific,China,2010,Both sexes,9.59
-Africa,Botswana,2016,Female,9.60
-Africa,Cameroon,2009,Female,9.60
-Americas,Bolivia,2019,Male,9.60
-Americas,Haiti,2012,Female,9.60
-Eastern Mediterranean,Yemen,2009,Male,9.60
-Europe,Turkmenistan,2009,Both sexes,9.60
+Africa,Botswana,2016,Female,9.6
+Africa,Cameroon,2009,Female,9.6
+Americas,Bolivia,2019,Male,9.6
+Americas,Haiti,2012,Female,9.6
+Eastern Mediterranean,Yemen,2009,Male,9.6
+Europe,Turkmenistan,2009,Both sexes,9.6
 Africa,Central African Rep.,2016,Female,9.61
 Americas,Bolivia,2014,Male,9.61
 Europe,Netherlands,2017,Both sexes,9.61
@@ -3616,7 +3616,7 @@ Western Pacific,Japan,2012,Female,9.68
 South-East Asia,Nepal,2018,Both sexes,9.69
 Western Pacific,Kiribati,2017,Female,9.69
 Western Pacific,Cambodia,2009,Male,9.69
-Europe,Kazakhstan,2011,Female,9.70
+Europe,Kazakhstan,2011,Female,9.7
 Western Pacific,Fiji,2018,Both sexes,9.72
 Africa,Rwanda,2016,Both sexes,9.73
 Africa,Congo,2012,Female,9.73
@@ -3637,8 +3637,8 @@ Western Pacific,Kiribati,2016,Female,9.78
 Africa,Madagascar,2014,Both sexes,9.79
 Africa,Madagascar,2013,Both sexes,9.79
 Eastern Mediterranean,Pakistan,2018,Both sexes,9.79
-Americas,Nicaragua,2013,Male,9.80
-Europe,Slovakia,2015,Both sexes,9.80
+Americas,Nicaragua,2013,Male,9.8
+Europe,Slovakia,2015,Both sexes,9.8
 Africa,South Africa,2018,Female,9.81
 Africa,Tanzania,2010,Both sexes,9.81
 Europe,Denmark,2009,Both sexes,9.81
@@ -3681,8 +3681,8 @@ Eastern Mediterranean,Pakistan,2017,Both sexes,9.98
 Eastern Mediterranean,Pakistan,2013,Both sexes,9.98
 Europe,Turkmenistan,2015,Male,9.99
 Western Pacific,Kiribati,2014,Female,9.99
-Africa,S. Sudan,2016,Male,10.00
-Africa,Botswana,2013,Female,10.00
+Africa,S. Sudan,2016,Male,10
+Africa,Botswana,2013,Female,10
 Americas,Ecuador,2011,Both sexes,10.01
 Europe,Switzerland,2014,Both sexes,10.01
 Western Pacific,Fiji,2015,Both sexes,10.01
@@ -3711,7 +3711,7 @@ Eastern Mediterranean,Morocco,2019,Male,10.07
 Europe,Israel,2012,Male,10.08
 Americas,El Salvador,2014,Male,10.09
 Western Pacific,China,2009,Both sexes,10.09
-Eastern Mediterranean,Morocco,2015,Male,10.10
+Eastern Mediterranean,Morocco,2015,Male,10.1
 Europe,Kazakhstan,2010,Female,10.11
 Europe,Iceland,2018,Both sexes,10.12
 Western Pacific,Fiji,2010,Both sexes,10.12
@@ -3764,8 +3764,8 @@ Europe,Norway,2013,Both sexes,10.29
 Europe,Russia,2010,Female,10.29
 Western Pacific,Kiribati,2010,Female,10.29
 Western Pacific,Japan,2010,Female,10.29
-Eastern Mediterranean,Pakistan,2009,Both sexes,10.30
-Western Pacific,New Zealand,2019,Both sexes,10.30
+Eastern Mediterranean,Pakistan,2009,Both sexes,10.3
+Western Pacific,New Zealand,2019,Both sexes,10.3
 Americas,Guatemala,2019,Male,10.31
 Western Pacific,Kiribati,2011,Female,10.31
 Americas,Brazil,2019,Male,10.32
@@ -3797,11 +3797,11 @@ Africa,Central African Rep.,2015,Female,10.39
 Africa,Botswana,2012,Female,10.39
 Africa,S. Sudan,2012,Male,10.39
 Africa,Niger,2010,Both sexes,10.39
-Europe,Austria,2019,Both sexes,10.40
-Europe,United Kingdom,2019,Male,10.40
-Europe,Poland,2018,Both sexes,10.40
-Europe,France,2017,Both sexes,10.40
-Europe,Kazakhstan,2009,Female,10.40
+Europe,Austria,2019,Both sexes,10.4
+Europe,United Kingdom,2019,Male,10.4
+Europe,Poland,2018,Both sexes,10.4
+Europe,France,2017,Both sexes,10.4
+Europe,Kazakhstan,2009,Female,10.4
 Africa,South Africa,2015,Female,10.41
 Americas,Brazil,2018,Male,10.41
 Europe,Slovakia,2011,Both sexes,10.41
@@ -3825,12 +3825,12 @@ Western Pacific,Australia,2012,Both sexes,10.48
 Europe,Czechia,2015,Both sexes,10.49
 Europe,Switzerland,2012,Both sexes,10.49
 Western Pacific,Japan,2009,Female,10.49
-Africa,Mali,2017,Male,10.50
-Americas,Canada,2018,Both sexes,10.50
-Europe,Switzerland,2015,Both sexes,10.50
-Europe,Ireland,2014,Both sexes,10.50
-Europe,Ireland,2013,Both sexes,10.50
-Western Pacific,Fiji,2012,Both sexes,10.50
+Africa,Mali,2017,Male,10.5
+Americas,Canada,2018,Both sexes,10.5
+Europe,Switzerland,2015,Both sexes,10.5
+Europe,Ireland,2014,Both sexes,10.5
+Europe,Ireland,2013,Both sexes,10.5
+Western Pacific,Fiji,2012,Both sexes,10.5
 Europe,Bulgaria,2018,Male,10.51
 Europe,Switzerland,2011,Both sexes,10.51
 Western Pacific,Fiji,2013,Both sexes,10.51
@@ -3857,9 +3857,9 @@ Americas,Trinidad and Tobago,2010,Both sexes,10.59
 Europe,Norway,2015,Both sexes,10.59
 South-East Asia,Nepal,2012,Both sexes,10.59
 Western Pacific,New Zealand,2014,Both sexes,10.59
-Africa,Kenya,2017,Both sexes,10.60
-Africa,Liberia,2010,Male,10.60
-South-East Asia,North Korea,2018,Male,10.60
+Africa,Kenya,2017,Both sexes,10.6
+Africa,Liberia,2010,Male,10.6
+South-East Asia,North Korea,2018,Male,10.6
 Europe,Luxembourg,2017,Male,10.62
 Africa,Kenya,2015,Both sexes,10.64
 Africa,Gambia,2010,Both sexes,10.64
@@ -3874,9 +3874,9 @@ Americas,Costa Rica,2015,Male,10.69
 Europe,Iceland,2011,Both sexes,10.69
 South-East Asia,India,2017,Female,10.69
 Western Pacific,Vietnam,2010,Male,10.69
-Africa,Liberia,2012,Male,10.70
-Europe,France,2016,Both sexes,10.70
-Europe,Switzerland,2013,Both sexes,10.70
+Africa,Liberia,2012,Male,10.7
+Europe,France,2016,Both sexes,10.7
+Europe,Switzerland,2013,Both sexes,10.7
 Africa,Gambia,2013,Both sexes,10.71
 Europe,Bulgaria,2016,Male,10.71
 Europe,Romania,2010,Both sexes,10.71
@@ -3892,9 +3892,9 @@ Africa,Liberia,2011,Male,10.78
 Europe,United Kingdom,2018,Male,10.78
 Africa,Ghana,2018,Both sexes,10.79
 South-East Asia,India,2016,Female,10.79
-Africa,South Africa,2012,Female,10.80
-Africa,Gambia,2012,Both sexes,10.80
-South-East Asia,Thailand,2013,Male,10.80
+Africa,South Africa,2012,Female,10.8
+Africa,Gambia,2012,Both sexes,10.8
+South-East Asia,Thailand,2013,Male,10.8
 Europe,United Kingdom,2010,Male,10.81
 Americas,Haiti,2010,Female,10.82
 Western Pacific,Vietnam,2018,Male,10.82
@@ -3926,9 +3926,9 @@ Western Pacific,Japan,2011,Female,10.98
 Africa,Senegal,2019,Both sexes,10.99
 Europe,Malta,2009,Male,10.99
 Western Pacific,New Zealand,2011,Both sexes,10.99
-Americas,El Salvador,2018,Male,11.00
-Americas,Chile,2011,Both sexes,11.00
-Europe,Lithuania,2013,Female,11.00
+Americas,El Salvador,2018,Male,11
+Americas,Chile,2011,Both sexes,11
+Europe,Lithuania,2013,Female,11
 Africa,Kenya,2019,Both sexes,11.01
 Americas,Chile,2010,Both sexes,11.01
 Europe,Croatia,2019,Both sexes,11.01
@@ -3947,10 +3947,10 @@ Africa,Kenya,2014,Both sexes,11.08
 Americas,Cuba,2009,Both sexes,11.08
 Europe,Norway,2016,Both sexes,11.08
 Europe,Netherlands,2009,Male,11.09
-Europe,Denmark,2019,Male,11.10
-Europe,Macedonia,2018,Male,11.10
-Europe,Croatia,2018,Both sexes,11.10
-Europe,United Kingdom,2017,Male,11.10
+Europe,Denmark,2019,Male,11.1
+Europe,Macedonia,2018,Male,11.1
+Europe,Croatia,2018,Both sexes,11.1
+Europe,United Kingdom,2017,Male,11.1
 Africa,Mozambique,2012,Female,11.12
 South-East Asia,India,2019,Female,11.12
 Western Pacific,Vietnam,2012,Male,11.12
@@ -3976,9 +3976,9 @@ Europe,Ireland,2010,Both sexes,11.17
 South-East Asia,North Korea,2017,Male,11.17
 Western Pacific,South Korea,2017,Female,11.17
 Europe,Austria,2018,Both sexes,11.19
-Africa,Sierra Leone,2018,Both sexes,11.20
-Americas,Costa Rica,2011,Male,11.20
-Europe,Czechia,2017,Both sexes,11.20
+Africa,Sierra Leone,2018,Both sexes,11.2
+Americas,Costa Rica,2011,Male,11.2
+Europe,Czechia,2017,Both sexes,11.2
 Europe,Macedonia,2016,Male,11.21
 Africa,Mali,2010,Male,11.22
 Western Pacific,Vietnam,2016,Male,11.22
@@ -3994,7 +3994,7 @@ Western Pacific,Australia,2018,Both sexes,11.26
 Africa,Mali,2011,Male,11.27
 Africa,Mali,2013,Male,11.29
 Western Pacific,Vietnam,2015,Male,11.29
-Europe,United Kingdom,2009,Male,11.30
+Europe,United Kingdom,2009,Male,11.3
 Africa,Ghana,2017,Both sexes,11.31
 Africa,Nigeria,2014,Male,11.31
 South-East Asia,India,2014,Female,11.31
@@ -4013,7 +4013,7 @@ Americas,Haiti,2018,Both sexes,11.37
 Europe,Poland,2016,Both sexes,11.37
 Europe,Norway,2009,Both sexes,11.37
 Europe,Austria,2015,Both sexes,11.39
-Africa,Uganda,2014,Both sexes,11.40
+Africa,Uganda,2014,Both sexes,11.4
 Americas,United States of America,2009,Both sexes,11.42
 Europe,Kyrgyzstan,2013,Both sexes,11.42
 South-East Asia,North Korea,2009,Male,11.43
@@ -4031,10 +4031,10 @@ Europe,France,2015,Both sexes,11.48
 Europe,Kyrgyzstan,2014,Both sexes,11.48
 South-East Asia,North Korea,2012,Male,11.49
 South-East Asia,Thailand,2012,Male,11.49
-Africa,Rwanda,2010,Both sexes,11.50
-Europe,Macedonia,2014,Male,11.50
-Europe,Netherlands,2010,Male,11.50
-South-East Asia,Sri Lanka,2010,Female,11.50
+Africa,Rwanda,2010,Both sexes,11.5
+Europe,Macedonia,2014,Male,11.5
+Europe,Netherlands,2010,Male,11.5
+South-East Asia,Sri Lanka,2010,Female,11.5
 Americas,Costa Rica,2018,Male,11.51
 Western Pacific,New Zealand,2016,Both sexes,11.52
 Africa,Senegal,2016,Both sexes,11.53
@@ -4049,7 +4049,7 @@ Africa,Kenya,2013,Both sexes,11.57
 Europe,United Kingdom,2011,Male,11.57
 Europe,Portugal,2019,Male,11.58
 South-East Asia,North Korea,2013,Male,11.58
-Western Pacific,Singapore,2012,Male,11.60
+Western Pacific,Singapore,2012,Male,11.6
 Africa,Congo,2019,Both sexes,11.62
 Africa,Congo,2018,Both sexes,11.63
 South-East Asia,North Korea,2014,Male,11.63
@@ -4066,8 +4066,8 @@ Africa,Comoros,2016,Male,11.68
 Americas,Canada,2017,Both sexes,11.68
 Europe,Serbia,2015,Both sexes,11.69
 South-East Asia,Thailand,2010,Male,11.69
-Africa,South Africa,2011,Female,11.70
-Europe,Czechia,2014,Both sexes,11.70
+Africa,South Africa,2011,Female,11.7
+Europe,Czechia,2014,Both sexes,11.7
 Americas,Suriname,2014,Female,11.71
 Americas,Costa Rica,2010,Male,11.71
 Europe,Netherlands,2011,Male,11.71
@@ -4115,8 +4115,8 @@ Africa,Congo,2017,Both sexes,11.89
 Africa,Eswatini,2015,Female,11.89
 Eastern Mediterranean,Djibouti,2015,Both sexes,11.89
 Europe,Austria,2009,Both sexes,11.89
-Americas,Belize,2013,Male,11.90
-Eastern Mediterranean,Djibouti,2012,Both sexes,11.90
+Americas,Belize,2013,Male,11.9
+Eastern Mediterranean,Djibouti,2012,Both sexes,11.9
 Europe,Denmark,2018,Male,11.91
 Europe,United Kingdom,2014,Male,11.91
 Europe,Kyrgyzstan,2012,Both sexes,11.92
@@ -4133,8 +4133,8 @@ Africa,Senegal,2014,Both sexes,11.97
 Americas,Haiti,2015,Both sexes,11.97
 Africa,Nigeria,2013,Male,11.99
 Europe,Turkmenistan,2011,Male,11.99
-Americas,Haiti,2014,Both sexes,12.00
-Europe,Sweden,2011,Both sexes,12.00
+Americas,Haiti,2014,Both sexes,12
+Europe,Sweden,2011,Both sexes,12
 Americas,United States of America,2011,Both sexes,12.01
 Europe,United Kingdom,2015,Male,12.01
 Europe,Sweden,2010,Both sexes,12.01
@@ -4149,13 +4149,13 @@ Europe,Austria,2014,Both sexes,12.04
 Europe,Malta,2010,Male,12.04
 Africa,Rwanda,2009,Both sexes,12.06
 Americas,United States of America,2012,Both sexes,12.06
-Western Pacific,Micronesia (Federated States of),2010,Female,12.06
+Western Pacific,Micronesia,2010,Female,12.06
 South-East Asia,India,2013,Female,12.07
 Eastern Mediterranean,Djibouti,2016,Both sexes,12.08
 Africa,Congo,2016,Both sexes,12.09
 Americas,Suriname,2009,Female,12.09
-Western Pacific,Micronesia (Federated States of),2009,Female,12.09
-Europe,Switzerland,2009,Both sexes,12.10
+Western Pacific,Micronesia,2009,Female,12.09
+Europe,Switzerland,2009,Both sexes,12.1
 Americas,Saint Lucia,2016,Male,12.11
 South-East Asia,Thailand,2015,Male,12.11
 Africa,Burundi,2019,Both sexes,12.12
@@ -4178,9 +4178,9 @@ Americas,Belize,2015,Male,12.18
 Americas,Haiti,2012,Both sexes,12.18
 Africa,Botswana,2009,Female,12.19
 Eastern Mediterranean,Djibouti,2014,Both sexes,12.19
-Africa,Mauritius,2018,Male,12.20
-Africa,Senegal,2012,Both sexes,12.20
-Europe,Netherlands,2012,Male,12.20
+Africa,Mauritius,2018,Male,12.2
+Africa,Senegal,2012,Both sexes,12.2
+Europe,Netherlands,2012,Male,12.2
 Europe,Austria,2010,Both sexes,12.21
 Europe,Serbia,2019,Male,12.22
 South-East Asia,North Korea,2015,Male,12.22
@@ -4206,7 +4206,7 @@ Eastern Mediterranean,Djibouti,2017,Both sexes,12.32
 Africa,Guinea,2019,Both sexes,12.33
 Africa,Angola,2018,Both sexes,12.35
 Western Pacific,New Zealand,2012,Both sexes,12.35
-Western Pacific,Micronesia (Federated States of),2011,Female,12.35
+Western Pacific,Micronesia,2011,Female,12.35
 Africa,Angola,2017,Both sexes,12.36
 Africa,Senegal,2010,Both sexes,12.37
 Europe,Sweden,2019,Both sexes,12.37
@@ -4218,20 +4218,20 @@ Africa,Congo,2018,Both sexes,12.39
 Africa,Central African Rep.,2009,Female,12.39
 Africa,Senegal,2009,Both sexes,12.39
 Europe,Kyrgyzstan,2010,Both sexes,12.39
-Africa,Ghana,2014,Both sexes,12.40
-Americas,United States of America,2014,Both sexes,12.40
-Europe,Croatia,2014,Both sexes,12.40
-Western Pacific,South Korea,2018,Female,12.40
-Western Pacific,Micronesia (Federated States of),2014,Female,12.40
+Africa,Ghana,2014,Both sexes,12.4
+Americas,United States of America,2014,Both sexes,12.4
+Europe,Croatia,2014,Both sexes,12.4
+Western Pacific,South Korea,2018,Female,12.4
+Western Pacific,Micronesia,2014,Female,12.4
 Africa,Congo,2019,Both sexes,12.41
 Americas,Costa Rica,2016,Male,12.41
 Europe,Luxembourg,2012,Male,12.42
 Europe,Serbia,2010,Both sexes,12.42
-Western Pacific,Micronesia (Federated States of),2013,Female,12.42
+Western Pacific,Micronesia,2013,Female,12.42
 Europe,Portugal,2017,Male,12.43
 Americas,El Salvador,2012,Male,12.44
 Europe,Moldova,2017,Both sexes,12.44
-Western Pacific,Micronesia (Federated States of),2012,Female,12.44
+Western Pacific,Micronesia,2012,Female,12.44
 Europe,Iceland,2013,Both sexes,12.45
 Africa,Burundi,2017,Both sexes,12.46
 Africa,Congo,2015,Both sexes,12.46
@@ -4242,8 +4242,8 @@ Americas,El Salvador,2015,Male,12.47
 Europe,Netherlands,2019,Male,12.48
 South-East Asia,India,2017,Both sexes,12.48
 Europe,Estonia,2016,Both sexes,12.49
-Europe,Sweden,2017,Both sexes,12.50
-Europe,France,2013,Both sexes,12.50
+Europe,Sweden,2017,Both sexes,12.5
+Europe,France,2013,Both sexes,12.5
 Americas,Saint Lucia,2019,Male,12.51
 Eastern Mediterranean,Morocco,2012,Male,12.51
 South-East Asia,India,2012,Female,12.51
@@ -4260,15 +4260,15 @@ Europe,Uzbekistan,2010,Male,12.56
 Africa,Congo,2014,Both sexes,12.57
 Europe,Hungary,2018,Both sexes,12.58
 Africa,Malawi,2015,Both sexes,12.59
-Europe,Luxembourg,2013,Male,12.60
-South-East Asia,India,2016,Both sexes,12.60
+Europe,Luxembourg,2013,Male,12.6
+South-East Asia,India,2016,Both sexes,12.6
 Africa,Burundi,2016,Both sexes,12.61
 Europe,Romania,2019,Male,12.62
 Europe,Hungary,2017,Both sexes,12.62
 Western Pacific,Singapore,2009,Male,12.63
 Europe,Netherlands,2014,Male,12.65
 Europe,Netherlands,2015,Male,12.66
-Western Pacific,Micronesia (Federated States of),2016,Female,12.66
+Western Pacific,Micronesia,2016,Female,12.66
 Europe,Georgia,2010,Male,12.67
 Western Pacific,Singapore,2019,Male,12.67
 Europe,Sweden,2018,Both sexes,12.69
@@ -4293,22 +4293,22 @@ Africa,Ghana,2013,Both sexes,12.79
 Americas,Belize,2018,Male,12.79
 Europe,Slovenia,2018,Both sexes,12.79
 Europe,Uzbekistan,2017,Male,12.79
-Europe,Germany,2019,Male,12.80
+Europe,Germany,2019,Male,12.8
 Europe,Luxembourg,2014,Male,12.81
 Europe,Kyrgyzstan,2009,Both sexes,12.82
 South-East Asia,Thailand,2017,Male,12.82
-Western Pacific,Micronesia (Federated States of),2017,Female,12.83
+Western Pacific,Micronesia,2017,Female,12.83
 Americas,Saint Lucia,2009,Male,12.84
 Americas,Belize,2012,Male,12.85
 Americas,United States of America,2015,Both sexes,12.86
 Eastern Mediterranean,Morocco,2010,Male,12.86
 Africa,Angola,2016,Both sexes,12.87
-Western Pacific,Micronesia (Federated States of),2015,Female,12.87
+Western Pacific,Micronesia,2015,Female,12.87
 Europe,Iceland,2009,Both sexes,12.88
 South-East Asia,India,2018,Both sexes,12.88
 South-East Asia,Sri Lanka,2019,Both sexes,12.89
-Africa,Guinea-Bissau,2018,Both sexes,12.90
-Europe,Czechia,2011,Both sexes,12.90
+Africa,Guinea-Bissau,2018,Both sexes,12.9
+Europe,Czechia,2011,Both sexes,12.9
 Africa,Guinea,2012,Both sexes,12.91
 South-East Asia,India,2019,Both sexes,12.91
 Americas,Saint Lucia,2018,Male,12.92
@@ -4343,15 +4343,15 @@ Africa,Guinea-Bissau,2017,Both sexes,13.09
 Americas,Trinidad and Tobago,2019,Male,13.09
 Europe,Sweden,2009,Both sexes,13.09
 South-East Asia,India,2011,Female,13.09
-Africa,Ethiopia,2010,Both sexes,13.10
-Europe,Bosnia and Herz.,2017,Male,13.10
+Africa,Ethiopia,2010,Both sexes,13.1
+Europe,Bosnia and Herz.,2017,Male,13.1
 Africa,Gabon,2019,Both sexes,13.11
 Africa,Benin,2017,Both sexes,13.11
 Africa,Ghana,2011,Both sexes,13.11
 Africa,South Africa,2010,Female,13.11
 Europe,Germany,2018,Male,13.11
 Europe,Croatia,2012,Both sexes,13.11
-Western Pacific,Micronesia (Federated States of),2018,Female,13.12
+Western Pacific,Micronesia,2018,Female,13.12
 Africa,Seychelles,2013,Male,13.13
 Africa,Burundi,2014,Both sexes,13.14
 Africa,Angola,2014,Both sexes,13.14
@@ -4368,13 +4368,13 @@ Europe,Iceland,2015,Both sexes,13.17
 Europe,Uzbekistan,2014,Male,13.17
 Europe,Serbia,2011,Both sexes,13.17
 Europe,Luxembourg,2011,Male,13.18
-Africa,Gambia,2018,Male,13.20
-Africa,Guinea,2013,Both sexes,13.20
-Americas,Haiti,2010,Both sexes,13.20
-Europe,Netherlands,2017,Male,13.20
-Europe,Croatia,2010,Both sexes,13.20
+Africa,Gambia,2018,Male,13.2
+Africa,Guinea,2013,Both sexes,13.2
+Americas,Haiti,2010,Both sexes,13.2
+Europe,Netherlands,2017,Male,13.2
+Europe,Croatia,2010,Both sexes,13.2
 Europe,Uzbekistan,2015,Male,13.21
-Western Pacific,Micronesia (Federated States of),2019,Female,13.21
+Western Pacific,Micronesia,2019,Female,13.21
 Africa,Chad,2019,Both sexes,13.22
 Americas,Trinidad and Tobago,2012,Male,13.22
 Africa,Uganda,2012,Both sexes,13.23
@@ -4395,8 +4395,8 @@ Europe,Bulgaria,2011,Male,13.27
 Europe,Serbia,2012,Both sexes,13.28
 Europe,Denmark,2013,Male,13.29
 Europe,Portugal,2011,Male,13.29
-Europe,Bosnia and Herz.,2012,Male,13.30
-Europe,Ireland,2009,Both sexes,13.30
+Europe,Bosnia and Herz.,2012,Male,13.3
+Europe,Ireland,2009,Both sexes,13.3
 Africa,Congo,2011,Both sexes,13.32
 Africa,Madagascar,2019,Male,13.33
 Africa,Tanzania,2018,Male,13.33
@@ -4411,10 +4411,10 @@ Europe,Netherlands,2013,Male,13.37
 Western Pacific,Japan,2018,Both sexes,13.37
 Africa,Benin,2015,Both sexes,13.38
 Africa,Seychelles,2010,Male,13.39
-Africa,Seychelles,2011,Male,13.40
-Americas,Chile,2019,Male,13.40
-Europe,Norway,2019,Male,13.40
-Western Pacific,Fiji,2018,Male,13.40
+Africa,Seychelles,2011,Male,13.4
+Americas,Chile,2019,Male,13.4
+Europe,Norway,2019,Male,13.4
+Western Pacific,Fiji,2018,Male,13.4
 Europe,Bosnia and Herz.,2014,Male,13.41
 Europe,Moldova,2016,Both sexes,13.42
 Africa,Tanzania,2017,Male,13.43
@@ -4433,8 +4433,8 @@ Europe,Romania,2017,Male,13.48
 Africa,Angola,2011,Both sexes,13.49
 Europe,Kyrgyzstan,2019,Male,13.49
 South-East Asia,India,2014,Both sexes,13.49
-Africa,Tanzania,2019,Male,13.50
-Africa,Congo,2010,Both sexes,13.50
+Africa,Tanzania,2019,Male,13.5
+Africa,Congo,2010,Both sexes,13.5
 Africa,Equatorial Guinea,2019,Both sexes,13.51
 Africa,Namibia,2019,Both sexes,13.51
 Africa,Seychelles,2014,Male,13.51
@@ -4477,8 +4477,8 @@ South-East Asia,Sri Lanka,2017,Both sexes,13.67
 Africa,Chad,2016,Both sexes,13.68
 Europe,Moldova,2015,Both sexes,13.68
 Western Pacific,Fiji,2017,Male,13.68
-Africa,Malawi,2012,Both sexes,13.70
-Europe,Norway,2018,Male,13.70
+Africa,Malawi,2012,Both sexes,13.7
+Europe,Norway,2018,Male,13.7
 Europe,Norway,2013,Male,13.71
 Africa,Namibia,2018,Both sexes,13.74
 Africa,Burundi,2013,Both sexes,13.75
@@ -4488,7 +4488,7 @@ Africa,Equatorial Guinea,2013,Both sexes,13.76
 Africa,Chad,2017,Both sexes,13.77
 Africa,Seychelles,2015,Male,13.78
 Africa,Seychelles,2016,Male,13.79
-Africa,Madagascar,2016,Male,13.80
+Africa,Madagascar,2016,Male,13.8
 Europe,Bosnia and Herz.,2011,Male,13.81
 Africa,Mauritius,2009,Male,13.82
 Europe,Bulgaria,2010,Male,13.83
@@ -4501,7 +4501,7 @@ South-East Asia,Thailand,2019,Male,13.87
 Africa,Equatorial Guinea,2009,Both sexes,13.89
 Americas,Belize,2017,Male,13.89
 Europe,France,2010,Both sexes,13.89
-Africa,Madagascar,2015,Male,13.90
+Africa,Madagascar,2015,Male,13.9
 Europe,Belgium,2019,Both sexes,13.93
 Europe,Norway,2015,Male,13.93
 Western Pacific,Fiji,2015,Male,13.93
@@ -4513,7 +4513,7 @@ Africa,Gabon,2012,Both sexes,13.97
 Europe,Georgia,2019,Male,13.97
 Europe,Slovenia,2019,Both sexes,13.97
 Americas,Ecuador,2016,Male,13.98
-Africa,Seychelles,2019,Male,14.00
+Africa,Seychelles,2019,Male,14
 Americas,Argentina,2011,Male,14.01
 Americas,Trinidad and Tobago,2017,Male,14.04
 Americas,Argentina,2009,Male,14.04
@@ -4527,7 +4527,7 @@ Africa,Sierra Leone,2015,Male,14.09
 Africa,Burundi,2012,Both sexes,14.09
 Africa,Niger,2009,Male,14.09
 Americas,United States of America,2018,Both sexes,14.09
-Africa,Niger,2018,Male,14.10
+Africa,Niger,2018,Male,14.1
 Africa,Mauritius,2012,Male,14.11
 Africa,Niger,2017,Male,14.12
 Africa,Gambia,2015,Male,14.12
@@ -4550,7 +4550,7 @@ Europe,Norway,2012,Male,14.16
 Europe,Switzerland,2016,Male,14.17
 Europe,Germany,2014,Male,14.17
 South-East Asia,Sri Lanka,2016,Both sexes,14.17
-Americas,Argentina,2013,Male,14.20
+Americas,Argentina,2013,Male,14.2
 Africa,Angola,2010,Both sexes,14.21
 Europe,Switzerland,2014,Male,14.21
 Africa,Niger,2016,Male,14.22
@@ -4584,8 +4584,8 @@ Africa,Niger,2010,Male,14.37
 Europe,Iceland,2014,Both sexes,14.37
 Africa,Burkina Faso,2019,Both sexes,14.38
 Africa,Namibia,2013,Both sexes,14.38
-Europe,Finland,2017,Both sexes,14.40
-Europe,Moldova,2013,Both sexes,14.40
+Europe,Finland,2017,Both sexes,14.4
+Europe,Moldova,2013,Both sexes,14.4
 Africa,Madagascar,2012,Male,14.41
 Americas,United States of America,2017,Both sexes,14.41
 Europe,Finland,2018,Both sexes,14.41
@@ -4609,10 +4609,10 @@ Africa,Gambia,2014,Male,14.48
 Africa,Congo,2013,Both sexes,14.49
 Europe,Norway,2014,Male,14.49
 Europe,Portugal,2009,Male,14.49
-Africa,Namibia,2012,Both sexes,14.50
-Africa,Tanzania,2011,Male,14.50
-Americas,Saint Lucia,2015,Male,14.50
-Europe,Poland,2014,Both sexes,14.50
+Africa,Namibia,2012,Both sexes,14.5
+Africa,Tanzania,2011,Male,14.5
+Americas,Saint Lucia,2015,Male,14.5
+Europe,Poland,2014,Both sexes,14.5
 Africa,Burundi,2011,Both sexes,14.51
 Americas,United States of America,2019,Both sexes,14.51
 Europe,Denmark,2011,Male,14.53
@@ -4623,9 +4623,9 @@ Eastern Mediterranean,Pakistan,2018,Male,14.57
 Americas,Guatemala,2010,Male,14.58
 Africa,Malawi,2011,Both sexes,14.59
 Europe,Belgium,2017,Both sexes,14.59
-Africa,Chad,2014,Both sexes,14.60
-Europe,Hungary,2015,Both sexes,14.60
-Western Pacific,Samoa,2019,Both sexes,14.60
+Africa,Chad,2014,Both sexes,14.6
+Europe,Hungary,2015,Both sexes,14.6
+Western Pacific,Samoa,2019,Both sexes,14.6
 Europe,Kyrgyzstan,2018,Male,14.61
 Europe,Moldova,2012,Both sexes,14.61
 Africa,Uganda,2010,Both sexes,14.64
@@ -4640,9 +4640,9 @@ Europe,Georgia,2017,Male,14.68
 Africa,Guinea-Bissau,2012,Both sexes,14.69
 South-East Asia,India,2019,Male,14.69
 South-East Asia,India,2018,Male,14.69
-Africa,Gambia,2010,Male,14.70
-Europe,Norway,2016,Male,14.70
-South-East Asia,Sri Lanka,2015,Both sexes,14.70
+Africa,Gambia,2010,Male,14.7
+Europe,Norway,2016,Male,14.7
+South-East Asia,Sri Lanka,2015,Both sexes,14.7
 Africa,Niger,2012,Male,14.71
 Eastern Mediterranean,Pakistan,2014,Male,14.71
 Eastern Mediterranean,Pakistan,2013,Male,14.71
@@ -4663,10 +4663,10 @@ South-East Asia,India,2015,Male,14.78
 Africa,Guinea-Bissau,2013,Both sexes,14.79
 Africa,Gambia,2012,Male,14.79
 Western Pacific,Samoa,2011,Both sexes,14.79
-Africa,Sierra Leone,2019,Male,14.80
-Europe,Germany,2010,Male,14.80
-Europe,Serbia,2009,Both sexes,14.80
-Western Pacific,Samoa,2018,Both sexes,14.80
+Africa,Sierra Leone,2019,Male,14.8
+Europe,Germany,2010,Male,14.8
+Europe,Serbia,2009,Both sexes,14.8
+Western Pacific,Samoa,2018,Both sexes,14.8
 Africa,Togo,2019,Both sexes,14.81
 Eastern Mediterranean,Somalia,2018,Both sexes,14.81
 Africa,Madagascar,2010,Male,14.82
@@ -4688,7 +4688,7 @@ Europe,Portugal,2014,Male,14.88
 Africa,Rwanda,2018,Male,14.89
 Eastern Mediterranean,Pakistan,2010,Male,14.89
 Western Pacific,Japan,2015,Both sexes,14.89
-Europe,Estonia,2013,Both sexes,14.90
+Europe,Estonia,2013,Both sexes,14.9
 Americas,Argentina,2018,Male,14.91
 Europe,Finland,2012,Both sexes,14.91
 Africa,Namibia,2016,Both sexes,14.92
@@ -4704,10 +4704,10 @@ Africa,Equatorial Guinea,2016,Both sexes,14.97
 Europe,Poland,2011,Both sexes,14.98
 South-East Asia,Sri Lanka,2013,Both sexes,14.98
 Americas,Ecuador,2011,Male,14.99
-Africa,Zimbabwe,2017,Female,15.00
-Africa,Rwanda,2017,Male,15.00
-Africa,Ethiopia,2014,Male,15.00
-Africa,Gambia,2009,Male,15.00
+Africa,Zimbabwe,2017,Female,15
+Africa,Rwanda,2017,Male,15
+Africa,Ethiopia,2014,Male,15
+Africa,Gambia,2009,Male,15
 Americas,Trinidad and Tobago,2015,Male,15.02
 Americas,Canada,2013,Male,15.02
 Americas,Uruguay,2011,Both sexes,15.02
@@ -4730,7 +4730,7 @@ Africa,Guinea-Bissau,2011,Both sexes,15.08
 Americas,Haiti,2016,Male,15.08
 Americas,Ecuador,2010,Male,15.08
 Europe,Switzerland,2010,Male,15.09
-Eastern Mediterranean,Pakistan,2009,Male,15.10
+Eastern Mediterranean,Pakistan,2009,Male,15.1
 Africa,Chad,2013,Both sexes,15.13
 Europe,Belgium,2014,Both sexes,15.13
 Europe,Norway,2010,Male,15.13
@@ -4749,7 +4749,7 @@ Europe,Switzerland,2015,Male,15.17
 Americas,Haiti,2013,Male,15.18
 Africa,Sierra Leone,2013,Male,15.19
 Western Pacific,Australia,2011,Male,15.19
-Eastern Mediterranean,Somalia,2013,Both sexes,15.20
+Eastern Mediterranean,Somalia,2013,Both sexes,15.2
 Africa,Namibia,2017,Both sexes,15.22
 Africa,Burundi,2009,Both sexes,15.22
 Africa,Cabo Verde,2019,Both sexes,15.23
@@ -4764,7 +4764,7 @@ Western Pacific,Australia,2013,Male,15.26
 Africa,Equatorial Guinea,2010,Both sexes,15.27
 Eastern Mediterranean,Somalia,2012,Both sexes,15.28
 Europe,Poland,2012,Both sexes,15.29
-Africa,Congo,2011,Both sexes,15.30
+Africa,Congo,2011,Both sexes,15.3
 Africa,Namibia,2014,Both sexes,15.32
 Americas,Canada,2016,Male,15.32
 Americas,Chile,2014,Male,15.32
@@ -4779,7 +4779,7 @@ Europe,Belgium,2013,Both sexes,15.38
 Africa,Gabon,2014,Both sexes,15.39
 Africa,Guinea-Bissau,2010,Both sexes,15.39
 Western Pacific,New Zealand,2019,Male,15.39
-Africa,Togo,2017,Both sexes,15.40
+Africa,Togo,2017,Both sexes,15.4
 Americas,Haiti,2009,Male,15.42
 Europe,Estonia,2010,Both sexes,15.42
 Europe,Denmark,2009,Male,15.42
@@ -4792,8 +4792,8 @@ Europe,Switzerland,2011,Male,15.46
 Africa,Rwanda,2013,Male,15.47
 Africa,Uganda,2009,Both sexes,15.48
 Europe,Georgia,2014,Male,15.49
-Africa,Congo,2012,Both sexes,15.50
-South-East Asia,India,2011,Both sexes,15.50
+Africa,Congo,2012,Both sexes,15.5
+South-East Asia,India,2011,Both sexes,15.5
 Europe,Poland,2010,Both sexes,15.51
 Africa,Equatorial Guinea,2012,Both sexes,15.53
 Americas,Canada,2009,Male,15.53
@@ -4804,7 +4804,7 @@ Americas,Trinidad and Tobago,2014,Male,15.57
 Europe,Switzerland,2013,Male,15.57
 Americas,Ecuador,2012,Male,15.58
 South-East Asia,India,2009,Both sexes,15.59
-Africa,Chad,2012,Both sexes,15.60
+Africa,Chad,2012,Both sexes,15.6
 Africa,Tanzania,2010,Male,15.63
 Africa,Guinea-Bissau,2009,Both sexes,15.64
 Africa,Burkina Faso,2011,Both sexes,15.65
@@ -4814,7 +4814,7 @@ South-East Asia,India,2014,Male,15.66
 Africa,Ethiopia,2013,Male,15.68
 Europe,Finland,2011,Both sexes,15.68
 Europe,Kyrgyzstan,2016,Male,15.69
-Africa,Burkina Faso,2009,Both sexes,15.70
+Africa,Burkina Faso,2009,Both sexes,15.7
 Africa,Sierra Leone,2011,Male,15.73
 Africa,Gabon,2010,Both sexes,15.77
 Americas,Uruguay,2014,Both sexes,15.77
@@ -4822,8 +4822,8 @@ Africa,Gabon,2011,Both sexes,15.78
 Western Pacific,Japan,2014,Both sexes,15.78
 Africa,Mauritius,2014,Male,15.79
 Africa,Congo,2010,Both sexes,15.79
-Africa,Chad,2009,Both sexes,15.80
-Europe,France,2018,Male,15.80
+Africa,Chad,2009,Both sexes,15.8
+Europe,France,2018,Male,15.8
 Africa,Burkina Faso,2010,Both sexes,15.82
 Americas,Guyana,2010,Female,15.83
 Americas,Guyana,2015,Female,15.85
@@ -4833,9 +4833,9 @@ Africa,Sierra Leone,2012,Male,15.88
 Europe,Georgia,2015,Male,15.88
 Africa,Chad,2011,Both sexes,15.89
 Africa,Gabon,2009,Both sexes,15.89
-Africa,Zambia,2018,Both sexes,15.90
-Eastern Mediterranean,Djibouti,2009,Male,15.90
-Europe,Slovenia,2012,Both sexes,15.90
+Africa,Zambia,2018,Both sexes,15.9
+Eastern Mediterranean,Djibouti,2009,Male,15.9
+Europe,Slovenia,2012,Both sexes,15.9
 Africa,Cameroon,2019,Both sexes,15.92
 Africa,Cameroon,2018,Both sexes,15.93
 Africa,Côte d'Ivoire,2018,Both sexes,15.93
@@ -4858,8 +4858,8 @@ Europe,Latvia,2019,Both sexes,16.06
 Americas,Guyana,2016,Female,16.08
 Europe,Montenegro,2016,Both sexes,16.08
 Africa,Burkina Faso,2013,Both sexes,16.09
-Americas,Uruguay,2012,Both sexes,16.10
-Western Pacific,New Zealand,2014,Male,16.10
+Americas,Uruguay,2012,Both sexes,16.1
+Western Pacific,New Zealand,2014,Male,16.1
 Africa,Burkina Faso,2012,Both sexes,16.11
 Europe,Poland,2009,Both sexes,16.11
 Africa,Namibia,2011,Both sexes,16.14
@@ -4870,14 +4870,14 @@ Africa,Cabo Verde,2017,Both sexes,16.16
 Europe,Estonia,2014,Both sexes,16.16
 Europe,Slovenia,2013,Both sexes,16.16
 Eastern Mediterranean,Djibouti,2010,Male,16.17
-Eastern Mediterranean,Djibouti,2015,Male,16.20
+Eastern Mediterranean,Djibouti,2015,Male,16.2
 Europe,Montenegro,2019,Both sexes,16.22
 Eastern Mediterranean,Djibouti,2019,Male,16.25
 Africa,Sierra Leone,2009,Male,16.27
 Europe,Montenegro,2017,Both sexes,16.27
 Africa,Namibia,2015,Both sexes,16.29
-Africa,Congo,2009,Both sexes,16.30
-Europe,Norway,2009,Male,16.30
+Africa,Congo,2009,Both sexes,16.3
+Europe,Norway,2009,Male,16.3
 Western Pacific,Australia,2016,Male,16.33
 Americas,Guyana,2017,Female,16.34
 Europe,Montenegro,2013,Both sexes,16.34
@@ -4888,7 +4888,7 @@ Africa,Côte d'Ivoire,2017,Both sexes,16.37
 Eastern Mediterranean,Djibouti,2011,Male,16.37
 Western Pacific,New Zealand,2015,Male,16.37
 Europe,Georgia,2016,Male,16.38
-South-East Asia,Sri Lanka,2012,Both sexes,16.40
+South-East Asia,Sri Lanka,2012,Both sexes,16.4
 Africa,Sierra Leone,2010,Male,16.42
 Americas,Canada,2015,Male,16.42
 Europe,Belgium,2012,Both sexes,16.42
@@ -4901,7 +4901,7 @@ Europe,Poland,2019,Male,16.46
 Europe,Iceland,2011,Male,16.46
 Europe,Serbia,2016,Male,16.47
 Europe,Belarus,2019,Both sexes,16.49
-Eastern Mediterranean,Djibouti,2016,Male,16.50
+Eastern Mediterranean,Djibouti,2016,Male,16.5
 Europe,Montenegro,2010,Both sexes,16.52
 Europe,Belgium,2010,Both sexes,16.52
 Africa,Cabo Verde,2016,Both sexes,16.53
@@ -4909,7 +4909,7 @@ Eastern Mediterranean,Djibouti,2018,Male,16.53
 Americas,Chile,2012,Male,16.56
 Europe,Austria,2019,Male,16.56
 Africa,Tanzania,2009,Male,16.58
-Europe,Sweden,2014,Male,16.60
+Europe,Sweden,2014,Male,16.6
 Americas,Cuba,2014,Male,16.61
 Western Pacific,New Zealand,2013,Male,16.61
 Africa,Cameroon,2016,Both sexes,16.62
@@ -4922,7 +4922,7 @@ Africa,Zambia,2017,Both sexes,16.67
 Americas,Cuba,2019,Male,16.67
 Africa,Togo,2015,Both sexes,16.69
 Western Pacific,Japan,2013,Both sexes,16.69
-Europe,Latvia,2013,Both sexes,16.70
+Europe,Latvia,2013,Both sexes,16.7
 Africa,Zambia,2016,Both sexes,16.71
 Europe,Slovakia,2019,Male,16.71
 Europe,Belgium,2011,Both sexes,16.71
@@ -4933,13 +4933,13 @@ Americas,Guyana,2018,Female,16.74
 Europe,Sweden,2016,Male,16.74
 Europe,Sweden,2011,Male,16.76
 Europe,Slovenia,2009,Both sexes,16.78
-South-East Asia,India,2013,Male,16.80
+South-East Asia,India,2013,Male,16.8
 Americas,El Salvador,2009,Male,16.81
 Africa,Ethiopia,2012,Male,16.83
 Eastern Mediterranean,Djibouti,2017,Male,16.83
 Europe,Ireland,2013,Male,16.87
 Europe,France,2016,Male,16.89
-Europe,Czechia,2016,Male,16.90
+Europe,Czechia,2016,Male,16.9
 Africa,Cabo Verde,2014,Both sexes,16.91
 Americas,Trinidad and Tobago,2010,Male,16.92
 Europe,Norway,2011,Male,16.92
@@ -4951,7 +4951,7 @@ Americas,Guyana,2019,Female,16.96
 Europe,Slovakia,2018,Male,16.97
 Western Pacific,Australia,2019,Male,16.97
 Americas,Cuba,2017,Male,16.99
-Africa,Côte d'Ivoire,2016,Both sexes,17.00
+Africa,Côte d'Ivoire,2016,Both sexes,17
 Europe,Iceland,2012,Male,17.01
 Europe,Montenegro,2011,Both sexes,17.02
 Western Pacific,Japan,2012,Both sexes,17.02
@@ -4970,8 +4970,8 @@ Western Pacific,Australia,2018,Male,17.14
 Europe,Latvia,2016,Both sexes,17.15
 Europe,Estonia,2012,Both sexes,17.15
 Europe,Latvia,2014,Both sexes,17.18
-Europe,Sweden,2017,Male,17.20
-Europe,Sweden,2010,Male,17.20
+Europe,Sweden,2017,Male,17.2
+Europe,Sweden,2010,Male,17.2
 Africa,Rwanda,2010,Male,17.22
 Europe,Slovakia,2017,Male,17.22
 Europe,Montenegro,2009,Both sexes,17.23
@@ -4984,7 +4984,7 @@ Europe,Romania,2013,Male,17.32
 Europe,Ireland,2014,Male,17.35
 Western Pacific,Solomon Islands,2019,Both sexes,17.37
 Europe,Romania,2011,Male,17.39
-Africa,Kenya,2015,Male,17.40
+Africa,Kenya,2015,Male,17.4
 Africa,Togo,2014,Both sexes,17.41
 Western Pacific,South Korea,2011,Female,17.42
 Africa,Cabo Verde,2013,Both sexes,17.46
@@ -5000,7 +5000,7 @@ Western Pacific,New Zealand,2010,Male,17.55
 Africa,Kenya,2017,Male,17.56
 Europe,Ukraine,2016,Both sexes,17.56
 Americas,Cuba,2009,Male,17.58
-South-East Asia,India,2012,Male,17.60
+South-East Asia,India,2012,Male,17.6
 Americas,Canada,2017,Male,17.63
 Europe,Moldova,2010,Both sexes,17.64
 Europe,France,2014,Male,17.68
@@ -5016,7 +5016,7 @@ Western Pacific,Australia,2015,Male,17.74
 Europe,Romania,2009,Male,17.75
 Europe,Slovakia,2015,Male,17.77
 Africa,Togo,2013,Both sexes,17.79
-Europe,Czechia,2018,Male,17.80
+Europe,Czechia,2018,Male,17.8
 Western Pacific,Solomon Islands,2017,Both sexes,17.81
 Western Pacific,Solomon Islands,2016,Both sexes,17.83
 Africa,Eritrea,2018,Both sexes,17.84
@@ -5041,7 +5041,7 @@ Europe,Austria,2013,Male,17.97
 Africa,Cabo Verde,2012,Both sexes,17.98
 Africa,Namibia,2010,Both sexes,17.99
 Europe,Ukraine,2018,Both sexes,17.99
-Africa,Eritrea,2017,Both sexes,18.00
+Africa,Eritrea,2017,Both sexes,18
 Europe,Austria,2018,Male,18.01
 Africa,Kenya,2014,Male,18.02
 Africa,Togo,2012,Both sexes,18.02
@@ -5050,8 +5050,8 @@ Africa,Kenya,2019,Male,18.05
 Europe,Kazakhstan,2019,Both sexes,18.05
 Americas,United States of America,2009,Male,18.07
 Africa,Congo,2017,Male,18.08
-Europe,Kyrgyzstan,2015,Male,18.10
-Western Pacific,Solomon Islands,2014,Both sexes,18.10
+Europe,Kyrgyzstan,2015,Male,18.1
+Western Pacific,Solomon Islands,2014,Both sexes,18.1
 Africa,Togo,2011,Both sexes,18.12
 Europe,Iceland,2009,Male,18.12
 Europe,France,2015,Male,18.14
@@ -5060,7 +5060,7 @@ Europe,Czechia,2017,Male,18.16
 Americas,Cuba,2011,Male,18.17
 Europe,Iceland,2010,Male,18.18
 Western Pacific,Solomon Islands,2013,Both sexes,18.19
-Africa,Togo,2010,Both sexes,18.20
+Africa,Togo,2010,Both sexes,18.2
 Africa,Kenya,2018,Male,18.21
 Africa,Cabo Verde,2011,Both sexes,18.21
 Africa,Ethiopia,2011,Male,18.22
@@ -5070,7 +5070,7 @@ Europe,Sweden,2015,Male,18.26
 Americas,Chile,2010,Male,18.27
 Africa,Congo,2019,Male,18.28
 Europe,Slovakia,2014,Male,18.28
-Africa,Eritrea,2016,Both sexes,18.30
+Africa,Eritrea,2016,Both sexes,18.3
 South-East Asia,Nepal,2017,Male,18.35
 Africa,Guinea,2019,Male,18.36
 South-East Asia,Nepal,2009,Male,18.36
@@ -5079,7 +5079,7 @@ Europe,Romania,2012,Male,18.37
 South-East Asia,India,2009,Male,18.37
 Africa,Guinea,2017,Male,18.39
 Western Pacific,Solomon Islands,2012,Both sexes,18.39
-Western Pacific,New Zealand,2012,Male,18.40
+Western Pacific,New Zealand,2012,Male,18.4
 Africa,Namibia,2009,Both sexes,18.42
 Europe,Serbia,2015,Male,18.42
 Western Pacific,Japan,2011,Both sexes,18.43
@@ -5093,7 +5093,7 @@ Africa,Equatorial Guinea,2009,Male,18.47
 Africa,Togo,2009,Both sexes,18.47
 Africa,Equatorial Guinea,2019,Male,18.48
 Africa,Guinea,2010,Male,18.48
-Europe,Romania,2010,Male,18.50
+Europe,Romania,2010,Male,18.5
 Europe,Sweden,2009,Male,18.51
 Africa,Zambia,2012,Both sexes,18.52
 Americas,United States of America,2010,Male,18.52
@@ -5107,7 +5107,7 @@ South-East Asia,Nepal,2014,Male,18.55
 South-East Asia,Nepal,2019,Male,18.56
 South-East Asia,Nepal,2010,Male,18.58
 Europe,Latvia,2010,Both sexes,18.59
-Western Pacific,Solomon Islands,2010,Both sexes,18.60
+Western Pacific,Solomon Islands,2010,Both sexes,18.6
 Africa,Congo,2016,Male,18.61
 Europe,Poland,2018,Male,18.63
 Western Pacific,South Korea,2010,Female,18.63
@@ -5119,8 +5119,8 @@ Europe,Iceland,2019,Male,18.67
 Western Pacific,Mongolia,2018,Both sexes,18.67
 Africa,Eritrea,2015,Both sexes,18.69
 South-East Asia,Nepal,2015,Male,18.69
-Americas,Uruguay,2016,Both sexes,18.70
-Western Pacific,Solomon Islands,2009,Both sexes,18.70
+Americas,Uruguay,2016,Both sexes,18.7
+Western Pacific,Solomon Islands,2009,Both sexes,18.7
 Africa,Cameroon,2013,Both sexes,18.71
 Africa,Senegal,2018,Male,18.73
 Americas,United States of America,2013,Male,18.77
@@ -5132,7 +5132,7 @@ Western Pacific,Japan,2018,Male,18.85
 Europe,Croatia,2011,Male,18.86
 Africa,Eritrea,2014,Both sexes,18.87
 Americas,United States of America,2011,Male,18.87
-South-East Asia,Nepal,2013,Male,18.90
+South-East Asia,Nepal,2013,Male,18.9
 Africa,Burundi,2019,Male,18.91
 Africa,Kenya,2013,Male,18.91
 Americas,United States of America,2012,Male,18.91
@@ -5141,7 +5141,7 @@ Europe,Ukraine,2011,Both sexes,18.95
 Europe,Hungary,2011,Both sexes,18.95
 Europe,Austria,2014,Male,18.97
 Europe,Slovakia,2011,Male,18.99
-Africa,Kenya,2010,Male,19.00
+Africa,Kenya,2010,Male,19
 Africa,Senegal,2017,Male,19.01
 Africa,Guinea,2016,Male,19.01
 Africa,Guinea,2011,Male,19.01
@@ -5168,7 +5168,7 @@ Africa,Eritrea,2013,Both sexes,19.24
 Americas,United States of America,2014,Male,19.24
 Africa,Kenya,2012,Male,19.25
 Europe,Serbia,2014,Male,19.25
-Africa,Uganda,2017,Male,19.30
+Africa,Uganda,2017,Male,19.3
 Western Pacific,South Korea,2017,Both sexes,19.31
 Europe,Austria,2012,Male,19.33
 Africa,Guinea,2012,Male,19.35
@@ -5176,8 +5176,8 @@ Africa,Kenya,2011,Male,19.37
 Europe,France,2013,Male,19.37
 Africa,Uganda,2019,Male,19.39
 Europe,Latvia,2012,Both sexes,19.39
-Africa,Burundi,2017,Male,19.40
-Europe,Belarus,2016,Both sexes,19.40
+Africa,Burundi,2017,Male,19.4
+Europe,Belarus,2016,Both sexes,19.4
 Africa,Cameroon,2011,Both sexes,19.41
 Africa,Côte d'Ivoire,2009,Both sexes,19.41
 Europe,Kazakhstan,2018,Both sexes,19.41
@@ -5190,7 +5190,7 @@ Africa,Côte d'Ivoire,2013,Both sexes,19.45
 Americas,Guyana,2009,Female,19.47
 Africa,Burundi,2016,Male,19.48
 Western Pacific,Japan,2009,Both sexes,19.49
-Europe,Ireland,2011,Male,19.50
+Europe,Ireland,2011,Male,19.5
 Africa,Cameroon,2010,Both sexes,19.51
 Africa,Burundi,2015,Male,19.54
 Africa,Equatorial Guinea,2014,Male,19.54
@@ -5200,7 +5200,7 @@ Europe,Belarus,2015,Both sexes,19.55
 Africa,Kenya,2009,Male,19.56
 Africa,Guinea,2014,Male,19.58
 Europe,Austria,2010,Male,19.58
-Western Pacific,Mongolia,2014,Both sexes,19.60
+Western Pacific,Mongolia,2014,Both sexes,19.6
 Africa,Côte d'Ivoire,2011,Both sexes,19.61
 Africa,Ethiopia,2009,Male,19.63
 Africa,Senegal,2015,Male,19.65
@@ -5215,7 +5215,7 @@ Africa,Côte d'Ivoire,2012,Both sexes,19.74
 Western Pacific,Japan,2016,Male,19.74
 Africa,Guinea-Bissau,2019,Male,19.78
 Africa,Guinea,2013,Male,19.79
-Africa,Senegal,2014,Male,19.80
+Africa,Senegal,2014,Male,19.8
 Africa,Zambia,2011,Both sexes,19.82
 Europe,Kyrgyzstan,2012,Male,19.82
 Western Pacific,Mongolia,2016,Both sexes,19.82
@@ -5241,14 +5241,14 @@ Africa,Eritrea,2011,Both sexes,20.16
 Europe,Estonia,2019,Male,20.16
 Europe,Ukraine,2010,Both sexes,20.17
 Europe,Kyrgyzstan,2011,Male,20.18
-Western Pacific,Samoa,2013,Male,20.20
-Western Pacific,South Korea,2009,Female,20.20
+Western Pacific,Samoa,2013,Male,20.2
+Western Pacific,South Korea,2009,Female,20.2
 Africa,Chad,2019,Male,20.21
 Africa,Botswana,2019,Both sexes,20.22
 Europe,Belgium,2018,Male,20.25
 Africa,Benin,2019,Male,20.29
 Africa,Equatorial Guinea,2016,Male,20.29
-Europe,Iceland,2016,Male,20.30
+Europe,Iceland,2016,Male,20.3
 Europe,Ukraine,2014,Both sexes,20.39
 Africa,Congo,2015,Male,20.41
 Europe,Slovenia,2018,Male,20.41
@@ -5258,20 +5258,20 @@ Western Pacific,Mongolia,2013,Both sexes,20.43
 Africa,Ghana,2018,Male,20.49
 Africa,Uganda,2016,Male,20.49
 Western Pacific,South Korea,2016,Both sexes,20.49
-Europe,Poland,2016,Male,20.50
+Europe,Poland,2016,Male,20.5
 Africa,Senegal,2010,Male,20.52
 Africa,Eritrea,2010,Both sexes,20.53
 Europe,Czechia,2009,Male,20.53
 Europe,Iceland,2014,Male,20.56
 Europe,Croatia,2013,Male,20.59
-Africa,Equatorial Guinea,2015,Male,20.60
+Africa,Equatorial Guinea,2015,Male,20.6
 Europe,Kyrgyzstan,2010,Male,20.61
 Africa,Senegal,2009,Male,20.63
 Europe,Serbia,2011,Male,20.64
 Africa,Chad,2018,Male,20.65
 Africa,Congo,2018,Male,20.65
 Africa,Congo,2019,Male,20.69
-Europe,Belgium,2015,Male,20.70
+Europe,Belgium,2015,Male,20.7
 Africa,Uganda,2015,Male,20.71
 Europe,Finland,2014,Male,20.71
 Europe,France,2012,Male,20.75
@@ -5279,7 +5279,7 @@ Europe,Finland,2017,Male,20.77
 Europe,Belgium,2017,Male,20.77
 Europe,Iceland,2017,Male,20.78
 Africa,Benin,2018,Male,20.79
-Africa,Equatorial Guinea,2010,Male,20.80
+Africa,Equatorial Guinea,2010,Male,20.8
 Africa,Chad,2016,Male,20.81
 Africa,Guinea-Bissau,2018,Male,20.82
 Africa,Malawi,2018,Male,20.82
@@ -5287,7 +5287,7 @@ Europe,Serbia,2013,Male,20.83
 Africa,Chad,2017,Male,20.86
 Africa,Eritrea,2009,Both sexes,20.86
 Africa,Congo,2014,Male,20.87
-Western Pacific,Samoa,2019,Male,20.90
+Western Pacific,Samoa,2019,Male,20.9
 Africa,Guinea-Bissau,2015,Male,20.91
 Africa,Zimbabwe,2012,Female,20.91
 South-East Asia,Sri Lanka,2019,Male,20.94
@@ -5296,8 +5296,8 @@ Western Pacific,Vanuatu,2019,Both sexes,20.96
 Africa,Guinea-Bissau,2017,Male,20.98
 Europe,France,2011,Male,20.98
 Western Pacific,Mongolia,2012,Both sexes,20.99
-Africa,Benin,2017,Male,21.00
-Western Pacific,Vanuatu,2016,Both sexes,21.00
+Africa,Benin,2017,Male,21
+Western Pacific,Vanuatu,2016,Both sexes,21
 Europe,Iceland,2015,Male,21.03
 Africa,Angola,2017,Male,21.04
 Africa,Burundi,2013,Male,21.04
@@ -5313,8 +5313,8 @@ Europe,Hungary,2018,Male,21.17
 Western Pacific,Vanuatu,2015,Both sexes,21.18
 Europe,Kazakhstan,2017,Both sexes,21.19
 Western Pacific,Samoa,2018,Male,21.19
-Americas,United States of America,2016,Male,21.20
-Western Pacific,South Korea,2015,Both sexes,21.20
+Americas,United States of America,2016,Male,21.2
+Western Pacific,South Korea,2015,Both sexes,21.2
 Europe,France,2010,Male,21.21
 Western Pacific,Samoa,2012,Male,21.22
 Western Pacific,Samoa,2017,Male,21.23
@@ -5322,7 +5322,7 @@ Western Pacific,South Korea,2018,Both sexes,21.27
 Africa,Angola,2018,Male,21.28
 Western Pacific,Samoa,2011,Male,21.28
 Africa,Congo,2013,Male,21.29
-Europe,Kyrgyzstan,2009,Male,21.30
+Europe,Kyrgyzstan,2009,Male,21.3
 Africa,Benin,2016,Male,21.31
 Europe,Estonia,2016,Male,21.31
 Africa,Chad,2015,Male,21.32
@@ -5338,13 +5338,13 @@ Western Pacific,Samoa,2015,Male,21.47
 South-East Asia,Sri Lanka,2014,Male,21.48
 Africa,Burundi,2012,Male,21.49
 Europe,Croatia,2010,Male,21.49
-Europe,Ireland,2009,Male,21.50
-South-East Asia,Sri Lanka,2018,Male,21.50
+Europe,Ireland,2009,Male,21.5
+South-East Asia,Sri Lanka,2018,Male,21.5
 Africa,Benin,2015,Male,21.52
 Western Pacific,Samoa,2016,Male,21.58
 Europe,Belarus,2014,Both sexes,21.59
-Europe,Russia,2019,Both sexes,21.60
-Europe,Finland,2018,Male,21.60
+Europe,Russia,2019,Both sexes,21.6
+Europe,Finland,2018,Male,21.6
 Africa,Uganda,2014,Male,21.62
 Africa,Congo,2012,Male,21.64
 Europe,France,2009,Male,21.65
@@ -5381,15 +5381,15 @@ Africa,Chad,2014,Male,22.29
 Africa,Benin,2013,Male,22.31
 Africa,Botswana,2017,Both sexes,22.32
 Africa,Congo,2010,Male,22.33
-Americas,United States of America,2019,Male,22.40
-Western Pacific,Mongolia,2010,Both sexes,22.40
+Americas,United States of America,2019,Male,22.4
+Western Pacific,Mongolia,2010,Both sexes,22.4
 Africa,Burundi,2010,Male,22.42
 Western Pacific,South Korea,2014,Both sexes,22.42
 Western Pacific,Japan,2014,Male,22.43
 Africa,Congo,2011,Male,22.44
 Europe,Czechia,2012,Male,22.47
 Western Pacific,Vanuatu,2009,Both sexes,22.48
-Europe,Finland,2013,Male,22.50
+Europe,Finland,2013,Male,22.5
 Africa,Benin,2012,Male,22.52
 Americas,United States of America,2017,Male,22.52
 Africa,Congo,2009,Male,22.56
@@ -5413,12 +5413,12 @@ Europe,Croatia,2009,Male,22.84
 Africa,Benin,2011,Male,22.86
 Africa,Benin,2010,Male,22.87
 Africa,Guinea-Bissau,2014,Male,22.88
-Africa,Botswana,2016,Both sexes,22.90
+Africa,Botswana,2016,Both sexes,22.9
 Eastern Mediterranean,Somalia,2016,Male,22.93
 Eastern Mediterranean,Somalia,2018,Male,22.95
 Africa,Central African Rep.,2019,Both sexes,22.96
 Africa,Angola,2009,Male,22.99
-Eastern Mediterranean,Somalia,2017,Male,23.00
+Eastern Mediterranean,Somalia,2017,Male,23
 Africa,Benin,2009,Male,23.06
 Americas,Uruguay,2013,Male,23.07
 South-East Asia,Sri Lanka,2016,Male,23.07
@@ -5433,8 +5433,8 @@ Africa,Gabon,2019,Male,23.31
 Americas,Uruguay,2010,Male,23.32
 Africa,Malawi,2015,Male,23.39
 Eastern Mediterranean,Somalia,2014,Male,23.39
-Africa,Mozambique,2016,Both sexes,23.40
-Europe,Russia,2018,Both sexes,23.40
+Africa,Mozambique,2016,Both sexes,23.4
+Europe,Russia,2018,Both sexes,23.4
 Europe,Kazakhstan,2015,Both sexes,23.42
 Eastern Mediterranean,Somalia,2013,Male,23.47
 Europe,Poland,2015,Male,23.48
@@ -5442,14 +5442,14 @@ Africa,South Africa,2019,Both sexes,23.49
 Europe,Lithuania,2017,Both sexes,23.49
 Africa,Equatorial Guinea,2011,Male,23.51
 Africa,Congo,2009,Male,23.51
-Africa,Uganda,2013,Male,23.60
+Africa,Uganda,2013,Male,23.6
 Africa,Malawi,2014,Male,23.62
 Africa,Zimbabwe,2019,Both sexes,23.63
 Europe,Slovenia,2016,Male,23.64
 Africa,Central African Rep.,2018,Both sexes,23.65
 Africa,Eswatini,2012,Female,23.69
 Eastern Mediterranean,Somalia,2011,Male,23.69
-Eastern Mediterranean,Somalia,2012,Male,23.70
+Eastern Mediterranean,Somalia,2012,Male,23.7
 Europe,Slovenia,2017,Male,23.74
 Africa,Ghana,2013,Male,23.83
 Africa,Ghana,2009,Male,23.83
@@ -5466,15 +5466,15 @@ Africa,Mozambique,2015,Both sexes,23.97
 Africa,Chad,2012,Male,23.98
 Europe,Moldova,2011,Male,23.98
 Africa,Togo,2019,Male,23.99
-Africa,Gabon,2018,Male,24.00
+Africa,Gabon,2018,Male,24
 Europe,Moldova,2016,Male,24.01
 Europe,Hungary,2015,Male,24.01
 Western Pacific,South Korea,2012,Both sexes,24.01
 Europe,Moldova,2015,Male,24.02
 Europe,Belgium,2010,Male,24.03
-Africa,Togo,2018,Male,24.10
-Africa,Angola,2012,Male,24.10
-Europe,Estonia,2015,Male,24.10
+Africa,Togo,2018,Male,24.1
+Africa,Angola,2012,Male,24.1
+Europe,Estonia,2015,Male,24.1
 Africa,Guinea-Bissau,2012,Male,24.11
 Africa,Ghana,2012,Male,24.12
 Africa,Guinea-Bissau,2013,Male,24.14
@@ -5503,11 +5503,11 @@ Africa,Guinea-Bissau,2011,Male,24.64
 Africa,Mozambique,2009,Both sexes,24.64
 Africa,Mozambique,2014,Both sexes,24.68
 Europe,Slovenia,2014,Male,24.68
-Americas,Uruguay,2011,Male,24.70
+Americas,Uruguay,2011,Male,24.7
 Africa,Malawi,2012,Male,24.72
 Eastern Mediterranean,Somalia,2009,Male,24.77
 Africa,Eswatini,2011,Female,24.79
-Africa,Chad,2010,Male,24.80
+Africa,Chad,2010,Male,24.8
 Africa,Namibia,2019,Male,24.88
 Europe,Montenegro,2016,Male,24.93
 Africa,Gabon,2012,Male,24.95
@@ -5518,7 +5518,7 @@ Africa,Burkina Faso,2018,Male,25.03
 Africa,Uganda,2012,Male,25.07
 Europe,Finland,2010,Male,25.08
 Europe,Montenegro,2015,Male,25.09
-Europe,Montenegro,2014,Male,25.10
+Europe,Montenegro,2014,Male,25.1
 Africa,South Africa,2013,Both sexes,25.12
 Africa,Cameroon,2019,Male,25.15
 Africa,Central African Rep.,2016,Both sexes,25.25
@@ -5550,7 +5550,7 @@ Africa,Zambia,2019,Male,25.74
 Africa,Cameroon,2017,Male,25.74
 Africa,Malawi,2011,Male,25.75
 Africa,Burkina Faso,2016,Male,25.79
-Europe,Poland,2014,Male,25.80
+Europe,Poland,2014,Male,25.8
 Africa,South Africa,2017,Both sexes,25.84
 Africa,Zimbabwe,2017,Both sexes,25.85
 Europe,Slovenia,2011,Male,25.85
@@ -5586,7 +5586,7 @@ Europe,Slovenia,2010,Male,26.67
 Europe,Estonia,2011,Male,26.72
 Africa,Burkina Faso,2011,Male,26.73
 Europe,Hungary,2013,Male,26.76
-Europe,Montenegro,2009,Male,26.80
+Europe,Montenegro,2009,Male,26.8
 Africa,Namibia,2014,Male,26.82
 Americas,Suriname,2012,Both sexes,26.82
 Africa,Côte d'Ivoire,2017,Male,26.84
@@ -5600,10 +5600,10 @@ South-East Asia,Sri Lanka,2012,Male,26.94
 Africa,Central African Rep.,2013,Both sexes,26.95
 Europe,Estonia,2013,Male,26.96
 Africa,Gabon,2014,Male,26.99
-Western Pacific,Micronesia (Federated States of),2010,Both sexes,26.99
+Western Pacific,Micronesia,2010,Both sexes,26.99
 Africa,Cameroon,2015,Male,27.01
 Europe,Poland,2013,Male,27.01
-Western Pacific,Micronesia (Federated States of),2009,Both sexes,27.02
+Western Pacific,Micronesia,2009,Both sexes,27.02
 Europe,Slovenia,2012,Male,27.07
 Americas,Uruguay,2012,Male,27.09
 Africa,Eritrea,2019,Male,27.16
@@ -5615,9 +5615,9 @@ Europe,Kazakhstan,2012,Both sexes,27.33
 Africa,Gabon,2010,Male,27.37
 Western Pacific,Japan,2010,Male,27.38
 Africa,Burkina Faso,2013,Male,27.39
-Africa,Cabo Verde,2019,Male,27.40
-Western Pacific,Micronesia (Federated States of),2013,Both sexes,27.40
-Western Pacific,Micronesia (Federated States of),2014,Both sexes,27.41
+Africa,Cabo Verde,2019,Male,27.4
+Western Pacific,Micronesia,2013,Both sexes,27.4
+Western Pacific,Micronesia,2014,Both sexes,27.41
 Americas,Suriname,2010,Both sexes,27.42
 Europe,Latvia,2018,Male,27.42
 Africa,Namibia,2017,Male,27.45
@@ -5625,10 +5625,10 @@ Africa,Gabon,2009,Male,27.48
 Europe,Slovenia,2009,Male,27.48
 Africa,Burkina Faso,2012,Male,27.52
 Africa,Gabon,2011,Male,27.52
-Western Pacific,Micronesia (Federated States of),2011,Both sexes,27.52
+Western Pacific,Micronesia,2011,Both sexes,27.52
 Africa,Central African Rep.,2011,Both sexes,27.57
 Europe,Estonia,2010,Male,27.57
-Western Pacific,Micronesia (Federated States of),2012,Both sexes,27.58
+Western Pacific,Micronesia,2012,Both sexes,27.58
 Africa,Central African Rep.,2014,Both sexes,27.59
 Americas,Uruguay,2015,Male,27.71
 Europe,Poland,2012,Male,27.71
@@ -5639,27 +5639,27 @@ Africa,Cabo Verde,2017,Male,27.83
 Africa,Togo,2014,Male,27.87
 Europe,Russia,2015,Both sexes,27.87
 Western Pacific,South Korea,2011,Both sexes,27.89
-Africa,Namibia,2015,Male,27.90
+Africa,Namibia,2015,Male,27.9
 Western Pacific,South Korea,2010,Both sexes,27.98
 Europe,Poland,2010,Male,28.02
 Africa,Zambia,2018,Male,28.12
 Africa,Central African Rep.,2010,Both sexes,28.12
 Africa,Eritrea,2018,Male,28.13
-Western Pacific,Micronesia (Federated States of),2016,Both sexes,28.18
-Africa,Cameroon,2014,Male,28.20
+Western Pacific,Micronesia,2016,Both sexes,28.18
+Africa,Cameroon,2014,Male,28.2
 Western Pacific,South Korea,2017,Male,28.25
 Africa,Cabo Verde,2016,Male,28.27
 Europe,Kazakhstan,2011,Both sexes,28.29
-Western Pacific,Micronesia (Federated States of),2015,Both sexes,28.37
-Africa,Eritrea,2017,Male,28.40
+Western Pacific,Micronesia,2015,Both sexes,28.37
+Africa,Eritrea,2017,Male,28.4
 Africa,Togo,2013,Male,28.47
 Africa,Central African Rep.,2009,Both sexes,28.53
 Africa,Uganda,2009,Male,28.56
 Western Pacific,Japan,2009,Male,28.57
 Europe,Estonia,2014,Male,28.58
 Africa,Cabo Verde,2015,Male,28.66
-Western Pacific,Micronesia (Federated States of),2017,Both sexes,28.68
-Africa,Zimbabwe,2016,Both sexes,28.70
+Western Pacific,Micronesia,2017,Both sexes,28.68
+Africa,Zimbabwe,2016,Both sexes,28.7
 Europe,Poland,2009,Male,28.72
 Africa,Togo,2012,Male,28.73
 Africa,Togo,2011,Male,28.77
@@ -5669,12 +5669,12 @@ Africa,Côte d'Ivoire,2015,Male,28.83
 Africa,Cabo Verde,2018,Male,28.88
 Europe,Lithuania,2015,Both sexes,28.93
 Africa,Botswana,2012,Both sexes,28.99
-Western Pacific,Micronesia (Federated States of),2019,Both sexes,28.99
+Western Pacific,Micronesia,2019,Both sexes,28.99
 Africa,Cabo Verde,2014,Male,29.01
 Africa,Togo,2010,Male,29.01
 Europe,Latvia,2019,Male,29.01
 Africa,Eswatini,2010,Female,29.05
-Western Pacific,Micronesia (Federated States of),2018,Both sexes,29.07
+Western Pacific,Micronesia,2018,Both sexes,29.07
 Africa,Botswana,2011,Both sexes,29.09
 Africa,Zambia,2017,Male,29.13
 Europe,Russia,2013,Both sexes,29.13
@@ -5686,7 +5686,7 @@ Europe,Kazakhstan,2010,Both sexes,29.41
 Africa,Togo,2009,Male,29.42
 Europe,Lithuania,2014,Both sexes,29.44
 Africa,Eritrea,2015,Male,29.48
-Africa,Cameroon,2013,Male,29.50
+Africa,Cameroon,2013,Male,29.5
 South-East Asia,Sri Lanka,2011,Male,29.54
 Europe,Kazakhstan,2009,Both sexes,29.61
 Western Pacific,South Korea,2019,Male,29.68
@@ -5698,15 +5698,15 @@ Europe,Belarus,2010,Both sexes,29.89
 Africa,Zambia,2013,Male,29.96
 Africa,Zambia,2015,Male,29.98
 Africa,Cabo Verde,2013,Male,30.02
-Africa,Côte d'Ivoire,2014,Male,30.10
+Africa,Côte d'Ivoire,2014,Male,30.1
 Europe,Belarus,2019,Male,30.12
 Europe,Belarus,2011,Both sexes,30.16
-Africa,Zambia,2014,Male,30.20
+Africa,Zambia,2014,Male,30.2
 Europe,Latvia,2017,Male,30.23
 Western Pacific,Kiribati,2018,Both sexes,30.27
-Europe,Latvia,2016,Male,30.30
+Europe,Latvia,2016,Male,30.3
 Americas,Uruguay,2016,Male,30.32
-Africa,Eritrea,2013,Male,30.40
+Africa,Eritrea,2013,Male,30.4
 Europe,Belarus,2009,Both sexes,30.41
 Europe,Latvia,2015,Male,30.52
 Western Pacific,Kiribati,2019,Both sexes,30.56
@@ -5725,21 +5725,21 @@ Africa,Cameroon,2010,Male,30.93
 Europe,Hungary,2012,Male,30.94
 Europe,Latvia,2014,Male,30.96
 Western Pacific,South Korea,2018,Male,30.97
-Western Pacific,South Korea,2015,Male,31.00
+Western Pacific,South Korea,2015,Male,31
 Africa,Cabo Verde,2012,Male,31.02
 Europe,Moldova,2009,Male,31.02
-Europe,Russia,2011,Both sexes,31.10
+Europe,Russia,2011,Both sexes,31.1
 Africa,Zambia,2012,Male,31.11
 Western Pacific,Mongolia,2019,Male,31.11
 Americas,Uruguay,2019,Male,31.12
-Africa,Botswana,2010,Both sexes,31.20
+Africa,Botswana,2010,Both sexes,31.2
 Africa,Eritrea,2012,Male,31.21
-Europe,Ukraine,2017,Male,31.30
+Europe,Ukraine,2017,Male,31.3
 Europe,Lithuania,2010,Both sexes,31.32
 Western Pacific,Kiribati,2016,Both sexes,31.38
 Africa,Côte d'Ivoire,2013,Male,31.39
-Africa,Zimbabwe,2013,Both sexes,31.40
-Africa,Côte d'Ivoire,2011,Male,31.40
+Africa,Zimbabwe,2013,Both sexes,31.4
+Africa,Côte d'Ivoire,2011,Male,31.4
 Africa,Côte d'Ivoire,2010,Male,31.45
 Americas,Uruguay,2018,Male,31.48
 Western Pacific,Kiribati,2017,Both sexes,31.51
@@ -5760,14 +5760,14 @@ Western Pacific,Solomon Islands,2019,Male,32.25
 Africa,Namibia,2010,Male,32.29
 Africa,Cabo Verde,2009,Male,32.31
 Western Pacific,Kiribati,2013,Both sexes,32.34
-Europe,Ukraine,2016,Male,32.40
+Europe,Ukraine,2016,Male,32.4
 Africa,Eritrea,2010,Male,32.48
 Western Pacific,South Korea,2014,Male,32.58
 Africa,Namibia,2009,Male,32.59
 Africa,Zambia,2009,Male,32.59
 Europe,Hungary,2010,Male,32.64
 Western Pacific,Kiribati,2010,Both sexes,32.65
-Europe,Ukraine,2019,Male,32.70
+Europe,Ukraine,2019,Male,32.7
 Europe,Belarus,2018,Male,32.81
 Western Pacific,Kiribati,2011,Both sexes,32.85
 Western Pacific,Mongolia,2017,Male,32.88
@@ -5780,11 +5780,11 @@ Europe,Russia,2010,Both sexes,33.01
 Africa,Zimbabwe,2012,Both sexes,33.07
 Africa,Eswatini,2009,Female,33.08
 Europe,Lithuania,2009,Both sexes,33.09
-Western Pacific,Vanuatu,2019,Male,33.10
+Western Pacific,Vanuatu,2019,Male,33.1
 Western Pacific,Solomon Islands,2017,Male,33.11
 Western Pacific,Solomon Islands,2016,Male,33.14
 Africa,Zambia,2010,Male,33.26
-Europe,Ukraine,2018,Male,33.30
+Europe,Ukraine,2018,Male,33.3
 Western Pacific,Mongolia,2014,Male,33.31
 Europe,Russia,2009,Both sexes,33.32
 Western Pacific,Solomon Islands,2015,Male,33.33
@@ -5793,19 +5793,19 @@ Africa,Zambia,2011,Male,33.36
 Europe,Kazakhstan,2018,Male,33.39
 Western Pacific,Vanuatu,2018,Male,33.46
 Western Pacific,Vanuatu,2014,Male,33.48
-Western Pacific,Vanuatu,2015,Male,33.50
+Western Pacific,Vanuatu,2015,Male,33.5
 Western Pacific,Mongolia,2015,Male,33.52
 Western Pacific,Vanuatu,2017,Male,33.54
 South-East Asia,Sri Lanka,2010,Male,33.55
 Western Pacific,Solomon Islands,2014,Male,33.64
-Western Pacific,Solomon Islands,2013,Male,33.80
+Western Pacific,Solomon Islands,2013,Male,33.8
 Europe,Belarus,2017,Male,33.81
 Europe,Latvia,2011,Male,33.91
 Europe,Lithuania,2013,Both sexes,33.97
 Western Pacific,Mongolia,2016,Male,34.01
 Western Pacific,Solomon Islands,2012,Male,34.18
 Western Pacific,South Korea,2012,Male,34.23
-Africa,Zimbabwe,2011,Both sexes,34.30
+Africa,Zimbabwe,2011,Both sexes,34.3
 Western Pacific,Vanuatu,2013,Male,34.33
 Western Pacific,Vanuatu,2011,Male,34.34
 Europe,Ukraine,2013,Male,34.36
@@ -5814,10 +5814,10 @@ Western Pacific,Solomon Islands,2010,Male,34.53
 Africa,Lesotho,2019,Female,34.56
 Western Pacific,Mongolia,2013,Male,34.56
 Western Pacific,Vanuatu,2012,Male,34.56
-Africa,Lesotho,2018,Female,34.60
+Africa,Lesotho,2018,Female,34.6
 Western Pacific,South Korea,2013,Male,34.61
 Western Pacific,Solomon Islands,2009,Male,34.67
-Western Pacific,Vanuatu,2010,Male,34.80
+Western Pacific,Vanuatu,2010,Male,34.8
 Africa,Lesotho,2011,Female,34.89
 Africa,Zimbabwe,2010,Both sexes,35.01
 Europe,Ukraine,2011,Male,35.12
@@ -5855,7 +5855,7 @@ Africa,Zimbabwe,2018,Male,38.55
 Africa,Botswana,2017,Male,38.62
 Western Pacific,South Korea,2009,Male,39.05
 Western Pacific,South Korea,2010,Male,39.16
-Americas,Guyana,2015,Both sexes,39.30
+Americas,Guyana,2015,Both sexes,39.3
 Europe,Latvia,2009,Male,39.39
 Africa,South Africa,2012,Male,39.47
 Africa,Botswana,2016,Male,39.52
@@ -5877,7 +5877,7 @@ Africa,Lesotho,2012,Female,40.73
 Europe,Kazakhstan,2015,Male,40.77
 Africa,Central African Rep.,2018,Male,40.82
 Americas,Guyana,2019,Both sexes,40.85
-Africa,South Africa,2013,Male,40.90
+Africa,South Africa,2013,Male,40.9
 Africa,South Africa,2016,Male,41.04
 Americas,Suriname,2015,Male,41.09
 Europe,Lithuania,2017,Male,41.11
@@ -5889,56 +5889,56 @@ Europe,Russia,2018,Male,41.43
 Americas,Suriname,2011,Male,41.44
 Africa,South Africa,2015,Male,41.61
 Europe,Belarus,2013,Male,41.76
-Western Pacific,Micronesia (Federated States of),2010,Male,41.78
-Western Pacific,Micronesia (Federated States of),2009,Male,41.83
+Western Pacific,Micronesia,2010,Male,41.78
+Western Pacific,Micronesia,2009,Male,41.83
 Americas,Suriname,2018,Male,41.84
 Africa,South Africa,2010,Male,41.85
 Americas,Suriname,2009,Male,41.89
 Africa,Lesotho,2016,Female,41.94
-Western Pacific,Micronesia (Federated States of),2013,Male,42.11
-Western Pacific,Micronesia (Federated States of),2014,Male,42.12
+Western Pacific,Micronesia,2013,Male,42.11
+Western Pacific,Micronesia,2014,Male,42.12
 Europe,Kazakhstan,2014,Male,42.19
-Africa,South Africa,2017,Male,42.20
+Africa,South Africa,2017,Male,42.2
 Americas,Suriname,2013,Male,42.28
 Africa,Botswana,2015,Male,42.34
-Western Pacific,Micronesia (Federated States of),2012,Male,42.47
-Western Pacific,Micronesia (Federated States of),2011,Male,42.48
+Western Pacific,Micronesia,2012,Male,42.47
+Western Pacific,Micronesia,2011,Male,42.48
 Africa,Mozambique,2019,Male,42.56
 Africa,Mozambique,2018,Male,42.76
 Africa,Eswatini,2017,Both sexes,42.91
 Africa,Mozambique,2017,Male,42.92
 Americas,Suriname,2012,Male,42.96
 Europe,Russia,2017,Male,43.27
-Western Pacific,Micronesia (Federated States of),2016,Male,43.35
+Western Pacific,Micronesia,2016,Male,43.35
 Africa,Botswana,2014,Male,43.42
 Africa,Mozambique,2016,Male,43.53
-Western Pacific,Micronesia (Federated States of),2015,Male,43.55
+Western Pacific,Micronesia,2015,Male,43.55
 Americas,Suriname,2010,Male,43.66
 Africa,Central African Rep.,2016,Male,44.04
-Western Pacific,Micronesia (Federated States of),2017,Male,44.14
+Western Pacific,Micronesia,2017,Male,44.14
 Africa,Lesotho,2013,Female,44.23
-Western Pacific,Micronesia (Federated States of),2019,Male,44.32
+Western Pacific,Micronesia,2019,Male,44.32
 Africa,Mozambique,2015,Male,44.44
 Africa,Zimbabwe,2016,Male,44.48
-Western Pacific,Micronesia (Federated States of),2018,Male,44.56
+Western Pacific,Micronesia,2018,Male,44.56
 Africa,Mozambique,2009,Male,44.58
-Africa,Central African Rep.,2017,Male,44.90
+Africa,Central African Rep.,2017,Male,44.9
 Europe,Belarus,2012,Male,45.08
 Africa,Central African Rep.,2012,Male,45.13
 Africa,Zimbabwe,2014,Male,45.26
 Africa,Central African Rep.,2015,Male,45.47
 Europe,Kazakhstan,2013,Male,45.59
-Africa,Mozambique,2014,Male,45.60
-Africa,Mozambique,2010,Male,45.80
-Africa,South Africa,2009,Male,45.80
-Africa,Lesotho,2015,Female,45.90
+Africa,Mozambique,2014,Male,45.6
+Africa,Mozambique,2010,Male,45.8
+Africa,South Africa,2009,Male,45.8
+Africa,Lesotho,2015,Female,45.9
 Africa,Central African Rep.,2013,Male,46.07
 Africa,Eswatini,2016,Both sexes,46.24
-Africa,Central African Rep.,2011,Male,46.30
+Africa,Central African Rep.,2011,Male,46.3
 Africa,Lesotho,2014,Female,46.34
 Africa,Zimbabwe,2013,Male,46.38
-Africa,Mozambique,2011,Male,46.60
-Africa,Mozambique,2013,Male,47.00
+Africa,Mozambique,2011,Male,46.6
+Africa,Mozambique,2013,Male,47
 Africa,Central African Rep.,2010,Male,47.13
 Africa,Zimbabwe,2015,Male,47.37
 Africa,Mozambique,2012,Male,47.47
@@ -5971,7 +5971,7 @@ Americas,Guyana,2009,Male,53.67
 Africa,Eswatini,2014,Both sexes,54.63
 Western Pacific,Kiribati,2016,Male,55.03
 Africa,Botswana,2010,Male,55.07
-Europe,Belarus,2010,Male,55.10
+Europe,Belarus,2010,Male,55.1
 Africa,Botswana,2009,Male,55.18
 Europe,Belarus,2011,Male,55.29
 Western Pacific,Kiribati,2014,Male,55.31
@@ -5986,9 +5986,9 @@ Western Pacific,Kiribati,2013,Male,56.58
 Americas,Guyana,2011,Male,56.84
 Western Pacific,Kiribati,2010,Male,57.07
 Western Pacific,Kiribati,2011,Male,57.41
-Western Pacific,Kiribati,2009,Male,57.60
+Western Pacific,Kiribati,2009,Male,57.6
 Americas,Guyana,2010,Male,57.71
-Europe,Russia,2010,Male,59.00
+Europe,Russia,2010,Male,59
 Europe,Russia,2009,Male,59.49
 Europe,Lithuania,2013,Male,60.23
 Americas,Guyana,2012,Male,60.46
@@ -6006,7 +6006,7 @@ Americas,Guyana,2014,Male,66.42
 Africa,Eswatini,2010,Both sexes,70.49
 Africa,Eswatini,2009,Both sexes,75.15
 Africa,Eswatini,2019,Male,78.67
-Africa,Eswatini,2018,Male,78.80
+Africa,Eswatini,2018,Male,78.8
 Africa,Eswatini,2017,Male,83.61
 Africa,Lesotho,2009,Both sexes,84.63
 Africa,Lesotho,2010,Both sexes,86.89
@@ -6016,25 +6016,25 @@ Africa,Lesotho,2011,Both sexes,91.07
 Africa,Eswatini,2015,Male,92.27
 Africa,Lesotho,2018,Both sexes,93.07
 Africa,Lesotho,2017,Both sexes,96.29
-Africa,Eswatini,2014,Male,99.00
-Africa,Lesotho,2012,Both sexes,102.00
-Africa,Lesotho,2016,Both sexes,107.10
-Africa,Eswatini,2013,Male,110.00
-Africa,Lesotho,2013,Both sexes,111.40
-Africa,Lesotho,2015,Both sexes,114.50
-Africa,Eswatini,2011,Male,114.50
-Africa,Lesotho,2014,Both sexes,116.20
-Africa,Eswatini,2012,Male,116.20
-Africa,Eswatini,2010,Male,119.10
-Africa,Eswatini,2009,Male,125.10
-Africa,Lesotho,2019,Male,146.90
-Africa,Lesotho,2009,Male,148.10
-Africa,Lesotho,2010,Male,152.70
-Africa,Lesotho,2011,Male,156.90
-Africa,Lesotho,2018,Male,158.40
-Africa,Lesotho,2017,Male,164.00
-Africa,Lesotho,2012,Male,172.90
-Africa,Lesotho,2016,Male,180.10
-Africa,Lesotho,2013,Male,188.20
-Africa,Lesotho,2015,Male,191.50
-Africa,Lesotho,2014,Male,195.20
+Africa,Eswatini,2014,Male,99
+Africa,Lesotho,2012,Both sexes,102
+Africa,Lesotho,2016,Both sexes,107.1
+Africa,Eswatini,2013,Male,110
+Africa,Lesotho,2013,Both sexes,111.4
+Africa,Lesotho,2015,Both sexes,114.5
+Africa,Eswatini,2011,Male,114.5
+Africa,Lesotho,2014,Both sexes,116.2
+Africa,Eswatini,2012,Male,116.2
+Africa,Eswatini,2010,Male,119.1
+Africa,Eswatini,2009,Male,125.1
+Africa,Lesotho,2019,Male,146.9
+Africa,Lesotho,2009,Male,148.1
+Africa,Lesotho,2010,Male,152.7
+Africa,Lesotho,2011,Male,156.9
+Africa,Lesotho,2018,Male,158.4
+Africa,Lesotho,2017,Male,164
+Africa,Lesotho,2012,Male,172.9
+Africa,Lesotho,2016,Male,180.1
+Africa,Lesotho,2013,Male,188.2
+Africa,Lesotho,2015,Male,191.5
+Africa,Lesotho,2014,Male,195.2
