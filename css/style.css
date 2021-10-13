@@ -67,3 +67,8 @@ p{
 .small-font {
     font-size: 14px;
 }
+
+.emphasise {
+    font-size: 18px;
+    color: #ee6c4d;
+}

@@ -115,7 +115,7 @@
         "field": "Country", 
         "type": "nominal",
         "title": "Country",
-        "axis": {"labelAngle": 90, "titleX": 150, "titleY": 200}
+        "axis": {"labelAngle": 90, "titleX": 150, "titleY": 150}
       },
       "color": {
         "value": "#f28482"
