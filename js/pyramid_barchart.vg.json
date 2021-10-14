@@ -2,38 +2,11 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "background": "#f5f5f5",
     "data": { "url": "https://raw.githubusercontent.com/pdmntrang/data-visualisation/main/data/age%20group.csv"},
-    "params": [
-      {
-        "name": "Continent_selection",
-        "bind": {
-          "input": "select",
-          "options": [
-            null,
-            "Africa",
-            "Americas",
-            "Eastern Mediterranean",
-            "Europe",
-            "South-East Asia",
-            "Western Pacific"
-          ],
-          "labels": [
-            "Show All",
-            "Africa",
-            "Americas",
-            "Eastern Mediterranean",
-            "Europe",
-            "South-East Asia",
-            "Western Pacific"
-          ],
-          "name": "Continent Selection: "
-        }
-      }],
     "transform": [
       {"calculate": "datum.Rate/100", "as": "Suicide Rate"},
       {"filter": "datum.Rate > 0"},
       {"filter": "datum.Sex != 'Both sexes'"},
-      {"calculate": "datum.Sex == 'Male' ? -datum.Rate : datum.Rate", "as": "new_rate"},
-      {"filter": "Continent_selection == null || datum.Continent == Continent_selection"}
+      {"calculate": "datum.Sex == 'Male' ? -datum.Rate : datum.Rate", "as": "new_rate"}
     ],
     "spacing": 0,
         "hconcat": [

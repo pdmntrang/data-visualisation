@@ -45,7 +45,8 @@
         "field": "Country", 
         "type": "nominal",
         "title": null,
-        "axis": {"labelAngle": 90}
+        "axis": {"labelAngle": 90},
+        "sort": {"field": "Rate", "order": "descending"}
       },
       "color": {
         "value": "#9c6644"
@@ -80,7 +81,8 @@
         "field": "Country", 
         "type": "nominal",
         "title": null,
-        "axis": {"labelAngle": 90}
+        "axis": {"labelAngle": 90},
+        "sort": {"field": "Rate", "order": "descending"}
       },
       "color": {
         "value": "#ffc300"
@@ -115,7 +117,8 @@
         "field": "Country", 
         "type": "nominal",
         "title": "Country",
-        "axis": {"labelAngle": 90, "titleX": 150, "titleY": 150}
+        "axis": {"labelAngle": 90, "titleX": 150, "titleY": 150},
+        "sort": {"field": "Rate", "order": "descending"}
       },
       "color": {
         "value": "#f28482"
@@ -150,7 +153,8 @@
         "field": "Country", 
         "type": "nominal",
         "title": null,
-        "axis": {"labelAngle": 90}
+        "axis": {"labelAngle": 90},
+        "sort": {"field": "Rate", "order": "descending"}
       },
       "color": {
         "value": "#cdb4db"
@@ -185,7 +189,8 @@
         "field": "Country", 
         "type": "nominal",
         "title": null,
-        "axis": {"labelAngle": 90}
+        "axis": {"labelAngle": 90},
+        "sort": {"field": "Rate", "order": "descending"}
       },
       "color": {
         "value": "#e29578"
@@ -220,7 +225,8 @@
         "field": "Country", 
         "type": "nominal",
         "title": null,
-        "axis": {"labelAngle": 90}
+        "axis": {"labelAngle": 90},
+        "sort": {"field": "Rate", "order": "descending"}
       },
       "color": {
         "value" : "#5390d9"
