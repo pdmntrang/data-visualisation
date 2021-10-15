@@ -24,7 +24,7 @@ h2{
     font-family: 'Maven Pro', sans-serif;
     font-size: 25px;
     padding: 10px;
-    background-color: #c7c4c4;
+    background-color: #cfcfcf;
     text-align: left;
     
 }
@@ -34,10 +34,20 @@ h4{
     font-weight: bold;
     font-size: 20px;
     text-align: left;
-    background-color: #dfdfdf;
+    background-color: #e2e2e2;
     margin-inline: 20px;
     padding: 5px;
     margin-top: -10px;
+}
+
+h5{
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: bold;
+    background-color: #afafaf;
+    font-size: 16px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: -20px;
 }
 
 .container{
@@ -84,11 +94,6 @@ p{
     font-size: 15px;
 }
 
-.description_emphasise {
-    color: #ff9b85;
-    font-weight: 500;
-}
-
 .description_high {
     color: #cb1b16;
     font-weight: 500;
@@ -110,7 +115,7 @@ p{
 
 .emphasise {
     font-size: 18px;
-    color: #ee6c4d;
+    color: #fcac98;
     font-weight: 500;
 }
 
