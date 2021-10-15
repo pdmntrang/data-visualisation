@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "background": "#f5f5f5",
   "width": "container",
-  "height": 700,
+  "height": 500,
   "projection": {"type": "equirectangular", "rotate": [-10,0,0]},
   "params": [
     {
@@ -106,7 +106,7 @@
       "orient": "none",
       "direction": "horizontal",
       "legendX": 650,
-      "legendY": 520,
+      "legendY": 400,
       "titleOrient": "left",
       "titleLimit": 300
   }
