@@ -1,27 +1,27 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "background": "#f5f5f5",
-    "data": { "url": "https://raw.githubusercontent.com/pdmntrang/data-visualisation/main/data/age%20group.csv"},
-    "transform": [
-      {"calculate": "datum.Rate/100", "as": "Suicide Rate"},
-      {"filter": "datum.Rate > 0"},
-      {"filter": "datum.Sex != 'Both sexes'"},
-      {"calculate": "datum.Sex == 'Male' ? -datum.Rate : datum.Rate", "as": "new_rate"}
-    ],
-    "spacing": 0,
-        "hconcat": [
-          {
-          "width": 420,
-          "height": 300,
-          "transform": [{
-            "filter": {"field": "Sex", "equal": "Male"}
-          }],
-          "title": {
-            "text": "Male",
-            "fontSize": 18
-        },
-          "mark": "bar",
-          "encoding": {
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "background": "#f5f5f5",
+  "data": { "url": "https://raw.githubusercontent.com/pdmntrang/data-visualisation/main/data/age%20group.csv"},
+  "transform": [
+    {"calculate": "datum.Rate/100", "as": "Suicide Rate"},
+    {"filter": "datum.Rate > 0"},
+    {"filter": "datum.Sex != 'Both sexes'"},
+    {"calculate": "datum.Sex == 'Male' ? -datum.Rate : datum.Rate", "as": "new_rate"}
+  ],
+  "spacing": 0,
+      "hconcat": [
+        {
+        "width": 420,
+        "height": 300,
+        "transform": [
+          {"filter": {"field": "Sex", "equal": "Male"}}
+        ],
+        "title": {
+          "text": "Male",
+          "fontSize": 18
+      },
+            "mark": "bar",
+            "encoding": {
             "y": {
               "field": "Age Group", 
               "axis": null, 
@@ -35,60 +35,83 @@
             },
             "color": {
               "field": "Sex",
-              "scale": {"range": ["#d4a373", "#ccd5ae"]},
+              "scale": {"range": ["#ffbc42", "#1a659e"]},
               "legend": null
             },
             "tooltip": [
-            {
-              "field": "Rate", 
-              "aggregate": "average", 
-              "title": "Average suicide rate (per 100,000 population)",
-              "type": "quantitative", 
-              "format": ".2f"}
-          ]
+              {
+                "field": "Sex",
+                "type": "nominal",
+                "title": "Gender"
+              },
+              {
+                "field": "Age Group",
+                "type": "ordinal",
+                "title": "Age group"
+              },
+              {
+                "field": "Rate", 
+                "aggregate": "average", 
+                "title": "Average suicide rate (per 100,000 population)",
+                "type": "quantitative", 
+                "format": ".2f"}
+            ]
           }
-        }, 
-        {
-          "width": 50,
-          "height": 300,
-          "view": {"stroke": null},
-          "mark": {
-            "type": "text",
-            "align": "center",
-            "fontSize": 14
-          },
-          "encoding": {
-            "y": {"field": "Age Group", "type": "ordinal", "axis": null, "sort": "descending"},
-            "text": {"field": "Age Group"},
-            "opacity": {"value": 0.01}
-          }
-        }, 
-        {
-          "width": 420,
-          "height": 300,
-          "transform": [{
-            "filter": {"field": "Sex", "equal": "Female"}
-          }],
-          "title": {
-            "text": "Female",
-            "fontSize": 18
+        
+      }, 
+      {
+        "width": 50,
+        "height": 300,
+        "view": {"stroke": null},
+        "mark": {
+          "type": "text",
+          "align": "center",
+          "fontSize": 14
         },
-          "mark": "bar",
-          "encoding": {
-            "y": {
-              "field": "Age Group", "title": null,
-              "axis": null, "sort": "descending"
+        "encoding": {
+          "y": {"field": "Age Group", "type": "ordinal", "axis": null, "sort": "descending"},
+          "text": {"field": "Age Group"},
+          "opacity": {"value": 0.01}
+        }
+      }, 
+      {
+        "width": 420,
+        "height": 300,
+        "transform": [{
+          "filter": {"field": "Sex", "equal": "Female"}
+        }],
+        "title": {
+          "text": "Female",
+          "fontSize": 18
+      },
+        "layer": [
+          {
+            "mark": "bar",
+        "encoding": {
+          "y": {
+            "field": "Age Group", "title": null,
+            "axis": null, "sort": "descending"
+          },
+          "x": {
+            "aggregate": "average", "field": "Rate",
+            "title": "Average suicide rate (per 100,000 population)",
+            "scale": {"domain": [0,140]}
+          },
+          "color": {
+            "field": "gender",
+            "legend": null
+          },
+          "tooltip": [
+            {
+              "field": "Sex",
+              "type": "nominal",
+              "title": "Gender"
             },
-            "x": {
-              "aggregate": "average", "field": "Rate",
-              "title": "Average suicide rate (per 100,000 population)",
-              "scale": {"domain": [0,140]}
+            {
+              "field": "Age Group",
+              "type": "ordinal",
+              "title": "Age group"
             },
-            "color": {
-              "field": "gender",
-              "legend": null
-            },
-            "tooltip": [
             {
               "field": "Rate", 
               "aggregate": "average",
@@ -97,14 +120,39 @@
               "format": ".2f"}
           ]
           }
-        }],
-    "config": {
-      "view": {"stroke": null},
-      "axis": {
-          "grid": false,
-          "labelFontSize": 13,
-          "titleFontSize": 15},
-      "font": "Maven Pro"
-    }
+          },
+          {
+            "transform": [
+              {"filter": "datum['Age Group'] == '85+ years'"},
+              {
+              "window": [{"op": "rank", "as": "ranking"}],
+              "sort": [{"field": "Rate", "order": "descending"}]
+              },
+              {"filter": "datum.ranking == 1"},
+          {
+            "calculate": "datum['Age Group'] + ' age group has the highest average suicide rate.'",
+            "as": "text_annotation"
+          }
+        ],
+            "mark": {
+              "type": "text", 
+              "y": 20, 
+              "x": 260, 
+              "fontSize": 13, 
+              "color": "#ee6c4d",
+              "fontStyle":"italic" },
+            "encoding": {
+              "text": {"field": "text_annotation"}}
+          }
+        ]
+        
+      }],
+  "config": {
+    "view": {"stroke": null},
+    "axis": {
+        "grid": false,
+        "labelFontSize": 13,
+        "titleFontSize": 15},
+    "font": "Maven Pro"
   }
-  
+}

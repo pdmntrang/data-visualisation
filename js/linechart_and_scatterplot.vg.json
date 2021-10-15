@@ -39,7 +39,8 @@
                 "field": "Rate", 
                 "type": "quantitative", 
                 "aggregate": "average",
-                "title": "Average suicide rate (per 100,000 population)"},
+                "title": "Average suicide rate (per 100,000 population)",
+                "scale": {"domain": [0,30]}},
             "color": {
                 "field": "Continent",
                 "type": "nominal",
@@ -54,12 +55,24 @@
                 ],
                 "range": [
                     "#9c6644",
-                    "#ffc300",
+                    "#ffa546",
                     "#f28482",
                     "#cdb4db",
-                    "#e29578",
-                    "#5390d9"
+                    "#c7a16b",
+                    "#b8dbd9"
                 ]
+                },
+                "legend": {
+                    "titleFontSize": 15,
+                    "labelFontSize": 14,
+                    "orient": "none",
+                    "direction": "horizontal",
+                    "legendX": 150,
+                    "legendY": 370,
+                    "titleAnchor": "start",
+                    "titleOrient": "left",
+                    "columns": 3,
+                    "columnPadding": 10
                 }}
             },
             "layer": [
@@ -109,10 +122,10 @@
         ]
         },
         {
-        "width": 400,
+        "width": 300,
         "height": 300,
         "data": {
-        "url": "https://raw.githubusercontent.com/pdmntrang/data-visualisation/main/data/suicide-rate-wide.csv"
+        "url": "https://raw.githubusercontent.com/pdmntrang/data-visualisation/main/data/suicide_income_wide.csv"
         },
         
         "transform": [
@@ -122,53 +135,64 @@
         ],
         "layer": [
             {
+                "data": {
+                  "values": [
+                    {"y": "0", "x": "0"},
+                    {"y": "150", "x": "150"}
+                    ]
+                },
+                "mark": {"type": "line", "strokeDash": [10, 5], "color": "#aaaaaa"},
+                 "encoding": {
+                  "x": {"field": "x", "type": "quantitative"},
+                  "y": {"field": "y", "type": "quantitative"}
+                }},
+            {
             "params": [{
             "name": "grid",
             "select": "interval",
             "bind": "scales"
         }],
             "mark": {
-            "type": "circle",
-            "size": 100},
+            "type": "circle"},
             "encoding": {
+            "size":{
+              "field": "income_2019",
+              "type": "quantitative",
+              "scale": {
+                "type": "threshold",
+                "domain": [10000,20000,30000,40000,50000],
+                "range": [20,50,150,200,300]
+              },
+              "legend": {
+                "title": "GDP per capita",
+                "format": ".1s",
+                "titleFontSize": 15,
+                "labelFontSize": 14
+              }
+            },
             "x": {
                 "field": "Y2019",
                 "type": "quantitative",
-                "title": "Suicide rate in 2019 (per 100,000 population)"
+                "title": "Suicide rate in 2019 (per 100,000 population)",
+                "scale": {"domain": [0,40]}
             },
             "y": {
                 "field": "Y2009",
                 "type": "quantitative",
                 "title": "Suicide rate in 2009 (per 100,000 population)",
-                "axis": {"titleX": -30}
+                "axis": {"titleX": -30},
+                "scale": {"domain": [0,40]}
             },
             "color": {
                 "field": "Continent",
-                "type": "nominal",
-                "scale": {
-                "domain": [
-                    "Africa",
-                    "Americas",
-                    "Eastern Mediterranean",
-                    "Europe",
-                    "South-East Asia",
-                    "Western Pacific"
-                ],
-                "range": [
-                    "#9c6644",
-                    "#ffc300",
-                    "#f28482",
-                    "#cdb4db",
-                    "#e29578",
-                    "#5390d9"
-                ]
-                }
+                "type": "nominal"
             },
             "opacity": {"value": 1},
             "tooltip": [
                 {"field": "Country", "type": "nominal"},
                 {"field": "Y2009", "type": "quantitative", "title": "2009 Suicide rate (per 100,000 population", "format": ".2f"},
-                {"field": "Y2019", "type": "quantitative", "title": "2019 Suicide rate (per 100,000 population", "format": ".2f"}
+                {"field": "Y2019", "type": "quantitative", "title": "2019 Suicide rate (per 100,000 population", "format": ".2f"},
+                {"field": "income_2019", "type": "quantitative", "title": "GDP per capita", "format": ",.2f"}
             ]
         }
         },
@@ -197,12 +221,12 @@
             },
             "opacity": {
                 "condition": {
-                "test": "datum.Country == 'Guyana' || datum.Country == 'Philippines' || datum.Country == 'Australia' || datum.Country == 'South Africa' || datum.Country == 'Somalia' || datum.Country == 'France' ||  datum.Country == 'Eswatini'",
+                "test": "datum.Country == 'Guyana' || datum.Country == 'Philippines' || datum.Country == 'Australia' || datum.Country == 'South Africa' || datum.Country == 'Somalia' || datum.Country == 'Russian Federation' ||  datum.Country == 'Lesotho'",
                 "value": 1
                 },
                 "value": 0
             }
-            }
+          }
         }
         ]
         }
@@ -212,19 +236,7 @@
     "axis": {
       "labelFontSize": 14,
       "titleFontSize": 15
-  },
-    "legend": {
-        "titleFontSize": 15,
-        "labelFontSize": 14,
-        "orient": "none",
-        "direction": "horizontal",
-        "legendX": 150,
-        "legendY": 370,
-        "titleAnchor": "start",
-        "titleOrient": "left",
-        "columns": 3,
-        "columnPadding": 10
-    }
+  }
   }
   }
   

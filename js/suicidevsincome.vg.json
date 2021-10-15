@@ -1,0 +1,124 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json", 
+    "background": "#f5f5f5",
+    "width": "container",
+    "height": 300,
+    "params": [
+      {
+        "name": "Year_selection",
+        "value": "2019",
+        "bind": {
+          "input": "range",
+          "min": 2009,
+          "max": 2019,
+          "step": 1,
+          "name": "Year Selection: "
+        }
+      }],
+    "data": {
+        "url": "https://raw.githubusercontent.com/pdmntrang/data-visualisation/main/data/suicide_income.csv"
+      },
+      
+      "transform": [
+        {"filter": "datum.Rate > 0"}, 
+        {"filter": "datum.income > 0"}, 
+        {"filter": "datum.Year == Year_selection"}
+    ],
+    "layer": [
+      {
+      "mark": {
+        "type": "circle",
+        "size": 100},
+      "encoding": {
+        "x": {
+          "field": "Rate",
+          "type": "quantitative",
+          "title": "Suicide rate (per 100,000 population)"
+        },
+        "y": {
+          "field": "income",
+          "type": "quantitative",
+          "title": "GDP per capita"
+        },
+        "color": {
+          "field": "Continent",
+          "type": "nominal",
+          "scale": {
+            "domain": [
+              "Africa",
+              "Americas",
+              "Eastern Mediterranean",
+              "Europe",
+              "South-East Asia",
+              "Western Pacific"
+            ],
+            "range": [
+              "#9c6644",
+              "#ffc300",
+              "#f28482",
+              "#cdb4db",
+              "#e29578",
+              "#5390d9"
+            ]
+          }
+        },
+        "opacity": {"value": 1},
+        "tooltip": [
+          {"field": "Country", "type": "nominal"},
+          {"field": "Y2009", "type": "quantitative", "title": "2009 Suicide rate (per 100,000 population", "format": ".2f"},
+          {"field": "Y2019", "type": "quantitative", "title": "2019 Suicide rate (per 100,000 population", "format": ".2f"}
+        ]
+    }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "middle",
+        "dx": 10,
+        "fontSize": 13,
+        "fontStyle": "italic"
+      },
+      "encoding": {
+        "x": {
+        "field": "Y2019",
+        "type": "quantitative"
+       },
+       "y": {
+        "field": "Y2009",
+        "type": "quantitative"
+        },
+        "text": {"field": "Country", "type": "nominal"},
+        "color": {
+          "field": "Continent",
+          "type": "nominal"
+        },
+        "opacity": {
+          "condition": {
+            "test": "datum.Country == 'Guyana' || datum.Country == 'Philippines' || datum.Country == 'Australia' || datum.Country == 'South Africa' || datum.Country == 'Somalia' || datum.Country == 'France' ||  datum.Country == 'Eswatini'",
+            "value": 1
+          },
+          "value": 0
+        }
+        }
+    }
+    ],
+    "config": {
+      "font": "Maven Pro",
+      "axis": {
+        "labelFontSize": 13,
+        "titleFontSize": 15
+    },
+    "legend": {
+      "titleFontSize": 15,
+      "labelFontSize": 13,
+      "orient": "none",
+      "direction": "horizontal",
+      "legendX": 0,
+      "legendY": 370,
+      "titleAnchor": "start",
+      "titleOrient": "left",
+      "columns": 3,
+      "columnPadding": 10
+  }
+    }}

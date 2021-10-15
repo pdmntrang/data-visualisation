@@ -25,7 +25,12 @@
   "hconcat": [
     {
       "width": 180,
-      "transform": [
+      "title": {
+        "text": "Africa",
+        "dy": 20},
+      "layer": [
+        {
+          "transform": [
         {"filter": "datum.Continent == 'Africa'"},
         {
         "window": [{"op": "rank", "as": "ranking"}],
@@ -33,33 +38,65 @@
       },
         {"filter": "datum.ranking <= 5"}
       ],
-      "mark": "bar",
-      "encoding": {
-      "y": {
-        "field": "Rate",
-        "type": "quantitative",
-        "scale": {"domain": [0,120]},
-        "title": "Suicide rate (per 100,000 population)"
-      },
-      "x": {
-        "field": "Country", 
-        "type": "nominal",
-        "title": null,
-        "axis": {"labelAngle": 90},
-        "sort": {"field": "Rate", "order": "descending"}
-      },
-      "color": {
-        "value": "#9c6644"
-      },
-      "tooltip": [
-        {"field": "Continent", "type": "nominal"},
-        {"field": "Country", "type": "nominal"},
-        {"field": "Rate", "type": "quantitative", "title": "Suicide rate (per 100,000 population)", "format": ".2f"}
+          "mark": "bar",
+          "encoding": {
+          "y": {
+            "field": "Rate",
+            "type": "quantitative",
+            "scale": {"domain": [0,120]},
+            "title": "Suicide rate (per 100,000 population)"
+          },
+          "x": {
+            "field": "Country", 
+            "type": "nominal",
+            "title": null,
+            "axis": {"labelAngle": 90},
+            "sort": {"field": "Rate", "order": "descending"}
+          },
+          "color": {
+            "value": "#9c6644"
+          },
+          "tooltip": [
+            {"field": "Continent", "type": "nominal"},
+            {"field": "Country", "type": "nominal"},
+            {"field": "Rate", "type": "quantitative", "title": "Suicide rate (per 100,000 population)", "format": ".2f"}
       ]
     }},
+        {
+          "transform": [
+            {
+            "window": [{"op": "rank", "as": "ranking"}],
+            "sort": [{"field": "Rate", "order": "descending"}]
+            },
+            {"filter": "datum.ranking == 1"},
+            {
+              "calculate": "datum['Country'] + ' has the highest suicide rate.'",
+              "as": "text_annotation"
+            }
+          ],
+            "mark": {
+              "type": "text", 
+              "dy": -10, 
+              "x": 90, 
+              "fontSize": 10.5, 
+              "color": "#ee6c4d",
+              "fontStyle":"italic" },
+            "encoding": {
+              "text": {"field": "text_annotation"},
+              "y": {
+                "field": "Rate",
+                "type": "quantitative",
+                "scale": {"domain": [0,120]}
+              }}
+          }
+      ]
+      },
 
     {
       "width": 180,
+      "title": {
+        "text": "Americas",
+        "dy": -20},
       "transform": [
         {"filter": "datum.Continent == 'Americas'"},
         {
@@ -96,8 +133,11 @@
 
     {
       "width": 180,
+      "title": {
+        "text": "Western Pacific",
+        "dy": -20},
       "transform": [
-        {"filter": "datum.Continent == 'Eastern Mediterranean'"},
+        {"filter": "datum.Continent == 'Western Pacific'"},
         {
         "window": [{"op": "rank", "as": "ranking"}],
         "sort": [{"field": "Rate", "order": "descending"}]
@@ -111,7 +151,7 @@
         "type": "quantitative",
         "scale": {"domain": [0,120]},
         "title": null, 
-        "axis": {"labels": false, "ticks": false}
+        "axis": {"labels": false, "ticks": false }
       },
       "x": {
         "field": "Country", 
@@ -121,8 +161,9 @@
         "sort": {"field": "Rate", "order": "descending"}
       },
       "color": {
-        "value": "#f28482"
-      },
+        "value" : "#5390d9"
+      }
+      ,
       "tooltip": [
         {"field": "Continent", "type": "nominal"},
         {"field": "Country", "type": "nominal"},
@@ -132,6 +173,9 @@
 
     {
       "width": 180,
+      "title": {
+        "text": "Europe",
+        "dy": -20},
       "transform": [
         {"filter": "datum.Continent == 'Europe'"},
         {
@@ -168,6 +212,48 @@
 
     {
       "width": 180,
+      "title": {
+        "text": "Eastern Mediterranean",
+        "dy": -20},
+      "transform": [
+        {"filter": "datum.Continent == 'Eastern Mediterranean'"},
+        {
+        "window": [{"op": "rank", "as": "ranking"}],
+        "sort": [{"field": "Rate", "order": "descending"}]
+      },
+        {"filter": "datum.ranking <= 5"}
+      ],
+      "mark": "bar",
+      "encoding": {
+      "y": {
+        "field": "Rate",
+        "type": "quantitative",
+        "scale": {"domain": [0,120]},
+        "title": null, 
+        "axis": {"labels": false, "ticks": false}
+      },
+      "x": {
+        "field": "Country", 
+        "type": "nominal",
+        "title": null,
+        "axis": {"labelAngle": 90},
+        "sort": {"field": "Rate", "order": "descending"}
+      },
+      "color": {
+        "value": "#f28482"
+      },
+      "tooltip": [
+        {"field": "Continent", "type": "nominal"},
+        {"field": "Country", "type": "nominal"},
+        {"field": "Rate", "type": "quantitative", "title": "Suicide rate (per 100,000 population)", "format": ".2f"}
+      ]
+    }},
+
+    {
+      "width": 180,
+      "title": {
+        "text": "South-East Asia",
+        "dy": -20},
       "transform": [
         {"filter": "datum.Continent == 'South-East Asia'"},
         {
@@ -200,43 +286,6 @@
         {"field": "Country", "type": "nominal"},
         {"field": "Rate", "type": "quantitative", "title": "Suicide rate (per 100,000 population)", "format": ".2f"}
       ]
-    }},
-
-    {
-      "width": 180,
-      "transform": [
-        {"filter": "datum.Continent == 'Western Pacific'"},
-        {
-        "window": [{"op": "rank", "as": "ranking"}],
-        "sort": [{"field": "Rate", "order": "descending"}]
-      },
-        {"filter": "datum.ranking <= 5"}
-      ],
-      "mark": "bar",
-      "encoding": {
-      "y": {
-        "field": "Rate",
-        "type": "quantitative",
-        "scale": {"domain": [0,120]},
-        "title": null, 
-        "axis": {"labels": false, "ticks": false }
-      },
-      "x": {
-        "field": "Country", 
-        "type": "nominal",
-        "title": null,
-        "axis": {"labelAngle": 90},
-        "sort": {"field": "Rate", "order": "descending"}
-      },
-      "color": {
-        "value" : "#5390d9"
-      }
-      ,
-      "tooltip": [
-        {"field": "Continent", "type": "nominal"},
-        {"field": "Country", "type": "nominal"},
-        {"field": "Rate", "type": "quantitative", "title": "Suicide rate (per 100,000 population)", "format": ".2f"}
-      ]
     }}
 
   ],
@@ -245,6 +294,9 @@
   "axis": {
     "labelFontSize": 13,
     "titleFontSize": 15
-}
+},
+  "title": {
+    "fontSize": 16
+  }
 }
 }

@@ -1,0 +1,150 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "background": "#f5f5f5",
+    "width": "container",
+    "data": {"url": "https://raw.githubusercontent.com/pdmntrang/data-visualisation/main/data/suicide-rate.csv"},
+    "params": [
+    {
+      "name": "Year_selection",
+      "value": "2019",
+      "bind": {
+        "input": "range",
+        "min": 2009,
+        "max": 2019,
+        "step": 1,
+        "name": "Year selection: "
+      }
+    },
+    {
+      "name": "Continent_selection",
+      "bind": {
+        "input": "select",
+        "options": [
+          null,
+          "Africa",
+          "Americas",
+          "Eastern Mediterranean",
+          "Europe",
+          "South-East Asia",
+          "Western Pacific"
+        ],
+        "labels": [
+          "Show All",
+          "Africa",
+          "Americas",
+          "Eastern Mediterranean",
+          "Europe",
+          "South-East Asia",
+          "Western Pacific"
+        ],
+        "name": "Continent selection: "
+      }
+    }
+  ],
+    "transform": [
+      {"calculate":"parseFloat(datum.Rate)", "as": "Rate"},
+      {"filter": "datum.Rate > 0"},
+      {"filter": "datum.Sex == 'Both sexes'"},
+      {"filter": "Continent_selection == null || datum.Continent == Continent_selection"},
+      {"filter": "datum.Year == Year_selection"},
+      {
+          "window": [{"op": "rank", "as": "ranking"}],
+          "sort": [{"field": "Rate", "order": "descending"}]
+        },
+          {"filter": "datum.ranking <= 30"}
+      ],
+    "layer": [
+      {
+        "mark": "bar",
+        "encoding": {
+        "y": {
+          "field": "Rate",
+          "type": "quantitative",
+          "scale": {"domain": [0,120]},
+          "title": "Suicide rate (per 100,000 population)"
+        },
+        "x": {
+          "field": "Country", 
+          "type": "nominal",
+          "title": "Country",
+          "axis": {"labelAngle": -90},
+          "sort": {"field": "Rate", "order": "descending"}
+        },
+        "color": {
+          "field": "Continent",
+          "type": "nominal",
+          "scale": {
+            "domain": [
+              "Africa",
+              "Americas",
+              "Eastern Mediterranean",
+              "Europe",
+              "South-East Asia",
+              "Western Pacific"
+            ],
+            "range": [
+              "#9c6644",
+              "#ffa546",
+              "#f28482",
+              "#cdb4db",
+              "#c7a16b",
+              "#b8dbd9"
+            ]
+          },
+          "legend": {
+            "titleFontSize": 15,
+            "labelFontSize": 14,
+            "orient": "none",
+            "direction": "horizontal",
+            "legendX": 150,
+            "legendY": 370,
+            "titleAnchor": "start",
+            "titleOrient": "left",
+            "columns": 3,
+            "columnPadding": 10
+        }
+        },
+        "tooltip": [
+          {"field": "Continent", "type": "nominal"},
+          {"field": "Country", "type": "nominal"},
+          {"field": "Rate", "type": "quantitative", "title": "Suicide rate (per 100,000 population)", "format": ".2f"}
+        ]
+      }
+      },
+      {
+        "transform": [
+          {
+          "window": [{"op": "rank", "as": "ranking"}],
+          "sort": [{"field": "Rate", "order": "descending"}]
+          },
+          {"filter": "datum.ranking == 1"},
+          {
+            "calculate": "datum['Country'] + ' has the highest suicide rate of ' + datum['Rate'] + ' per 100,000 population.'",
+            "as": "text_annotation"
+          }
+        ],
+          "mark": {
+            "type": "text", 
+            "dy": -10, 
+            "x": 210, 
+            "fontSize": 13, 
+            "color": "#ee6c4d",
+            "fontStyle":"italic" },
+          "encoding": {
+            "text": {"field": "text_annotation"},
+            "y": {
+              "field": "Rate",
+              "type": "quantitative",
+              "scale": {"domain": [0,120]}
+            }}
+        }
+    ],
+        
+  "config": {
+    "font": "Maven Pro",
+    "axis": {
+      "labelFontSize": 13,
+      "titleFontSize": 15
+  }
+  }
+  }

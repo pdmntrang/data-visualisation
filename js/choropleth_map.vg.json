@@ -3,7 +3,7 @@
   "background": "#f5f5f5",
   "width": "container",
   "height": 500,
-  "projection": {"type": "equirectangular"},
+  "projection": {"type": "equirectangular", "rotate": [-10,0,0]},
   "params": [
     {
       "name": "Gender_selection",
@@ -31,7 +31,7 @@
         "min": 2009,
         "max": 2019,
         "step": 1,
-        "name": "Year Selection: "
+        "name": "Year selection: "
       }
     }
   ],
@@ -86,7 +86,7 @@
         "title": "Suicide rate (per 100,000 population)"},
         "scale": {
         "type": "threshold",
-        "domain": [2, 4, 6, 8, 10, 12, 14, 16, 18],
+        "domain": [1, 3, 5, 7, 9, 11, 13, 15, 17],
         "scheme": "redblue",
         "reverse": true
         

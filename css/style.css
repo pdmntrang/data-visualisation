@@ -10,8 +10,9 @@ h1{
 }
 
 h6{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Maven Pro', sans-serif;
     font-style: italic;
+    font-weight: normal;
     background-color: #c5c5c5;
     font-size: 15px;
     text-align: center;
@@ -35,7 +36,7 @@ h2{
 .vega-bindings{
     font-family: 'Maven Pro', sans-serif;
     margin-left: 200px;
-    font-size: 14px;
+    font-size: 15px;
     margin-top: 10px;
 }
 
@@ -50,6 +51,7 @@ p{
 .vis-container {
     width: 100%;
     align-self: center;
+    margin-bottom: 10px;
 }
 
 .pure-g {
@@ -80,4 +82,16 @@ p{
 .emphasise {
     font-size: 18px;
     color: #ee6c4d;
+}
+
+.decrease {
+    font-size: 18px;
+    color: #1368aa;
+    font-weight: medium;
+}
+
+.increase {
+    font-size: 18px;
+    color: #cb1b16;
+    font-weight: medium;
 }
