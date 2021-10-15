@@ -85,7 +85,7 @@
             ],
             "range": [
               "#9c6644",
-              "#cdb4db",
+              "#ce796b",
               "#fda3bf",
               "#ffa546",
               "#c7a16b",
@@ -129,7 +129,7 @@
             "dy": -10, 
             "x": 210, 
             "fontSize": 13, 
-            "color": "#ee6c4d",
+            "color": "#cb1b16",
             "fontStyle":"italic" },
           "encoding": {
             "text": {"field": "text_annotation"},

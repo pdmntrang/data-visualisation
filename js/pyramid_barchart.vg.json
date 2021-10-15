@@ -139,7 +139,7 @@
               "y": 20, 
               "x": 260, 
               "fontSize": 13, 
-              "color": "#ee6c4d",
+              "color": "#cb1b16",
               "fontStyle":"italic" },
             "encoding": {
               "text": {"field": "text_annotation"}}
