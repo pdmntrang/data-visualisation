@@ -35,13 +35,14 @@ h4{
     font-size: 20px;
     text-align: left;
     background-color: #e2e2e2;
-    margin-inline: 20px;
+    margin-inline: px;
     padding: 5px;
     margin-top: -10px;
 }
 
 h5{
     font-family: 'Maven Pro', sans-serif;
+    font-style: italic;
     font-weight: bold;
     background-color: #afafaf;
     font-size: 16px;

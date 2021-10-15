@@ -35,7 +35,7 @@
             },
             "color": {
               "field": "Sex",
-              "scale": {"range": ["#ffbc42", "#1a659e"]},
+              "scale": {"range": ["#ffbc42", "#003049"]},
               "legend": null
             },
             "tooltip": [

@@ -167,7 +167,8 @@
                 "title": "GDP per capita",
                 "format": ".1s",
                 "titleFontSize": 15,
-                "labelFontSize": 14
+                "labelFontSize": 14,
+                "symbolOpacity": 0.5
               }
             },
             "x": {
