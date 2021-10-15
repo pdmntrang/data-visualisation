@@ -1,11 +1,11 @@
 
 h1{
-    font-weight: bolder;
+    font-weight: 700;
     text-align: center;
     padding: 40px;
     font-family: 'Maven Pro', sans-serif;
     text-align: center;
-    background-color: #c5c5c5;
+    background-color: #afafaf;
     font-size: 50px;
 }
 
@@ -13,7 +13,7 @@ h6{
     font-family: 'Maven Pro', sans-serif;
     font-style: italic;
     font-weight: normal;
-    background-color: #c5c5c5;
+    background-color: #afafaf;
     font-size: 15px;
     text-align: center;
     margin-top: -50px;
@@ -24,9 +24,20 @@ h2{
     font-family: 'Maven Pro', sans-serif;
     font-size: 25px;
     padding: 10px;
-    background-color: #dfdfdf;
+    background-color: #c7c4c4;
     text-align: left;
     
+}
+
+h4{
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+    background-color: #dfdfdf;
+    margin-inline: 20px;
+    padding: 5px;
+    margin-top: -10px;
 }
 
 .container{
@@ -69,6 +80,23 @@ p{
 
 .description {
     margin-left: 20px;
+    text-indent: 10px;
+    font-size: 15px;
+}
+
+.description_emphasise {
+    color: #ee6c4d;
+    font-weight: 500;
+}
+
+.description_high {
+    color: #cb1b16;
+    font-weight: 500;
+}
+
+.description_decrease {
+    color: #1368aa;
+    font-weight: 500;
 }
 
 .small-font {
@@ -77,21 +105,45 @@ p{
 
 .center {
     text-align: center;
+    margin-inline: 50px;
 }
 
 .emphasise {
     font-size: 18px;
     color: #ee6c4d;
+    font-weight: 500;
 }
 
 .decrease {
     font-size: 18px;
     color: #1368aa;
-    font-weight: medium;
+    font-weight: 500;
 }
 
 .increase {
     font-size: 18px;
     color: #cb1b16;
-    font-weight: medium;
+    font-weight: 500;
+}
+
+.africa {
+    font-size: 17px;
+    color: #9c6644;
+    font-weight: 500;
+}
+
+.southeastasia {
+    font-size: 17px;
+    color: #c7a16b;
+    font-weight: 500;
+}
+
+.america {
+    font-size: 17px;
+    color: #cdb4db;
+    font-weight: 500;
+}
+
+.medium {
+    font-weight: 500;
 }

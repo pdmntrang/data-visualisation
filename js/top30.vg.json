@@ -61,7 +61,8 @@
           "field": "Rate",
           "type": "quantitative",
           "scale": {"domain": [0,120]},
-          "title": "Suicide rate (per 100,000 population)"
+          "title": "Suicide rate (per 100,000 population)",
+          "axis": {"titleY": 120}
         },
         "x": {
           "field": "Country", 
@@ -84,11 +85,11 @@
             ],
             "range": [
               "#9c6644",
-              "#ffa546",
-              "#f28482",
               "#cdb4db",
+              "#fda3bf",
+              "#ffa546",
               "#c7a16b",
-              "#b8dbd9"
+              "#9caea9"
             ]
           },
           "legend": {
