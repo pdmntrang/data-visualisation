@@ -175,14 +175,14 @@
                 "field": "Y2019",
                 "type": "quantitative",
                 "title": "Suicide rate in 2019 (per 100,000 population)",
-                "scale": {"domain": [0,40]}
+                "scale": {"domain": [0,90]}
             },
             "y": {
                 "field": "Y2009",
                 "type": "quantitative",
                 "title": "Suicide rate in 2009 (per 100,000 population)",
                 "axis": {"titleX": -30},
-                "scale": {"domain": [0,40]}
+                "scale": {"domain": [0,90]}
             },
             "color": {
                 "field": "Continent",
