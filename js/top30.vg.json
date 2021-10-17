@@ -68,7 +68,7 @@
           "field": "Country", 
           "type": "nominal",
           "title": "Country",
-          "axis": {"labelAngle": -90},
+          "axis": {"labelAngle": -90, "titleY": 110},
           "sort": {"field": "Rate", "order": "descending"}
         },
         "color": {
